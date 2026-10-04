@@ -26,6 +26,25 @@ def genome_id(path):
     return name
 
 
+def expand_inputs(paths):
+    """Replace each directory by the FASTA files directly inside it."""
+    files = []
+    for path in map(Path, paths):
+        if path.is_dir():
+            found = sorted(
+                child for child in path.iterdir() if child.is_file()
+                and (child.name[:-3] if child.name.endswith(".gz") else child.name)
+                .lower().endswith(_FASTA_SUFFIXES))
+            if not found:
+                raise GiftagError(f"{path}: no FASTA files in this directory")
+            files.extend(found)
+        elif not path.exists():
+            raise GiftagError(f"{path}: no such file")
+        else:
+            files.append(path)
+    return files
+
+
 def read_fasta(path):
     """Return `[(id, sequence)]`, reading gzip transparently."""
     with open(path, "rb") as probe:

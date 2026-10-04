@@ -47,7 +47,7 @@ class World:
     def __init__(self, root):
         rng = random.Random(7)
         seed = {k: "M" + "".join(rng.choice(AA) for _ in range(199)) for k in
-                ("K00001", "K00002", "K00003", "K00004", "NF1", "NF3", "TIGR", "PF", "GH5", "GH9")}
+                ("K00001", "K00002", "K00003", "K00004", "NF1", "NF3", "TIGR", "PF", "GH5", "GH9", "GH9s")}
         seed["GH5_e1"] = mutate(rng, seed["GH5"], 0.3)
         seed["GH5_e2"] = mutate(rng, seed["GH5"], 0.3)
         self.seed = seed
@@ -61,6 +61,8 @@ class World:
             "p_pf": mutate(rng, seed["PF"], 0.05),
             "p_gh5_e1": mutate(rng, seed["GH5_e1"], 0.05),
             "p_gh5_e2": mutate(rng, seed["GH5_e2"], 0.05),
+            # Matches only the official subfamily model GH9_2, never bare GH9.
+            "p_gh9_sub": mutate(rng, seed["GH9s"], 0.05),
             "p_random": "M" + "".join(rng.choice(AA) for _ in range(250)),
         }
         self.rng = rng
@@ -76,6 +78,7 @@ class World:
                 ("KO", "K99999"), ("NCBIFAM", "NF000001.2"), ("NCBIFAM", "NF000002.1"),
                 ("NCBIFAM", "NF000003.1"), ("NCBIFAM", "TIGR00001.3"), ("TIGRFAM", "TIGR00001"),
                 ("PFAM", "PF00001"), ("CAZY", "GH5"), ("CAZY", "GH5_e1"), ("CAZY", "GH77"),
+                ("CAZY", "GH9"), ("CAZY", "GH9_e2"),
                 ("EC", "1.1.1.1"),
             ]))
 
@@ -117,11 +120,13 @@ class World:
     def _dbcan(self, d):
         d.mkdir()
         (d / "dbCAN.hmm").write_bytes(
-            make_hmm(self.rng, "GH5.hmm", self.seed["GH5"]) + make_hmm(self.rng, "GH9.hmm", self.seed["GH9"]))
+            make_hmm(self.rng, "GH5.hmm", self.seed["GH5"]) + make_hmm(self.rng, "GH9.hmm", self.seed["GH9"])
+            + make_hmm(self.rng, "GH9_2.hmm", self.seed["GH9s"]))
         (d / "dbCAN_sub.hmm").write_bytes(
             make_hmm(self.rng, "GH5_e1.hmm|GH5:12|3.2.1.4:5", self.seed["GH5_e1"])
             + make_hmm(self.rng, "GH5_e2.hmm|GH5:7", self.seed["GH5_e2"])
-            + make_hmm(self.rng, "GH9_e1.hmm|GH9:3", self.seed["GH9"]))
+            + make_hmm(self.rng, "GH9_e1.hmm|GH9:3", self.seed["GH9"])
+            + make_hmm(self.rng, "GH9_e2.hmm|GH9:4", self.seed["GH9s"]))
         return d
 
     def protein_fasta(self, path, names=None):

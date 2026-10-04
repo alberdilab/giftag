@@ -9,12 +9,14 @@ import gzip
 import hashlib
 import io
 import os
-import sys
+import threading
 import time
 import urllib.error
 import urllib.request
 
-from giftag import GiftagError, __version__
+from rich.markup import escape
+
+from giftag import GiftagError, __version__, ui
 
 _USER_AGENT = f"giftag/{__version__} (+https://github.com/alberdilab/giftag)"
 
@@ -24,20 +26,17 @@ def is_url(location):
 
 
 def log(message):
-    print(f"giftag: {message}", file=sys.stderr, flush=True)
+    ui.info(message)
 
 
 class _Tally(io.RawIOBase):
     """Counts and hashes every byte read through it, and reports progress."""
 
-    def __init__(self, raw, label, total):
+    def __init__(self, raw, task):
         self._raw = raw
-        self.label = label
-        self.total = total
+        self._task = task
         self.bytes = 0
         self.sha256 = hashlib.sha256()
-        self._next_report = self._step()
-        self._started = time.monotonic()
 
     def readable(self):
         return True
@@ -47,24 +46,16 @@ class _Tally(io.RawIOBase):
         if n:
             self.sha256.update(memoryview(buffer)[:n])
             self.bytes += n
-            if self.bytes >= self._next_report:
-                self._report()
+            if self._task is not None:
+                self._task.advance(n)
         return n
-
-    def _report(self):
-        mb = self.bytes / 1e6
-        if self.total:
-            log(f"{self.label}: {mb:,.0f} / {self.total / 1e6:,.0f} MB")
-        elif mb >= 1:
-            log(f"{self.label}: {mb:,.0f} MB")
-        self._next_report = self.bytes + self._step()
-
-    def _step(self):
-        return max(50_000_000, (self.total or 0) // 20)
 
     def close(self):
         try:
             self._raw.close()
+            if self._task is not None:
+                self._task.close(failed=self._task.total is not None
+                                 and self.bytes < self._task.total)
         finally:
             super().close()
 
@@ -72,7 +63,7 @@ class _Tally(io.RawIOBase):
 class Stream:
     """A buffered binary reader over a file or URL that remembers its checksum."""
 
-    def __init__(self, location, label=None):
+    def __init__(self, location, label=None, progress=True):
         self.location = str(location)
         label = label or os.path.basename(self.location.split("?")[0])
         if is_url(self.location):
@@ -91,7 +82,12 @@ class Stream:
             raw = open(self.location, "rb")
             total = os.path.getsize(self.location)
             self.last_modified = None
-        self._tally = _Tally(raw, label, total)
+        task = None
+        if progress:
+            verb = "downloaded" if is_url(self.location) else "read"
+            task = ui.Task(label, total=total, kind="bytes",
+                           done=f"{label}: {verb} {{amount}} in {{elapsed}}")
+        self._tally = _Tally(raw, task)
         self.reader = io.BufferedReader(self._tally, buffer_size=1 << 20)
 
     @property
@@ -117,23 +113,23 @@ class Stream:
         self.close()
 
 
-def open_first(locations, label=None):
+def open_first(locations, label=None, progress=True):
     """Open the first of several mirrors that answers."""
     if isinstance(locations, (str, os.PathLike)):
-        return Stream(locations, label)
+        return Stream(locations, label, progress)
     errors = []
     for location in locations:
         try:
-            return Stream(location, label)
+            return Stream(location, label, progress)
         except GiftagError as error:
             errors.append(str(error))
-            log(f"{error}; trying the next mirror")
+            ui.warning(f"{escape(str(error))}; trying the next mirror")
     raise GiftagError("; ".join(errors))
 
 
 def read_all(location, label=None):
     """Return the full content of a file or URL, gunzipped if it is gzip."""
-    with Stream(location, label) as stream:
+    with Stream(location, label, progress=False) as stream:
         data = stream.reader.read()
     if data[:2] == b"\x1f\x8b":
         data = gzip.decompress(data)
@@ -163,3 +159,60 @@ def iter_hmm_records(reader):
             name = None
     if any(line.strip() for line in lines):
         raise GiftagError("HMM file ended inside a profile; the download was probably truncated")
+
+
+class RangeFile:
+    """Random access to a local file or an HTTP URL that serves byte ranges."""
+
+    def __init__(self, location):
+        self.location = str(location)
+        self.bytes_read = 0
+        self._lock = threading.Lock()
+        if is_url(self.location):
+            request = urllib.request.Request(self.location, method="HEAD",
+                                             headers={"User-Agent": _USER_AGENT})
+            try:
+                with urllib.request.urlopen(request, timeout=120) as response:
+                    headers = response.headers
+            except (urllib.error.URLError, OSError) as error:
+                raise GiftagError(f"{self.location}: {getattr(error, 'reason', error)}") from None
+            if headers.get("Accept-Ranges") != "bytes":
+                raise GiftagError(f"{self.location}: server does not serve byte ranges")
+            self.size = int(headers["Content-Length"])
+            self.etag = (headers.get("ETag") or "").strip('"')
+            self.last_modified = headers.get("Last-Modified")
+        else:
+            if not os.path.exists(self.location):
+                raise GiftagError(f"{self.location}: no such file")
+            self.size = os.path.getsize(self.location)
+            self.etag = None
+            self.last_modified = None
+
+    def read(self, start, end):
+        """Bytes `[start, end)`, clipped to the file."""
+        end = min(end, self.size)
+        if start >= end:
+            return b""
+        if not is_url(self.location):
+            with open(self.location, "rb") as handle:
+                handle.seek(start)
+                data = handle.read(end - start)
+        else:
+            request = urllib.request.Request(
+                self.location, headers={"User-Agent": _USER_AGENT, "Range": f"bytes={start}-{end - 1}"})
+            for attempt in range(3):
+                try:
+                    with urllib.request.urlopen(request, timeout=120) as response:
+                        if response.status != 206:
+                            raise GiftagError(f"{self.location}: range request returned {response.status}")
+                        data = response.read()
+                    break
+                except (urllib.error.URLError, OSError) as error:
+                    if attempt == 2:
+                        raise GiftagError(f"{self.location}: {getattr(error, 'reason', error)}") from None
+                    time.sleep(2 ** attempt)
+        if len(data) != end - start:
+            raise GiftagError(f"{self.location}: short read at byte {start}")
+        with self._lock:
+            self.bytes_read += len(data)
+        return data

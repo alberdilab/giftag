@@ -13,9 +13,11 @@ as its source defines it rather than inventing a common score:
   fixed Z, the profile count of the *full* upstream library, then run_dbcan's
   overlap resolution.
 
-dbCAN-sub is searched only on proteins that carry a domain of the cluster's
-parent family. A subfamily claim is a narrowing of a family claim, so it never
-stands without the family; this also keeps the 9,000-profile search small.
+dbCAN-sub is searched on every protein, as run_dbcan does. `--gate-subfamilies`
+restricts each family's clusters to proteins that carry a domain of that family
+(its family model or one of its official subfamily models, such as `GH43_18`).
+That is faster and stricter: on Bacteroides thetaiotaomicron VPI-5482 it keeps
+144 of run_dbcan's 157 subfamily calls.
 """
 
 from collections import defaultdict
@@ -25,7 +27,7 @@ from typing import Optional
 import pyhmmer
 
 from giftag import sources as S
-from giftag.build import dbcan_cluster_key, dbcan_family_key
+from giftag.build import cazy_family, dbcan_cluster_key, dbcan_family_key
 
 
 @dataclass
@@ -120,14 +122,23 @@ def filter_overlaps(calls, ratio=S.DBCAN_OVERLAP):
     return kept
 
 
-def search_dbcan(family_hmms, sub_by_family, block, cpus, z_family, z_sub):
+def search_dbcan(family_hmms, sub_by_family, block, cpus, z_family, z_sub, gate=False):
+    """dbCAN family calls, then dbCAN-sub calls.
+
+    By default dbCAN-sub is searched on every protein, as run_dbcan does. With
+    `gate`, a family's clusters are searched only on proteins that carry a
+    domain of that family: faster, and stricter than run_dbcan."""
     families = filter_overlaps(_dbcan_domains(
         "dbcan", family_hmms, block, cpus, z_family, dbcan_family_key, "dbcan_family"))
     if not sub_by_family:
         return families
+    if not gate:
+        hmms = [hmm for family in sorted(sub_by_family) for hmm in sub_by_family[family]]
+        return families + filter_overlaps(_dbcan_domains(
+            "dbcan_sub", hmms, block, cpus, z_sub, dbcan_cluster_key, "dbcan_sub"))
     genes_by_family = defaultdict(set)
     for call in families:
-        genes_by_family[call.profile].add(call.gene_id)
+        genes_by_family[cazy_family(call.profile)].add(call.gene_id)
     sequences = {seq.name: seq for seq in block}
     raw = []
     for family in sorted(genes_by_family):

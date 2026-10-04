@@ -72,22 +72,36 @@ class Database:
                 sequences.append(text.digitize(self.alphabet))
         return pyhmmer.easel.DigitalSequenceBlock(self.alphabet, sequences)
 
-    def search(self, proteins, cpus=0):
-        """Return every accepted `Call` for these `(id, sequence)` proteins."""
+    def search(self, proteins, cpus=0, gate=False, stage=None):
+        """Return every accepted `Call` for these `(id, sequence)` proteins.
+
+        `stage`, if given, is called with the name of each source as its search
+        starts."""
+        stage = stage or (lambda name: None)
         block = self.digitize(proteins)
         if not len(block):
             return []
         calls = []
         if self._load("kofam"):
+            stage("KOfam")
             calls += search_.search_kofam(self._load("kofam"), block, self.rules, cpus)
         if self._load("ncbifam"):
+            stage("NCBIfam")
             calls += search_.search_cutoff("ncbifam", self._load("ncbifam"), block,
                                            self.rules, cpus, "trusted")
         if self._load("pfam"):
+            stage("Pfam")
             calls += search_.search_cutoff("pfam", self._load("pfam"), block,
                                            self.rules, cpus, "gathering")
         if self._load("dbcan"):
+            stage("dbCAN")
             dbcan = self.manifest["sources"]["dbcan"]
             calls += search_.search_dbcan(self._load("dbcan"), self._sub_by_family(), block,
-                                          cpus, dbcan["z_family"], dbcan.get("z_sub", 1))
+                                          cpus, dbcan["z_family"], dbcan.get("z_sub", 1), gate=gate)
         return calls
+
+    def load_all(self):
+        """Read every profile now, so the first genome is not charged for it."""
+        for name in ("kofam", "ncbifam", "pfam", "dbcan"):
+            self._load(name)
+        self._sub_by_family()
