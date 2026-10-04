@@ -28,6 +28,7 @@ test = ["pytest>=7"]
 
 [project.urls]
 Homepage = "https://github.com/alberdilab/giftag"
+Documentation = "https://alberdilab.github.io/giftag/"
 gifter = "https://github.com/alberdilab/gifter"
 
 [project.scripts]
