@@ -2,6 +2,21 @@
 title: "From genomes to GIFT evidence"
 subtitle: "giftag annotates genome and protein FASTA files with the markers that gifter evaluates."
 toc: false
+body-classes: giftag-home
+margin-header: |
+  <div class="giftag-aside">
+  <div><h2>Links</h2><ul>
+  <li><a href="https://github.com/alberdilab/giftag">Browse source code</a></li>
+  <li><a href="https://github.com/alberdilab/giftag/issues">Report a bug</a></li>
+  <li><a href="https://alberdilab.github.io/gifter/">gifter documentation</a></li>
+  </ul></div>
+  <div><h2>License</h2><ul>
+  <li><a href="https://github.com/alberdilab/giftag/blob/main/LICENSE">MIT-0</a><small>Profile sources keep their own terms.</small></li>
+  </ul></div>
+  <div><h2>Developers</h2><ul>
+  <li>Antton Alberdi<small>Author, maintainer</small></li>
+  </ul></div>
+  </div>
 ---
 
 <p class="eyebrow">GENOME ANNOTATION · THE FIRST STEP IN A GIFT ANALYSIS</p>

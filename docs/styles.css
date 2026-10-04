@@ -1,5 +1,6 @@
-/* giftag documentation. Match the tokens and type of gifter/pkgdown/extra.css.
-   Quarto's Bootstrap 5 markup gets its own small set of selectors. */
+/* giftag documentation. Tokens, type and page frame follow
+   gifter/pkgdown/extra.css so the two sites read as one application; the
+   selectors differ because Quarto and pkgdown generate different markup. */
 :root {
   --ink: #173330;
   --muted: #687672;
@@ -34,77 +35,261 @@ body {
 a { color: var(--forest-2); text-decoration-color: rgba(24, 86, 78, .35); text-underline-offset: .16em; }
 a:hover { color: var(--forest); text-decoration-color: currentColor; }
 
+/* Shared application header: brand left, navigation pill centred, search and
+   source link right. Same grid as gifter. ---------------------------------- */
+
+#quarto-header { border: 0; }
+#quarto-header.headroom--unpinned { transform: none !important; }
 #quarto-header .navbar {
   min-height: 74px;
   padding: 10px clamp(20px, 4vw, 64px);
   border-bottom: 1px solid rgba(23, 51, 48, .12);
-  background: rgba(246, 243, 236, .94) !important;
+  background: rgba(246, 243, 236, .92) !important;
   box-shadow: none;
   backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
 }
-#quarto-header .navbar > .container-fluid { max-width: none; padding: 0; }
-#quarto-header .navbar-brand {
-  display: inline-flex;
+#quarto-header .navbar > .navbar-container { max-width: none; padding: 0; }
+#quarto-header .navbar-brand-container {
+  display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--forest);
+  min-width: max-content;
+  max-width: none;
+  margin: 0 auto 0 0 !important;
+}
+#quarto-header .navbar-brand {
+  margin: 0;
+  padding: 0;
+  color: var(--forest) !important;
   font-size: 20px;
   font-weight: 750;
   letter-spacing: -.04em;
   line-height: 1;
+  text-decoration: none;
 }
-#quarto-header .navbar-brand img { max-height: 34px; width: 27px; }
+#quarto-header .navbar-brand img { width: 34px; height: 34px; max-height: none; }
+#quarto-header .navbar-title { display: block; }
+.giftag-wordmark-suffix { color: var(--muted); }
 #quarto-header .navbar-title::after {
   display: block;
-  margin-top: 3px;
+  margin-top: 4px;
   color: var(--muted);
   content: "documentation";
   font-size: 9px;
   font-weight: 750;
   letter-spacing: .16em;
+  line-height: 1;
   text-transform: uppercase;
 }
-#quarto-header .navbar-nav { gap: 3px; }
-@media (min-width: 992px) {
-  #quarto-header .navbar-nav.me-auto {
-    padding: 4px;
-    border: 1px solid rgba(23, 51, 48, .12);
-    border-radius: 11px;
-    background: rgba(255, 253, 248, .7);
-  }
-}
+#quarto-header .navbar-nav { gap: 0; }
 #quarto-header .navbar-nav .nav-link {
-  padding: 8px 13px;
+  padding: 8px 13px !important;
   border-radius: 8px;
-  color: var(--muted);
+  color: var(--muted) !important;
   font-size: 13px;
   font-weight: 680;
+  line-height: 14px;
+  white-space: nowrap;
+  transition: color .18s, background .18s, box-shadow .18s;
 }
 #quarto-header .navbar-nav .nav-link:hover,
-#quarto-header .navbar-nav .nav-link.active { color: var(--forest); background: var(--surface); }
+#quarto-header .navbar-nav .nav-link:focus,
+#quarto-header .navbar-nav .nav-link.show { color: var(--forest) !important; }
+#quarto-header .navbar-nav .nav-link.active,
+#quarto-header .navbar-nav .nav-item:has(.dropdown-item.active) > .nav-link {
+  color: var(--forest) !important;
+  background: var(--surface);
+  box-shadow: 0 2px 8px rgba(23, 51, 48, .09);
+}
 #quarto-header .dropdown-menu {
+  margin-top: 8px;
   padding: 6px;
   border: 1px solid var(--line);
   border-radius: 12px;
   background: var(--surface);
   box-shadow: var(--shadow);
 }
-#quarto-header .dropdown-item { border-radius: 8px; color: var(--ink); font-size: 13px; }
-#quarto-header .dropdown-item:hover { color: var(--forest); background: var(--mint-pale); }
+#quarto-header .dropdown-item { padding: 8px 10px; border-radius: 8px; color: var(--ink); font-size: 13px; }
+#quarto-header .dropdown-item:hover,
+#quarto-header .dropdown-item:focus,
+#quarto-header .dropdown-item.active { color: var(--forest); background: var(--mint-pale); }
+/* The way on to gifter: the one filled button in the header. */
+#quarto-header .navbar-nav .nav-link[href^="https://alberdilab.github.io/gifter"] {
+  padding: 13px 16px !important;
+  color: #fffdf8 !important;
+  background: var(--forest);
+  box-shadow: 0 2px 8px rgba(23, 51, 48, .18);
+  font-weight: 750;
+}
+#quarto-header .navbar-nav .nav-link[href^="https://alberdilab.github.io/gifter"]:hover,
+#quarto-header .navbar-nav .nav-link[href^="https://alberdilab.github.io/gifter"]:focus {
+  color: #fffdf8 !important;
+  background: var(--coral);
+}
+#quarto-header .bi-github { color: var(--forest); font-size: 18px; }
+#quarto-header .navbar-toggler { border-color: rgba(23, 51, 48, .18); border-radius: 9px; color: var(--forest); }
+#quarto-header .quarto-navbar-tools { display: none; }
 
-#quarto-content { max-width: 1380px; margin-inline: auto; padding-inline: clamp(18px, 4vw, 64px); }
-main { min-width: 0; }
+#quarto-search { margin: 0; }
+#quarto-search.type-textbox .aa-Autocomplete { width: 100%; }
+#quarto-search.type-textbox .aa-Form,
+#quarto-search.type-textbox .aa-DetachedSearchButton {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(23, 51, 48, .16);
+  border-radius: 10px;
+  color: var(--ink);
+  background: var(--surface);
+  box-shadow: none;
+  font-size: 13px;
+  transition: border .18s, box-shadow .18s;
+}
+#quarto-search.type-textbox .aa-Form:focus-within,
+#quarto-search.type-textbox .aa-DetachedSearchButton:focus { border-color: var(--mint); box-shadow: 0 0 0 3px rgba(144, 201, 181, .2); }
+#quarto-search .aa-DetachedSearchButtonIcon { color: var(--forest-2); }
+#quarto-search .aa-DetachedSearchButtonIcon svg { width: 16px; height: 16px; }
+#quarto-search .aa-DetachedSearchButtonPlaceholder { color: #8a9692; font-size: 13px; }
+#quarto-search .aa-Input { height: 38px; color: var(--ink); font-size: 13px; }
+#quarto-search .aa-Input::placeholder { color: #8a9692; opacity: 1; }
+#quarto-search .aa-SubmitButton,
+#quarto-search .aa-Label svg { color: var(--forest-2); }
+.aa-Panel {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+@media (min-width: 992px) {
+  #quarto-header .navbar > .navbar-container {
+    display: grid;
+    grid-template-columns: minmax(180px, 1fr) auto minmax(0, 1fr) auto;
+    column-gap: 16px;
+    align-items: center;
+    gap: 24px;
+  }
+  #quarto-header .navbar-brand-container { grid-column: 1; grid-row: 1; }
+  #quarto-header .navbar-collapse { display: contents !important; }
+  #quarto-header .navbar-nav.me-auto {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: center;
+    margin: 0 !important;
+    padding: 4px;
+    border: 1px solid rgba(23, 51, 48, .12);
+    border-radius: 11px;
+    background: rgba(255, 253, 248, .7);
+  }
+  #quarto-header .navbar-nav.ms-auto { grid-column: 4; grid-row: 1; align-items: center; gap: 4px; margin: 0 !important; }
+  #quarto-search {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+    width: min(100%, 280px);
+    margin-left: 8px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #quarto-header .navbar > .navbar-container { grid-template-columns: max-content auto minmax(42px, 1fr) auto; column-gap: 12px; }
+  #quarto-header .navbar-nav .nav-link { padding-inline: 9px !important; }
+  #quarto-header .navbar-nav .nav-link[href^="https://alberdilab.github.io/gifter"] { padding-inline: 12px !important; }
+  #quarto-search { width: 100%; margin-left: 0; overflow: hidden; }
+}
+
+/* Documentation content: a 776px reading column and a contents column, both
+   starting from the left edge of a 1380px frame. ---------------------------- */
+
+#quarto-content.page-columns {
+  display: grid;
+  width: min(1380px, 100%);
+  margin-inline: auto;
+  padding: 20px clamp(20px, 4vw, 64px) 80px;
+  grid-template-columns: minmax(0, 776px) minmax(0, 298px);
+  justify-content: start;
+  column-gap: 104px;
+}
+#quarto-content.page-columns > main.content {
+  grid-column: 1;
+  grid-row: 1;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+}
+#quarto-content.page-columns > #quarto-margin-sidebar {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: start;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+#quarto-content.page-columns > #quarto-sidebar { display: none; }
+main.content#quarto-document-content > * { grid-column: 1 / -1; }
+
+.giftag-home #quarto-content.page-columns { padding-top: 48px; }
+
+/* Breadcrumbs: a rounded box 20px below the navbar and 20px above the page
+   title. One line: a long title is cut short, not wrapped. */
+.giftag-breadcrumbs { display: flex; margin: 0 0 20px; }
+.giftag-breadcrumbs ol {
+  display: flex;
+  min-width: 0;
+  max-width: 100%;
+  align-items: center;
+  margin: 0;
+  padding: 6px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: var(--surface);
+  box-shadow: 0 2px 8px rgba(23, 51, 48, .05);
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+  white-space: nowrap;
+}
+.giftag-breadcrumbs li { flex: 0 0 auto; }
+.giftag-breadcrumbs li + li::before { margin: 0 8px; color: var(--forest-2); content: "\2192"; }
+.giftag-breadcrumbs li:last-child {
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  color: var(--forest);
+  font-weight: 700;
+  text-overflow: ellipsis;
+}
+.giftag-breadcrumbs a { color: var(--muted); text-decoration: none; }
+.giftag-breadcrumbs a:hover,
+.giftag-breadcrumbs a:focus { color: var(--forest); text-decoration: underline; }
+
 h1, h2, h3, h4, h5, .quarto-title h1 {
   color: var(--forest);
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 400;
   letter-spacing: -.025em;
 }
-h1, .quarto-title h1 { font-size: clamp(38px, 4vw, 54px); letter-spacing: -.045em; line-height: 1.05; }
-h2 { margin-top: 3.25rem; padding-top: 1.25rem; border-top: 1px solid var(--line); font-size: clamp(27px, 2.6vw, 36px); }
+h1, .quarto-title h1 { margin: 0; font-size: clamp(38px, 4vw, 54px); letter-spacing: -.045em; line-height: 1.02; }
+h2 { margin-top: 3.25rem; padding-top: 1.25rem; padding-bottom: 0; border-top: 1px solid var(--line); border-bottom: 0; font-size: clamp(27px, 2.6vw, 36px); }
 h3 { margin-top: 2.2rem; font-size: 24px; }
-.quarto-title-block .subtitle { max-width: 800px; color: var(--muted); font-size: 18px; }
-.quarto-title-block { margin-bottom: 2rem; }
+h1 code:not(pre code), h2 code:not(pre code), h3 code:not(pre code), h4 code:not(pre code) {
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  font-size: .86em;
+  letter-spacing: -.02em;
+}
+
+/* Page header: title and lead on the left, the gears on the right. */
+.quarto-title-block.default {
+  min-height: 112px;
+  margin-bottom: 22px;
+  padding: 0 130px 18px 0;
+  background: url("assets/logo.svg") right top / 100px auto no-repeat;
+}
+.quarto-title-block .quarto-title-meta { display: none; }
+.quarto-title-block .subtitle { max-width: 800px; margin: 22px 0 0; color: var(--muted); font-size: 18px; font-weight: 400; line-height: 1.55; }
 .lead { max-width: 780px; color: var(--muted); font-size: 18px; }
 .eyebrow { color: var(--coral); font-size: 11px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
 .flow {
@@ -133,25 +318,106 @@ code:not(pre code) { padding: .08em .28em; border-radius: 4px; color: #a74937; b
 pre, div.sourceCode { border: 1px solid var(--line); border-radius: 13px; background: var(--surface) !important; box-shadow: 0 8px 28px rgba(23, 51, 48, .05); }
 pre code, div.sourceCode code { color: inherit; background: transparent; }
 blockquote { padding: 14px 18px; border-left: 3px solid var(--coral); border-radius: 0 10px 10px 0; color: var(--muted); background: var(--coral-pale); }
-table { --bs-table-bg: transparent; --bs-table-color: var(--ink); --bs-table-border-color: var(--line); overflow: hidden; border-color: var(--line); border-radius: 12px; }
-table thead th { color: var(--forest); background: rgba(220, 238, 230, .65); font-size: 12px; font-weight: 780; }
-#TOC, .sidebar-navigation { border-color: var(--line); }
-#TOC a, .sidebar-navigation a { color: var(--muted); }
-#TOC a:hover, .sidebar-navigation a:hover { color: var(--forest); }
-.nav-footer { margin-top: 72px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; background: transparent; }
+.table, table { --bs-table-bg: transparent; --bs-table-color: var(--ink); --bs-table-border-color: var(--line); overflow: hidden; border-color: var(--line); border-radius: 12px; }
+.table > thead > tr > th, table thead th { border-bottom-color: var(--line); color: var(--forest); background: rgba(220, 238, 230, .65); font-size: 12px; font-weight: 780; letter-spacing: .02em; }
+.table > tbody > tr:hover > *, table tbody tr:hover > * { background: rgba(220, 238, 230, .32); }
+
+/* Contents column: gifter's "On this page" panel. */
+#quarto-margin-sidebar { position: sticky; top: 94px; max-height: calc(100vh - 114px); overflow-y: auto; }
+#quarto-margin-sidebar #TOC,
+.giftag-aside > div { border-top: 1px solid var(--line); border-left: 0; }
+#quarto-margin-sidebar #TOC { padding: 0; font-size: 15px; }
+#quarto-margin-sidebar #toc-title,
+.giftag-aside h2 {
+  margin: 0 0 10px;
+  padding: 6px 0 0;
+  border: 0;
+  color: var(--coral);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+#quarto-margin-sidebar #TOC ul { margin: 0; padding: 0; border: 0; list-style: none; }
+#quarto-margin-sidebar #TOC ul ul { padding-left: 12px; }
+#quarto-margin-sidebar #TOC .nav-link {
+  display: block;
+  margin: 0;
+  padding: 5px 8px;
+  border: 0;
+  border-radius: 8px;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.5;
+}
+#quarto-margin-sidebar #TOC ul ul .nav-link { color: var(--muted); font-size: 14px; }
+#quarto-margin-sidebar #TOC .nav-link code { padding: 0; color: inherit; background: transparent; font-size: .88em; }
+#quarto-margin-sidebar #TOC .nav-link:hover { color: var(--forest); }
+#quarto-margin-sidebar #TOC .nav-link.active { border: 0; color: var(--forest) !important; background: var(--mint-pale); }
+
+/* Home page: links, licence and author where other pages list their contents. */
+.giftag-aside > div { margin-bottom: 28px; padding-top: 15px; }
+.giftag-aside h2 { padding-top: 0; }
+.giftag-aside ul { margin: 0; padding: 0; list-style: none; }
+.giftag-aside li { margin-bottom: 7px; }
+.giftag-aside a { color: var(--muted); }
+.giftag-aside a:hover { color: var(--forest); }
+.giftag-aside small { display: block; color: var(--muted); font-size: 13px; }
+.giftag-home #quarto-margin-sidebar { top: 122px; }
+
+footer.footer {
+  width: min(1380px, 100%);
+  margin-inline: auto;
+  padding: 0 clamp(20px, 4vw, 64px) 40px;
+  border: 0;
+  color: var(--muted);
+  background: transparent;
+  font-size: 12px;
+}
+footer.footer .nav-footer { min-height: 0; margin: 0; padding: 22px 0 0; border-top: 1px solid var(--line); color: var(--muted); background: transparent; font-size: 12px; }
+footer.footer .nav-footer-center { display: none; }
+footer.footer .nav-footer-left, footer.footer .nav-footer-right { flex: 1 1 auto; padding: 0; }
+footer.footer .nav-footer-left { text-align: left; }
+footer.footer .nav-footer-right { text-align: right; }
+footer.footer p { margin: 0; }
+footer.footer a { color: var(--forest-2); }
+
 @media (max-width: 991.98px) {
   #quarto-header .navbar { min-height: 66px; padding-block: 8px; }
+  #quarto-header .navbar > .navbar-container { flex-wrap: wrap; }
+  #quarto-header .navbar-toggler { order: 2; }
+  #quarto-header .navbar-collapse {
+    order: 3;
+    max-height: calc(100vh - 76px);
+    margin-top: 10px;
+    padding: 10px 0 6px;
+    overflow-y: auto;
+    border-top: 1px solid var(--line);
+  }
+  #quarto-search { order: 4; width: 100%; margin: 10px 0 4px; }
+  #quarto-header .navbar-nav .nav-link[href^="https://alberdilab.github.io/gifter"] { display: inline-block; margin: 8px 0; }
+  #quarto-header .navbar:not(:has(.navbar-collapse.show)) #quarto-search { display: none; }
+  #quarto-content.page-columns { display: block; padding-top: 36px; }
+  #quarto-content.page-columns > #quarto-margin-sidebar { position: static; max-height: none; margin-top: 48px; }
+  #quarto-content.page-columns > #quarto-margin-sidebar:has(#TOC) { display: none; }
   .cards { grid-template-columns: 1fr; }
   .card-link { min-height: 0; }
 }
 @media (max-width: 575.98px) {
-  #quarto-content { padding-inline: 0; }
+  #quarto-content.page-columns { padding-inline: 18px; padding-bottom: 56px; }
+  h1, .quarto-title h1 { font-size: 38px; }
+  h2 { font-size: 28px; }
+  .quarto-title-block.default { min-height: 0; padding-right: 0; background: none; }
   .flow { flex-direction: column; align-items: flex-start; gap: 6px; }
   .flow .arrow { margin-left: 22px; line-height: 1; transform: rotate(90deg); }
   .flow .step { max-width: 100%; }
   table { display: block; max-width: 100%; overflow-x: auto; }
+  footer.footer .nav-footer { display: block; }
+  footer.footer .nav-footer-right { margin-top: 6px; text-align: left; }
 }
 @media print {
   body { background: #fff; }
-  #quarto-header, .nav-footer { display: none; }
+  #quarto-header, .nav-footer, .giftag-breadcrumbs, #quarto-margin-sidebar { display: none; }
+  #quarto-content.page-columns { display: block; width: 100%; padding: 0; }
 }

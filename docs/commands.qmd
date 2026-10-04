@@ -1,6 +1,6 @@
 ---
 title: "Commands"
-subtitle: "The supported command-line workflows and their important options. The installed --help output is the exact option reference for your version."
+subtitle: "The supported command-line workflows and their important options. The installed `--help` output is the exact option reference for your version."
 ---
 
 ## `giftag build`

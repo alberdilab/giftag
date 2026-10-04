@@ -1,12 +1,16 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - site.js
 
 website:
   title: giftag
   site-url: https://alberdilab.github.io/giftag/
   favicon: assets/logo.svg
-  search: true
+  search:
+    location: navbar
+    type: textbox
   navbar:
     pinned: true
     background: light
@@ -27,20 +31,33 @@ website:
           - text: Methods and validation
             href: methods.qmd
       - text: Into gifter
-        href: with-gifter.qmd
+        menu:
+          - text: Take the marker table into gifter
+            href: with-gifter.qmd
+          - text: ---
+          - text: gifter documentation
+            href: https://alberdilab.github.io/gifter/
     right:
-      - text: gifter ↗
+      - text: gifter docs ↗
         href: https://alberdilab.github.io/gifter/
+        aria-label: Continue to the gifter documentation
       - icon: github
         href: https://github.com/alberdilab/giftag
         aria-label: giftag source on GitHub
   page-footer:
-    left: giftag prepares genomic evidence for gifter.
-    right: "[gifter documentation](https://alberdilab.github.io/gifter/) · [Source](https://github.com/alberdilab/giftag)"
+    left: Developed by Antton Alberdi.
+    right: "giftag prepares genomic evidence for [gifter](https://alberdilab.github.io/gifter/) · [Source](https://github.com/alberdilab/giftag)"
+
+language:
+  search-text-placeholder: Search for
 
 format:
   html:
     theme: default
     css: styles.css
     toc: true
+    toc-title: On this page
     code-copy: true
+    include-after-body:
+      text: |
+        <script src="site.js"></script>
