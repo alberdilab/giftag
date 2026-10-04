@@ -10,6 +10,16 @@ only when a directory written by `giftag build` can no longer be read by
 
 ---
 
+## Unreleased — 2026-10-04T13:31Z
+
+### A dedicated documentation site connects giftag to gifter
+
+**What changed.** A Quarto site now documents the build and annotation commands, output schema, marker-search coverage, source rules, validation limits, and the direct handoff to gifter. It uses gifter's palette, typography and logo, with navigation back to gifter. GitHub Actions renders it on pull requests and deploys it from `main`. The README is now a short entry point to those guides.
+
+**Why.** giftag's CLI and coverage ledger need their own reference, while the interpretation of a GIFT call belongs in gifter's documentation.
+
+**Effect.** Documentation and deployment workflow only. Annotation, search rules and output files are unchanged.
+
 ## 0.2.0 — 2026-10-04T05:05Z
 
 ### dbCAN-sub is searched on every protein

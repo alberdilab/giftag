@@ -1,0 +1,50 @@
+---
+title: "Output files"
+subtitle: "Which file gifter reads, and which files preserve the evidence and run context behind it."
+---
+
+## Annotation output
+
+A completed `giftag annotate` run writes three files in the requested output directory and, for nucleotide input, a `proteins/` directory. The tables are tab-separated with a header row.
+
+### `giftag_markers.tsv`
+
+One row per **gene and accepted gifter marker**. A gene with more than one accepted marker has more than one row. gifter reads the first four fields; the remaining fields let you inspect the search evidence.
+
+| Column | Meaning |
+|---|---|
+| `genome_id` | Identifier derived from the input file name. |
+| `gene_id` | Protein or predicted-gene identifier. |
+| `namespace`, `accession` | The namespaced marker identity in gifter's catalogue. |
+| `source`, `profile` | Profile collection and specific HMM supporting the marker. |
+| `rule` | Source-specific acceptance rule applied to the hit. |
+| `score`, `evalue`, `threshold` | Values behind the accepted hit; their interpretation follows `rule`. |
+| `coverage` | HMM coverage when the source's rule supplies it. |
+| `target_from`, `target_to` | Hit coordinates on the target protein when available. |
+
+Rows are ordered by genome, then by gene and marker within each genome. If more than one hit supports the same gene and marker, giftag retains the strongest one. A dbCAN hit to an official subfamily model such as `GH43_18` also licenses its broader `GH43` family marker; the broader row retains `GH43_18` in `profile` so the evidence remains visible. The reverse implication does not hold.
+
+### `giftag_genomes.tsv`
+
+One row per input genome, with `genome_id`, `input`, `input_type`, `gene_calling`, `sequences`, `length_bp`, `proteins`, `marker_genes` and `markers`. It records what was processed and how many distinct genes and marker identities were found. `length_bp` is empty for protein FASTA.
+
+### `giftag_run.json`
+
+The run manifest records giftag's version and finish time, the built database path and gifter database identity, source releases, marker-status counts, search parameters, and the number of genomes and marker rows. giftag writes it **last**. If the run stops partway through, completed genomes remain in the TSV files but this JSON file is absent; do not present those files as a completed run.
+
+### `proteins/<genome_id>.faa`
+
+Predicted proteins from nucleotide input. For protein FASTA input, giftag searches the supplied sequences and writes no predicted-protein file.
+
+## Built database files
+
+The directory produced by `giftag build` is separate from annotation output:
+
+| File | Purpose |
+|---|---|
+| `giftag.json` | Database format and build time; giftag and gifter versions; source releases, locations, checksums and terms; marker-status counts. |
+| `markers.tsv` | Every marker requested by gifter and whether giftag could search it. See [Marker coverage](coverage.qmd). |
+| `profiles.tsv` | Searchable profiles with their rule and threshold. |
+| Source `.hmm` files | The local profile libraries giftag uses for annotation. |
+
+Keep the database manifest and `giftag_run.json` with a published analysis. The marker TSV alone says which hits were accepted, but not which profiles were available to be searched.

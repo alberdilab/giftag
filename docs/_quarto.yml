@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: giftag
+  site-url: https://alberdilab.github.io/giftag/
+  favicon: assets/logo.svg
+  search: true
+  navbar:
+    pinned: true
+    background: light
+    foreground: dark
+    logo: assets/logo.svg
+    logo-alt: giftag logo
+    left:
+      - text: Get started
+        href: get-started.qmd
+      - text: Commands
+        href: commands.qmd
+      - text: Output and coverage
+        menu:
+          - text: Output files
+            href: output.qmd
+          - text: Marker coverage
+            href: coverage.qmd
+          - text: Methods and validation
+            href: methods.qmd
+      - text: Into gifter
+        href: with-gifter.qmd
+    right:
+      - text: gifter ↗
+        href: https://alberdilab.github.io/gifter/
+      - icon: github
+        href: https://github.com/alberdilab/giftag
+        aria-label: giftag source on GitHub
+  page-footer:
+    left: giftag prepares genomic evidence for gifter.
+    right: "[gifter documentation](https://alberdilab.github.io/gifter/) · [Source](https://github.com/alberdilab/giftag)"
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: true
+    code-copy: true

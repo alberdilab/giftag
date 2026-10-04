@@ -6,3 +6,5 @@ build/
 .pytest_cache/
 *.partial/
 .DS_Store
+docs/_site/
+docs/.quarto/

@@ -1,0 +1,67 @@
+---
+title: "Commands"
+subtitle: "The supported command-line workflows and their important options. The installed --help output is the exact option reference for your version."
+---
+
+## `giftag build`
+
+```sh
+giftag build [-d DIR] [--gifter-db PATH|URL] [--sources kofam,ncbifam,pfam,dbcan]
+```
+
+Builds the local profile database from gifter's marker list. With no `--gifter-db`, giftag reads the database at gifter's current GitHub `main`; supply a local SQLite database or marker TSV to pin the marker catalogue. The default build includes all four supported sources.
+
+| Option | Effect |
+|---|---|
+| `-d`, `--db` | Database directory; default is `$GIFTAG_DB`, then `~/.local/share/giftag`. |
+| `--gifter-db` | Gifter SQLite database or marker TSV, local path or URL. |
+| `--sources` | Comma-separated sources to build. Omitted sources are marked `source_skipped` in `markers.tsv`. |
+| `--kofam-release`, `--ncbifam-release`, `--dbcan-release` | Choose source releases. KOfam accepts `current` or an archive date. |
+| `--kofam-dir`, `--ncbifam-dir`, `--pfam-dir`, `--dbcan-dir` | Use local copies of the source files. |
+| `-t`, `--threads` | Parallel downloads; default 8. |
+| `--force` | Replace an existing built database at the destination. |
+
+The command downloads profiles from their publishers and redistributes none. Inspect [source terms and coverage](coverage.qmd) before choosing sources.
+
+## `giftag annotate`
+
+```sh
+giftag annotate -i FASTA... -o DIR [-d DIR] [-t THREADS]
+giftag -i FASTA... -o DIR  # shorthand
+```
+
+Searches nucleotide or protein FASTA files, plain or gzipped, and writes gifter-ready marker rows. `-i` accepts multiple files or a directory. Input types are detected per file unless `--input-type` is given.
+
+| Option | Effect |
+|---|---|
+| `-i`, `--input` | One or more FASTA paths, or directories containing FASTA files. |
+| `-o`, `--outdir` | Directory for output tables, run manifest and predicted proteins. |
+| `-d`, `--db` | Built giftag database; uses the same default as `build`. |
+| `-t`, `--threads` | Search CPU threads; 0 uses all available threads. |
+| `--input-type` | Set `auto`, `nucleotide` or `protein` instead of per-file detection. |
+| `--mode` | Set `auto`, `single` or `meta` for nucleotide gene calling. In `auto`, single-genome training is used from 100 kb upward. |
+| `--gate-subfamilies` | Search dbCAN-sub clusters only on proteins with a matching family domain. Faster, but stricter than the default run_dbcan-like search. |
+
+For `--gate-subfamilies`, the [validation comparison](coverage.qmd#validation-and-limits) found 144 of 157 retained subfamily calls relative to the ungated search. Keep the default when reproducing run_dbcan-like evidence matters more than speed.
+
+## Inspect a build
+
+```sh
+giftag info
+giftag info -d /path/to/giftag-db
+giftag version
+```
+
+`info` reports source releases, marker coverage and terms of use. `version` reports the installed giftag package version.
+
+## Logs
+
+Global logging options go **before** the command:
+
+```sh
+giftag --log-file run.log annotate -i genomes/ -o annotations/
+giftag --quiet annotate -i genomes/ -o annotations/
+giftag --verbose build
+```
+
+`--log-file` writes UTC-stamped plain-text progress. `--quiet` keeps warnings and errors; `--verbose` shows debug messages. Progress bars become plain log lines when output is piped or sent to a job log.

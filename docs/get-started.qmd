@@ -1,0 +1,63 @@
+---
+title: "Get started"
+subtitle: "Build the searchable marker database once, annotate FASTA files, then take the marker table into gifter."
+---
+
+## Install
+
+Install Python 3.9 or newer, then install giftag:
+
+```sh
+pip install giftag
+```
+
+giftag uses pyhmmer to search profiles and pyrodigal to call genes from nucleotide FASTA. It needs no external search binary. Check the installed command with `giftag version` or `giftag --help`.
+
+## 1. Build the profile database
+
+```sh
+giftag build
+```
+
+This reads the marker list from gifter's reference database and downloads the corresponding KOfam, NCBIfam, Pfam and dbCAN profiles **onto your machine**. The default directory is `~/.local/share/giftag`, or `$GIFTAG_DB` if set. A full build downloads about 2.9 GB and occupies about 1.5 GB when finished. Source terms apply to the person running the build; see [Marker coverage and source terms](coverage.qmd).
+
+For a reproducible run, use a saved copy of the gifter database rather than the default current `main` copy:
+
+```sh
+giftag build --gifter-db /path/to/gifter.sqlite -d /path/to/giftag-db
+```
+
+The built directory records the gifter database version and source releases in `giftag.json`. Run `giftag info -d /path/to/giftag-db` to review them.
+
+## 2. Annotate genomes or proteins
+
+```sh
+giftag annotate -i genomes/example.fa.gz -o annotations/
+```
+
+Nucleotide and protein FASTA files may be gzipped. For several genomes, provide multiple paths after `-i`, or give a directory:
+
+```sh
+giftag annotate -i genomes/ -o annotations/ -t 8
+```
+
+Each input file is one genome; its file name without FASTA and gzip extensions becomes its `genome_id`. For nucleotide input, giftag predicts proteins first. It trains a single-genome gene caller for sequences of at least 100 kb and uses metagenomic models for shorter input by default. Use `--mode single` or `--mode meta` to choose explicitly. Protein input skips gene calling.
+
+The main result is `annotations/giftag_markers.tsv`. If a run is interrupted, completed genomes remain in the TSV files, but `giftag_run.json` is absent: treat that absence as an incomplete run. See [Output files](output.qmd) for every column and file.
+
+## 3. Review coverage before interpreting missing calls
+
+```sh
+giftag info
+```
+
+The database's `markers.tsv` lists every gifter marker with `status = searchable` or a reason it could not be searched. An unsearchable marker produces no annotation row and therefore looks absent to gifter. Review this ledger, especially after a build with `--sources` that omits a source. See [Marker coverage](coverage.qmd).
+
+## 4. Continue in gifter
+
+```r
+markers <- read.delim("annotations/giftag_markers.tsv")
+calls <- gifter::evaluate_gifts_community(markers)
+```
+
+`genome_id` keeps different genomes separate. `gene_id`, `namespace` and `accession` identify the observed evidence; the remaining columns record how giftag found it. Read [Using giftag with gifter](with-gifter.qmd) for the full handoff and [gifter's evaluation guide](https://alberdilab.github.io/gifter/articles/evaluating-a-genome.html) for call interpretation.

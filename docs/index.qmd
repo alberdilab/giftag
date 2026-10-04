@@ -1,0 +1,49 @@
+---
+title: "From genomes to GIFT evidence"
+subtitle: "giftag annotates genome and protein FASTA files with the markers that gifter evaluates."
+toc: false
+---
+
+<p class="eyebrow">GENOME ANNOTATION · THE FIRST STEP IN A GIFT ANALYSIS</p>
+
+<div class="flow" aria-label="Analysis workflow">
+  <div class="step">Genome or protein FASTA</div>
+  <div class="arrow" aria-hidden="true">→</div>
+  <div class="step">giftag marker evidence</div>
+  <div class="arrow" aria-hidden="true">→</div>
+  <div class="step">gifter capability calls</div>
+</div>
+
+[Get started](get-started.qmd){.btn .btn-primary} [See the handoff to gifter](with-gifter.qmd){.btn .btn-outline-primary}
+
+## One traceable path
+
+giftag builds a local profile database from the marker list in gifter's curated reference database. It searches KOfam, NCBIfam, Pfam and dbCAN profiles using each source's acceptance rule, then writes one row per gene and accepted marker. The row includes the score, threshold, profile and source behind the observation.
+
+The marker table goes straight into gifter. gifter applies its curated completeness models and reports which capabilities have genomic support, which requirements are missing and which genes supplied the evidence. A marker hit by itself is **not** a GIFT call.
+
+<div class="cards">
+  <div><a class="card-link" href="get-started.html"><small>01 · Run</small><strong>Get started</strong><span>Install giftag, build profiles, annotate FASTA and read the output.</span></a></div>
+  <div><a class="card-link" href="coverage.html"><small>02 · Check</small><strong>Marker coverage</strong><span>See which gifter markers could be searched and why others could not.</span></a></div>
+  <div><a class="card-link" href="with-gifter.html"><small>03 · Interpret</small><strong>Continue in gifter</strong><span>Pass marker rows to R and trace calls back to genes.</span></a></div>
+</div>
+
+## Start with a genome
+
+```sh
+giftag build
+giftag annotate -i genomes/example.fa.gz -o annotations/
+```
+
+```r
+markers <- read.delim("annotations/giftag_markers.tsv")
+calls <- gifter::evaluate_gifts_community(markers)
+```
+
+The first command downloads and compiles a local database. Read [Get started](get-started.qmd) before running it: the sources have their own terms, and the full build downloads about 2.9 GB. The example path is illustrative; giftag accepts multiple FASTA files or a directory.
+
+<div class="handoff">
+<p class="eyebrow">WHERE THE TOOLS MEET</p>
+<p><strong>giftag observes markers; gifter evaluates capabilities.</strong> Keep <code>giftag_run.json</code> and the database manifest with your results so the source releases, gifter database version and search settings remain traceable.</p>
+<p><a href="with-gifter.html">Take the marker table into gifter →</a></p>
+</div>

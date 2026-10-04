@@ -1,0 +1,42 @@
+---
+title: "From giftag to gifter"
+subtitle: "Keep the annotation step and the biological completeness decision connected, but distinct."
+---
+
+## Pass the marker table into R
+
+Once `giftag annotate` has finished, check that `giftag_run.json` exists and review the searchable marker count with `giftag info`. Then read the marker TSV:
+
+```r
+install.packages("remotes")
+remotes::install_github("alberdilab/gifter", build_vignettes = TRUE)
+
+markers <- read.delim("annotations/giftag_markers.tsv")
+needed <- c("genome_id", "gene_id", "namespace", "accession")
+stopifnot(all(needed %in% names(markers)))
+
+calls <- gifter::evaluate_gifts_community(markers)
+```
+
+The example assumes `annotations/` is the output directory used with `giftag annotate -o`. `genome_id` keeps the inputs separate, so genes in different genomes cannot combine to complete a route. For a single genome, select its marker rows and use `gifter::evaluate_gifts()`.
+
+<div class="handoff">
+<p class="eyebrow">CONTINUE READING IN GIFTER</p>
+<p>The <a href="https://alberdilab.github.io/gifter/articles/evaluating-a-genome.html">evaluating a genome guide</a> explains complete and closest-incomplete calls, missing requirements and tracing evidence to genes. The <a href="https://alberdilab.github.io/gifter/atlas/">database atlas</a> shows the curated GIFT definitions.</p>
+</div>
+
+## What each tool establishes
+
+| Step | Claim it can support |
+|---|---|
+| giftag | A gene matched a named marker profile under its source's rule, with a recorded score and threshold. |
+| gifter | The observed markers support at least one complete curated route, architecture, circuit or defense mechanism for a named GIFT. |
+
+A positive call describes **encoded capability**. It does not establish expression, activity, flux, environmental relevance, actual motility, a defense outcome or phenotype. An unsupported call may reflect a missing gene, incomplete genome, search coverage gap, conservative threshold or a curated requirement with no accepted marker. Keep `giftag_run.json`, the built database's `giftag.json` and `markers.tsv`, and gifter's database version alongside the analysis so this distinction can be audited.
+
+## Where to go next
+
+- [Evaluate a genome](https://alberdilab.github.io/gifter/articles/evaluating-a-genome.html) to understand a call and trace it back to genes.
+- [From calls to quantitative traits](https://alberdilab.github.io/gifter/articles/quantitative-traits.html) for reference frames and denominators.
+- [A genome-resolved community](https://alberdilab.github.io/gifter/articles/community-analysis.html) to compare separately evaluated genomes.
+- [Many samples over one catalogue](https://alberdilab.github.io/gifter/articles/multi-sample-datasets.html) when the same catalogue is evaluated across samples.

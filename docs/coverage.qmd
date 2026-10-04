@@ -1,0 +1,60 @@
+---
+title: "Marker coverage"
+subtitle: "A missing marker row is meaningful only in light of what the built database could search."
+---
+
+## Check what was searchable
+
+```sh
+giftag info
+```
+
+Open `markers.tsv` in the built giftag database to inspect one row for every gifter marker. Its columns are `namespace`, `accession`, `name`, `source`, `status`, `profile` and `detail`.
+
+| Status | Meaning |
+|---|---|
+| `searchable` | A suitable profile and acceptance rule were available in this build. |
+| `no_threshold` | The profile exists, but its source publishes no usable cutoff for it. |
+| `missing_from_source` | The requested profile was absent from the selected source release. |
+| `unsupported_namespace` | No supported sequence-profile source serves this marker namespace, such as EC. |
+| `source_skipped` | The source was deliberately omitted with `--sources`. |
+
+An unsearchable marker produces no annotation row and is indistinguishable from an absent marker **to gifter's evaluator**. The ledger is the evidence needed to distinguish those cases when reading an unsupported GIFT. `giftag_run.json` also records the counts for the database used in that run. A positive gifter call still requires a complete curated route or machinery implementation; neither a marker hit nor a coverage count creates one.
+
+## Source rules
+
+Each collection has its own accepted-hit rule. giftag records the profile, rule, score and threshold in every output row instead of combining scores across collections.
+
+| Collection | Default release | Acceptance rule |
+|---|---|---|
+| KOfam | GenomeNet current, or an archive date supplied with `--kofam-release` | Per-KO adaptive threshold from `ko_list`, applied to the full or best-domain score as in KofamScan. |
+| NCBIfam / TIGRFAM | `hmm_PGAP/20.0` | Trusted cutoff. |
+| Pfam | InterPro current | Gathering cutoff. |
+| dbCAN families and dbCAN-sub | `db_v5-2-9_5-5-2026` | run_dbcan-style i-Evalue < 1e-15, HMM coverage > 0.35 and overlap resolution. |
+
+The full dbCAN family library and every dbCAN-sub cluster of each requested family are searched, including competitors gifter does not itself use. Otherwise a weaker requested profile could win a region against a stronger unsearched profile, giving an overly specific marker. The default searches dbCAN-sub on every protein. `--gate-subfamilies` reduces work but can drop valid subfamily hits.
+
+## Source terms
+
+giftag's code is MIT-0 and its build redistributes no profiles. `giftag build` downloads profiles from their publishers onto your machine; their terms apply. The built `giftag.json` records the terms associated with the releases used.
+
+- **KOfam / KEGG:** academic use is free; non-academic use, or an academic service to others, needs a licence from Pathway Solutions. See [KEGG legal terms](https://www.kegg.jp/kegg/legal.html). Use `--sources ncbifam,pfam,dbcan` if you need to omit KOfam, and read the resulting `source_skipped` statuses before interpreting absences.
+- **dbCAN:** the [Open Data release](https://registry.opendata.aws/run_dbcan/) states no restrictions on use; cite dbCAN3 and CAZy.
+- **NCBIfam:** NCBI-built models are public domain; TIGRFAM-origin models are CC BY-SA 4.0.
+- **Pfam:** CC0.
+
+## Validation and limits
+
+The following is a **2026-10-04 snapshot**, not a guarantee for other source or gifter database versions. It used *Escherichia coli* K-12 MG1655 and *Bacteroides thetaiotaomicron* VPI-5482, gene-called by giftag against gifter database 2026.35.1.
+
+| Check | Result |
+|---|---|
+| Gifter markers searchable | 1,569 of 1,574 |
+| dbCAN family calls versus run_dbcan on *B. thetaiotaomicron* | 458 of 458 gene-family pairs identical |
+| dbCAN-sub calls versus run_dbcan on the kept clusters, using the same Z | 157 of 157 identical |
+| dbCAN-sub calls with `--gate-subfamilies` | 144 of 157 |
+| Annotation speed on eight cores | About 45 seconds per genome |
+
+The five unsearchable markers were three KOs without a KOfam threshold (`K19098`, `K19099`, `K24159`) and two EC numbers. KOfam has **not** yet been checked side by side against KofamScan. The dbCAN-sub comparison used only the clusters giftag keeps; an unkept cluster from an unrelated family might still out-compete one of them in a full-library run. Thresholds can also miss a real enzyme; for example, *E. coli* PyrC scores below KOfam's conservative `K01465` cutoff. These are reasons to examine search coverage and evidence before interpreting an unsupported capability as biological absence.
+
+For build mechanics, overlap handling and the full validation rationale, see [Methods and validation](methods.qmd).
