@@ -1,0 +1,114 @@
+---
+title: "Benchmark"
+subtitle: "How giftag's marker calls and running time compare with the original software for each profile collection."
+---
+
+## What was compared
+
+giftag searches only the profiles gifter needs. The benchmark asks whether that targeted search returns the same marker calls as the original software for each collection, and how much time it saves.
+
+| Collection | Original software | Libraries searched |
+|---|---|---|
+| KOfam | KofamScan 1.3.0 | The full profile directory, and a subset holding exactly giftag's retained KOs |
+| dbCAN families and dbCAN-sub | run_dbcan 5.2.9, HMM methods only | The full libraries, and a subset with giftag's exact HMM files |
+| Pfam and NCBIfam | HMMER 3.4 | giftag's own profiles, with the same cutoffs |
+| Pfam and NCBIfam | InterProScan 5.75-106.0 and 6.0.2.2 | The full Pfam and NCBIfam member libraries of each release |
+
+All methods received the same protein sequences from eight RefSeq genomes: seven bacteria and one archaeon, 35,848 proteins in total. The benchmark measured giftag 0.2.0 against gifter database 2026.37.1, in which 1,571 of 1,576 markers were searchable. Every timed run requested eight CPUs.
+
+| Genome | Assembly | Proteins |
+|---|---|---:|
+| *Escherichia coli* K-12 MG1655 | GCF_000005845.2 | 4,300 |
+| *Bacteroides thetaiotaomicron* VPI-5482 | GCF_000011065.1 | 4,645 |
+| *Bacillus subtilis* 168 | GCF_000009045.1 | 4,237 |
+| *Pseudomonas aeruginosa* PAO1 | GCF_000006765.1 | 5,572 |
+| *Streptomyces coelicolor* A3(2) M145 | GCF_000203835.1 | 7,872 |
+| *Clostridium acetobutylicum* ATCC 824 | GCF_000008765.1 | 3,835 |
+| *Synechocystis* sp. PCC 6803 | GCF_000009725.1 | 3,576 |
+| *Methanocaldococcus jannaschii* DSM 2661 | GCF_000091665.1 | 1,811 |
+
+The comparison measures **concordance with the original software, not accuracy against a biological truth set**. A call is one genome, protein and marker. Only calls for searchable gifter markers are counted; the extra annotations a full-library tool produces are outside the question.
+
+![**A.** Jaccard agreement of protein-marker calls with each reference; whiskers are 95% genome-bootstrap intervals and the axis starts at 0.85. **B.** Annotation wall time for each of the eight genomes at eight CPUs, on a logarithmic axis. Full means the complete reference library and subset means the profiles giftag keeps.](assets/benchmark.svg){fig-alt="Two panels. The left panel shows Jaccard agreement at or near 1 for every comparison, lowest for InterProScan 5 NCBIfam at 0.946. The right panel shows giftag taking tens of seconds per genome while the full KofamScan, run_dbcan and InterProScan runs take hundreds to thousands."}
+
+## Search scope
+
+| Collection | Full reference search | giftag search |
+|---|---:|---:|
+| KOfam | 27,864 profiles | 900 profiles |
+| dbCAN families | 875 profiles | All 875 profiles, for 53 marker families |
+| dbCAN-sub | 53,411 profiles | 9,025 profiles, for 467 marker clusters |
+| Pfam | 24,736 (InterProScan 5) or 27,481 (InterProScan 6) | 1 profile |
+| NCBIfam | 17,431 (InterProScan 5) or 18,054 (InterProScan 6) | 150 profiles |
+
+The built giftag database occupied 1.49 GB and took 59 seconds to compile from already downloaded KOfam and dbCAN files.
+
+## Agreement of marker calls
+
+Jaccard is the number of shared calls divided by all calls made by either method.
+
+| Original software | Marker type | Shared | giftag only | Reference only | Jaccard (95% interval) |
+|---|---|---:|---:|---:|---:|
+| KofamScan, full and subset | KO | 2,781 | 0 | 0 | 1.000 (1.000–1.000) |
+| run_dbcan, full and subset | CAZy family | 483 | 0 | 0 | 1.000 (1.000–1.000) |
+| run_dbcan, full and subset | dbCAN-sub cluster | 71 | 0 | 1 | 0.986 (0.959–1.000) |
+| HMMER | NCBIfam | 239 | 0 | 0 | 1.000 (1.000–1.000) |
+| HMMER | Pfam | 1 | 0 | 0 | 1.000 (1.000–1.000) |
+| InterProScan 5 | NCBIfam | 229 | 10 | 3 | 0.946 (0.882–0.979) |
+| InterProScan 6 | NCBIfam | 233 | 6 | 0 | 0.975 (0.926–0.997) |
+| InterProScan 5 and 6 | Pfam | 1 | 0 | 0 | 1.000 (1.000–1.000) |
+
+giftag reproduced every KofamScan and CAZy family call, whether the reference searched its full library or giftag's subset. Restricting the search to gifter's profiles therefore changed no call in these genomes. The HMMER rows use giftag's exact profile files, so they confirm that giftag parses hits and applies cutoffs as HMMER does.
+
+The intervals come from 10,000 bootstrap resamples of the eight genomes. They describe this panel and do not establish performance across all microbial lineages. gifter uses a single Pfam profile, which produced one call here, so the Pfam rows are weak evidence about Pfam in general.
+
+### Where the calls differ
+
+**One dbCAN-sub call.** On one *B. thetaiotaomicron* protein, two GH95 clusters compete for the same region. run_dbcan's pyhmmer 0.11.0 reports an E-value of zero for both and keeps `GH95_e26`; giftag's pyhmmer 0.12.3 keeps distinct E-values and selects `GH95_e1`. The same difference appears with the full and the reduced run_dbcan library.
+
+**NCBIfam calls against InterProScan.** giftag uses NCBIfam 20.0, while InterProScan 5 ships 17.0 and InterProScan 6 ships 18.0. Ten of giftag's 150 NCBIfam models are absent from each older release. All six giftag-only calls relative to InterProScan 6 use models that release lacks. Of the ten giftag-only calls relative to InterProScan 5, six use missing models and four use models it has. InterProScan 5 also makes three calls for `TIGR01001.2` that giftag does not. The benchmark does not attribute those last seven differences to a specific change in a model or cutoff.
+
+## Effect on GIFT calls
+
+gifter evaluated the marker tables from each method. With giftag's markers it found 555 complete genome-GIFT calls among 1,304 assessed pairs. Replacing giftag's calls with those of KofamScan, run_dbcan, HMMER or InterProScan 6 changed none of them.
+
+InterProScan 5 lost one: `siroheme_to_heme_b` in *C. acetobutylicum*. giftag and InterProScan 6 call `NF040707.3` and `NF040708.3`, the markers for the AhbB and AhbA subunits, on two separate proteins. InterProScan 5 calls neither, although both models are in its library.
+
+## Running time and memory
+
+| Timed annotation | Median seconds per genome | Total for eight genomes, seconds | Peak memory of one process, GB |
+|---|---:|---:|---:|
+| **giftag, all collections** | **50.8** | **435** | **1.62** |
+| KofamScan, full | 1,841.8 | 14,157 | 0.85 |
+| KofamScan, 900-profile subset | 47.3 | 366 | 0.13 |
+| run_dbcan, full | 254.5 | 2,208 | 2.92 |
+| run_dbcan, reduced dbCAN-sub library | 63.9 | 543 | 0.92 |
+| InterProScan 5, full Pfam and NCBIfam | 644.2 | 5,286 | 5.42 |
+| InterProScan 6, full Pfam and NCBIfam | 547.7 | 4,926 | 1.74 |
+
+giftag annotated a genome in about 51 seconds, or 12 seconds per 1,000 proteins. That one run covers all four collections, whereas each reference row covers only its own.
+
+Obtaining the same markers from the original software means running one tool per collection. Summing their separately measured runs gives the cost of that workflow:
+
+| Reference workflow | Total wall time, seconds | Relative to giftag's 435 seconds | Relative CPU time |
+|---|---:|---:|---:|
+| KofamScan + run_dbcan + HMMER, on giftag's subsets | 937 | 2.15× | 1.26× |
+| KofamScan + run_dbcan + InterProScan 5, full libraries | 21,652 | 49.75× | 17.24× |
+| KofamScan + run_dbcan + InterProScan 6, full libraries | 21,291 | 48.92× | 17.19× |
+
+Most of the saving comes from searching fewer profiles: the full workflows spend their time on models outside gifter's marker set. Against the same subsets, giftag is about twice as fast.
+
+## Limits
+
+- The eight genomes span several bacterial phyla and one archaeon, but they are not a random sample of prokaryotic diversity.
+- The results hold for the pinned gifter database, source releases and software versions. Other releases can differ, as the NCBIfam comparison shows.
+- Each genome was timed once, so the times include node and shared-filesystem variation.
+- Times exclude environment setup, downloads and database construction.
+- Peak memory is that of the largest single child process, which understates tools that run several workers at once. CPU time is collected the same way and can understate separately launched workflow tasks.
+- The workflow totals are sums of separate runs, not the elapsed time of a jointly scheduled pipeline.
+
+## Reproduce it
+
+The [`benchmarks/`](https://github.com/alberdilab/giftag/tree/main/benchmarks) directory of the repository holds the Slurm scripts, the genome panel with its checksums, the software environments, and every result table behind this page. Its [results document](https://github.com/alberdilab/giftag/blob/main/benchmarks/RESULTS.md) has the per-genome, per-marker and discordant-call files.
+
+For the search rules that make these calls match, see [Methods and validation](methods.qmd).

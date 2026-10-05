@@ -30,6 +30,8 @@ website:
             href: coverage.qmd
           - text: Methods and validation
             href: methods.qmd
+      - text: Benchmark
+        href: benchmark.qmd
       - text: Into gifter
         menu:
           - text: Take the marker table into gifter

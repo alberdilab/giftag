@@ -55,6 +55,6 @@ The following is a **2026-10-04 snapshot**, not a guarantee for other source or 
 | dbCAN-sub calls with `--gate-subfamilies` | 144 of 157 |
 | Annotation speed on eight cores | About 45 seconds per genome |
 
-The five unsearchable markers were three KOs without a KOfam threshold (`K19098`, `K19099`, `K24159`) and two EC numbers. KOfam has **not** yet been checked side by side against KofamScan. The dbCAN-sub comparison used only the clusters giftag keeps; an unkept cluster from an unrelated family might still out-compete one of them in a full-library run. Thresholds can also miss a real enzyme; for example, *E. coli* PyrC scores below KOfam's conservative `K01465` cutoff. These are reasons to examine search coverage and evidence before interpreting an unsupported capability as biological absence.
+The five unsearchable markers were three KOs without a KOfam threshold (`K19098`, `K19099`, `K24159`) and two EC numbers. This snapshot did not compare KOfam with KofamScan, and its dbCAN-sub comparison used only the clusters giftag keeps. The later [benchmark](benchmark.qmd) covers both against the full libraries on eight genomes. Thresholds can also miss a real enzyme; for example, *E. coli* PyrC scores below KOfam's conservative `K01465` cutoff. These are reasons to examine search coverage and evidence before interpreting an unsupported capability as biological absence.
 
-For build mechanics, overlap handling and the full validation rationale, see [Methods and validation](methods.qmd).
+For build mechanics, overlap handling and the full validation rationale, see [Methods and validation](methods.qmd). For the comparison with KofamScan, run_dbcan, HMMER and InterProScan, see [Benchmark](benchmark.qmd).
