@@ -1,0 +1,49 @@
+{
+  "tool": "giftag-build",
+  "scope": "subset",
+  "version": "0.2.0",
+  "threads": 8,
+  "command": [
+    "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/environments/giftag/bin/python",
+    "-m",
+    "giftag",
+    "build",
+    "--db",
+    "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db",
+    "--gifter-db",
+    "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/source/benchmarks/data/gifter-markers.tsv",
+    "--kofam-release",
+    "2026-08-02",
+    "--kofam-dir",
+    "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/kofam",
+    "--ncbifam-release",
+    "20.0",
+    "--dbcan-release",
+    "db_v5-2-9_5-5-2026",
+    "--dbcan-dir",
+    "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/dbcan",
+    "--threads",
+    "8"
+  ],
+  "cwd": "/home/jpl786",
+  "started_utc": "2026-10-04T14:16:56.404003+00:00",
+  "finished_utc": "2026-10-04T14:17:55.411319+00:00",
+  "exit_code": 0,
+  "wall_seconds": 59.007268611341715,
+  "user_cpu_seconds": 28.154182,
+  "system_cpu_seconds": 4.478818,
+  "peak_child_rss_bytes": 1211469824,
+  "hostname": "mjolnircomp14fl.unicph.domain",
+  "platform": "Linux-4.18.0-553.137.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python": "3.11.16",
+  "slurm_job_id": "45855412",
+  "slurm_cpus_per_task": "8",
+  "inputs": [
+    {
+      "path": "/maps/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/source/benchmarks/data/gifter-markers.tsv",
+      "bytes": 149525,
+      "sha256": "552fc134bb989ed37e0223ce05a17e0632a217416a197fbd6e36ce1d536667b9"
+    }
+  ],
+  "databases": []
+}

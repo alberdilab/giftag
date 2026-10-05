@@ -1,0 +1,14 @@
+genome_id	gene_id	namespace	accession	status
+bsubtilis_168	bsubtilis_168_p000711	NCBIFAM	NF053595.1	giftag_only
+bsubtilis_168	bsubtilis_168_p000754	NCBIFAM	NF053595.1	giftag_only
+bsubtilis_168	bsubtilis_168_p002133	NCBIFAM	TIGR01001.2	reference_only
+btheta_vpi5482	btheta_vpi5482_p001195	NCBIFAM	TIGR01001.2	reference_only
+cacetobutylicum_824	cacetobutylicum_824_p001813	NCBIFAM	TIGR01001.2	reference_only
+cacetobutylicum_824	cacetobutylicum_824_p002664	NCBIFAM	NF040707.3	giftag_only
+cacetobutylicum_824	cacetobutylicum_824_p002665	NCBIFAM	NF040708.3	giftag_only
+mjannaschii_2661	mjannaschii_2661_p001364	NCBIFAM	NF052591.1	giftag_only
+mjannaschii_2661	mjannaschii_2661_p001365	NCBIFAM	NF052589.1	giftag_only
+mjannaschii_2661	mjannaschii_2661_p001366	NCBIFAM	NF058587.1	giftag_only
+paeruginosa_pao1	paeruginosa_pao1_p000332	NCBIFAM	NF052360.1	giftag_only
+paeruginosa_pao1	paeruginosa_pao1_p000507	NCBIFAM	NF040707.3	giftag_only
+paeruginosa_pao1	paeruginosa_pao1_p000509	NCBIFAM	NF040707.3	giftag_only

@@ -1,0 +1,1 @@
+55321a6475c92660d3c727820d135dbe200dba61d9716009ce06156e7a32334d  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/software/interproscan6-6.0.2.2.tar.gz

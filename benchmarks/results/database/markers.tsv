@@ -1,0 +1,1577 @@
+namespace	accession	name	source	status	profile	detail
+CAZY	AA10	CAZy family AA10	dbcan	searchable	AA10	
+CAZY	AA10_e1	dbCAN-sub cluster AA10_e1	dbcan_sub	searchable	AA10_e1	
+CAZY	AA10_e12	dbCAN-sub cluster AA10_e12	dbcan_sub	searchable	AA10_e12	
+CAZY	AA10_e44	dbCAN-sub cluster AA10_e44	dbcan_sub	searchable	AA10_e44	
+CAZY	AA10_e49	dbCAN-sub cluster AA10_e49	dbcan_sub	searchable	AA10_e49	
+CAZY	AA10_e58	dbCAN-sub cluster AA10_e58	dbcan_sub	searchable	AA10_e58	
+CAZY	AA10_e66	dbCAN-sub cluster AA10_e66	dbcan_sub	searchable	AA10_e66	
+CAZY	CE1	CAZy family CE1	dbcan	searchable	CE1	
+CAZY	CE12	CAZy family CE12	dbcan	searchable	CE12	
+CAZY	CE12_e45	dbCAN-sub cluster CE12_e45	dbcan_sub	searchable	CE12_e45	
+CAZY	CE1_e20	dbCAN-sub cluster CE1_e20	dbcan_sub	searchable	CE1_e20	
+CAZY	CE1_e4	dbCAN-sub cluster CE1_e4	dbcan_sub	searchable	CE1_e4	
+CAZY	CE2	CAZy family CE2	dbcan	searchable	CE2	
+CAZY	CE3	CAZy family CE3	dbcan	searchable	CE3	
+CAZY	CE4	CAZy family CE4	dbcan	searchable	CE4	
+CAZY	CE4_e262	dbCAN-sub cluster CE4_e262	dbcan_sub	searchable	CE4_e262	
+CAZY	CE4_e58	dbCAN-sub cluster CE4_e58	dbcan_sub	searchable	CE4_e58	
+CAZY	CE5	CAZy family CE5	dbcan	searchable	CE5	
+CAZY	CE5_e24	dbCAN-sub cluster CE5_e24	dbcan_sub	searchable	CE5_e24	
+CAZY	CE6	CAZy family CE6	dbcan	searchable	CE6	
+CAZY	CE6_e2	dbCAN-sub cluster CE6_e2	dbcan_sub	searchable	CE6_e2	
+CAZY	CE6_e3	dbCAN-sub cluster CE6_e3	dbcan_sub	searchable	CE6_e3	
+CAZY	CE7	CAZy family CE7	dbcan	searchable	CE7	
+CAZY	CE7_e11	dbCAN-sub cluster CE7_e11	dbcan_sub	searchable	CE7_e11	
+CAZY	CE7_e23	dbCAN-sub cluster CE7_e23	dbcan_sub	searchable	CE7_e23	
+CAZY	CE7_e33	dbCAN-sub cluster CE7_e33	dbcan_sub	searchable	CE7_e33	
+CAZY	CE8	CAZy family CE8	dbcan	searchable	CE8	
+CAZY	CE8_e1	dbCAN-sub cluster CE8_e1	dbcan_sub	searchable	CE8_e1	
+CAZY	CE8_e105	dbCAN-sub cluster CE8_e105	dbcan_sub	searchable	CE8_e105	
+CAZY	CE8_e14	dbCAN-sub cluster CE8_e14	dbcan_sub	searchable	CE8_e14	
+CAZY	CE8_e16	dbCAN-sub cluster CE8_e16	dbcan_sub	searchable	CE8_e16	
+CAZY	CE8_e19	dbCAN-sub cluster CE8_e19	dbcan_sub	searchable	CE8_e19	
+CAZY	CE8_e22	dbCAN-sub cluster CE8_e22	dbcan_sub	searchable	CE8_e22	
+CAZY	CE8_e24	dbCAN-sub cluster CE8_e24	dbcan_sub	searchable	CE8_e24	
+CAZY	CE8_e30	dbCAN-sub cluster CE8_e30	dbcan_sub	searchable	CE8_e30	
+CAZY	CE8_e32	dbCAN-sub cluster CE8_e32	dbcan_sub	searchable	CE8_e32	
+CAZY	CE8_e38	dbCAN-sub cluster CE8_e38	dbcan_sub	searchable	CE8_e38	
+CAZY	CE8_e43	dbCAN-sub cluster CE8_e43	dbcan_sub	searchable	CE8_e43	
+CAZY	CE8_e47	dbCAN-sub cluster CE8_e47	dbcan_sub	searchable	CE8_e47	
+CAZY	CE8_e52	dbCAN-sub cluster CE8_e52	dbcan_sub	searchable	CE8_e52	
+CAZY	CE8_e6	dbCAN-sub cluster CE8_e6	dbcan_sub	searchable	CE8_e6	
+CAZY	CE8_e61	dbCAN-sub cluster CE8_e61	dbcan_sub	searchable	CE8_e61	
+CAZY	CE8_e62	dbCAN-sub cluster CE8_e62	dbcan_sub	searchable	CE8_e62	
+CAZY	CE8_e78	dbCAN-sub cluster CE8_e78	dbcan_sub	searchable	CE8_e78	
+CAZY	CE8_e84	dbCAN-sub cluster CE8_e84	dbcan_sub	searchable	CE8_e84	
+CAZY	CE8_e99	dbCAN-sub cluster CE8_e99	dbcan_sub	searchable	CE8_e99	
+CAZY	GH1	CAZy family GH1	dbcan	searchable	GH1	
+CAZY	GH10	CAZy family GH10	dbcan	searchable	GH10	
+CAZY	GH109	CAZy family GH109	dbcan	searchable	GH109	
+CAZY	GH109_e0	dbCAN-sub cluster GH109_e0	dbcan_sub	searchable	GH109_e0	
+CAZY	GH109_e1	dbCAN-sub cluster GH109_e1	dbcan_sub	searchable	GH109_e1	
+CAZY	GH10_e0	dbCAN-sub cluster GH10_e0	dbcan_sub	searchable	GH10_e0	
+CAZY	GH10_e10	dbCAN-sub cluster GH10_e10	dbcan_sub	searchable	GH10_e10	
+CAZY	GH10_e101	dbCAN-sub cluster GH10_e101	dbcan_sub	searchable	GH10_e101	
+CAZY	GH10_e103	dbCAN-sub cluster GH10_e103	dbcan_sub	searchable	GH10_e103	
+CAZY	GH10_e105	dbCAN-sub cluster GH10_e105	dbcan_sub	searchable	GH10_e105	
+CAZY	GH10_e109	dbCAN-sub cluster GH10_e109	dbcan_sub	searchable	GH10_e109	
+CAZY	GH10_e112	dbCAN-sub cluster GH10_e112	dbcan_sub	searchable	GH10_e112	
+CAZY	GH10_e118	dbCAN-sub cluster GH10_e118	dbcan_sub	searchable	GH10_e118	
+CAZY	GH10_e12	dbCAN-sub cluster GH10_e12	dbcan_sub	searchable	GH10_e12	
+CAZY	GH10_e130	dbCAN-sub cluster GH10_e130	dbcan_sub	searchable	GH10_e130	
+CAZY	GH10_e134	dbCAN-sub cluster GH10_e134	dbcan_sub	searchable	GH10_e134	
+CAZY	GH10_e135	dbCAN-sub cluster GH10_e135	dbcan_sub	searchable	GH10_e135	
+CAZY	GH10_e137	dbCAN-sub cluster GH10_e137	dbcan_sub	searchable	GH10_e137	
+CAZY	GH10_e141	dbCAN-sub cluster GH10_e141	dbcan_sub	searchable	GH10_e141	
+CAZY	GH10_e143	dbCAN-sub cluster GH10_e143	dbcan_sub	searchable	GH10_e143	
+CAZY	GH10_e144	dbCAN-sub cluster GH10_e144	dbcan_sub	searchable	GH10_e144	
+CAZY	GH10_e148	dbCAN-sub cluster GH10_e148	dbcan_sub	searchable	GH10_e148	
+CAZY	GH10_e170	dbCAN-sub cluster GH10_e170	dbcan_sub	searchable	GH10_e170	
+CAZY	GH10_e188	dbCAN-sub cluster GH10_e188	dbcan_sub	searchable	GH10_e188	
+CAZY	GH10_e19	dbCAN-sub cluster GH10_e19	dbcan_sub	searchable	GH10_e19	
+CAZY	GH10_e191	dbCAN-sub cluster GH10_e191	dbcan_sub	searchable	GH10_e191	
+CAZY	GH10_e20	dbCAN-sub cluster GH10_e20	dbcan_sub	searchable	GH10_e20	
+CAZY	GH10_e204	dbCAN-sub cluster GH10_e204	dbcan_sub	searchable	GH10_e204	
+CAZY	GH10_e21	dbCAN-sub cluster GH10_e21	dbcan_sub	searchable	GH10_e21	
+CAZY	GH10_e225	dbCAN-sub cluster GH10_e225	dbcan_sub	searchable	GH10_e225	
+CAZY	GH10_e25	dbCAN-sub cluster GH10_e25	dbcan_sub	searchable	GH10_e25	
+CAZY	GH10_e250	dbCAN-sub cluster GH10_e250	dbcan_sub	searchable	GH10_e250	
+CAZY	GH10_e3	dbCAN-sub cluster GH10_e3	dbcan_sub	searchable	GH10_e3	
+CAZY	GH10_e30	dbCAN-sub cluster GH10_e30	dbcan_sub	searchable	GH10_e30	
+CAZY	GH10_e38	dbCAN-sub cluster GH10_e38	dbcan_sub	searchable	GH10_e38	
+CAZY	GH10_e40	dbCAN-sub cluster GH10_e40	dbcan_sub	searchable	GH10_e40	
+CAZY	GH10_e43	dbCAN-sub cluster GH10_e43	dbcan_sub	searchable	GH10_e43	
+CAZY	GH10_e5	dbCAN-sub cluster GH10_e5	dbcan_sub	searchable	GH10_e5	
+CAZY	GH10_e50	dbCAN-sub cluster GH10_e50	dbcan_sub	searchable	GH10_e50	
+CAZY	GH10_e52	dbCAN-sub cluster GH10_e52	dbcan_sub	searchable	GH10_e52	
+CAZY	GH10_e53	dbCAN-sub cluster GH10_e53	dbcan_sub	searchable	GH10_e53	
+CAZY	GH10_e58	dbCAN-sub cluster GH10_e58	dbcan_sub	searchable	GH10_e58	
+CAZY	GH10_e6	dbCAN-sub cluster GH10_e6	dbcan_sub	searchable	GH10_e6	
+CAZY	GH10_e60	dbCAN-sub cluster GH10_e60	dbcan_sub	searchable	GH10_e60	
+CAZY	GH10_e64	dbCAN-sub cluster GH10_e64	dbcan_sub	searchable	GH10_e64	
+CAZY	GH10_e67	dbCAN-sub cluster GH10_e67	dbcan_sub	searchable	GH10_e67	
+CAZY	GH10_e75	dbCAN-sub cluster GH10_e75	dbcan_sub	searchable	GH10_e75	
+CAZY	GH10_e77	dbCAN-sub cluster GH10_e77	dbcan_sub	searchable	GH10_e77	
+CAZY	GH10_e78	dbCAN-sub cluster GH10_e78	dbcan_sub	searchable	GH10_e78	
+CAZY	GH10_e8	dbCAN-sub cluster GH10_e8	dbcan_sub	searchable	GH10_e8	
+CAZY	GH10_e83	dbCAN-sub cluster GH10_e83	dbcan_sub	searchable	GH10_e83	
+CAZY	GH10_e85	dbCAN-sub cluster GH10_e85	dbcan_sub	searchable	GH10_e85	
+CAZY	GH10_e88	dbCAN-sub cluster GH10_e88	dbcan_sub	searchable	GH10_e88	
+CAZY	GH10_e90	dbCAN-sub cluster GH10_e90	dbcan_sub	searchable	GH10_e90	
+CAZY	GH10_e96	dbCAN-sub cluster GH10_e96	dbcan_sub	searchable	GH10_e96	
+CAZY	GH10_e97	dbCAN-sub cluster GH10_e97	dbcan_sub	searchable	GH10_e97	
+CAZY	GH10_e98	dbCAN-sub cluster GH10_e98	dbcan_sub	searchable	GH10_e98	
+CAZY	GH11	CAZy family GH11	dbcan	searchable	GH11	
+CAZY	GH116	CAZy family GH116	dbcan	searchable	GH116	
+CAZY	GH119	CAZy family GH119	dbcan	searchable	GH119	
+CAZY	GH119_e2	dbCAN-sub cluster GH119_e2	dbcan_sub	searchable	GH119_e2	
+CAZY	GH11_e0	dbCAN-sub cluster GH11_e0	dbcan_sub	searchable	GH11_e0	
+CAZY	GH11_e10	dbCAN-sub cluster GH11_e10	dbcan_sub	searchable	GH11_e10	
+CAZY	GH11_e11	dbCAN-sub cluster GH11_e11	dbcan_sub	searchable	GH11_e11	
+CAZY	GH11_e13	dbCAN-sub cluster GH11_e13	dbcan_sub	searchable	GH11_e13	
+CAZY	GH11_e14	dbCAN-sub cluster GH11_e14	dbcan_sub	searchable	GH11_e14	
+CAZY	GH11_e15	dbCAN-sub cluster GH11_e15	dbcan_sub	searchable	GH11_e15	
+CAZY	GH11_e16	dbCAN-sub cluster GH11_e16	dbcan_sub	searchable	GH11_e16	
+CAZY	GH11_e17	dbCAN-sub cluster GH11_e17	dbcan_sub	searchable	GH11_e17	
+CAZY	GH11_e2	dbCAN-sub cluster GH11_e2	dbcan_sub	searchable	GH11_e2	
+CAZY	GH11_e20	dbCAN-sub cluster GH11_e20	dbcan_sub	searchable	GH11_e20	
+CAZY	GH11_e22	dbCAN-sub cluster GH11_e22	dbcan_sub	searchable	GH11_e22	
+CAZY	GH11_e23	dbCAN-sub cluster GH11_e23	dbcan_sub	searchable	GH11_e23	
+CAZY	GH11_e24	dbCAN-sub cluster GH11_e24	dbcan_sub	searchable	GH11_e24	
+CAZY	GH11_e39	dbCAN-sub cluster GH11_e39	dbcan_sub	searchable	GH11_e39	
+CAZY	GH11_e42	dbCAN-sub cluster GH11_e42	dbcan_sub	searchable	GH11_e42	
+CAZY	GH11_e5	dbCAN-sub cluster GH11_e5	dbcan_sub	searchable	GH11_e5	
+CAZY	GH11_e7	dbCAN-sub cluster GH11_e7	dbcan_sub	searchable	GH11_e7	
+CAZY	GH11_e8	dbCAN-sub cluster GH11_e8	dbcan_sub	searchable	GH11_e8	
+CAZY	GH120	CAZy family GH120	dbcan	searchable	GH120	
+CAZY	GH120_e0	dbCAN-sub cluster GH120_e0	dbcan_sub	searchable	GH120_e0	
+CAZY	GH122	CAZy family GH122	dbcan	searchable	GH122	
+CAZY	GH126	CAZy family GH126	dbcan	searchable	GH126	
+CAZY	GH13	CAZy family GH13	dbcan	searchable	GH13	
+CAZY	GH13_e108	dbCAN-sub cluster GH13_e108	dbcan_sub	searchable	GH13_e108	
+CAZY	GH13_e113	dbCAN-sub cluster GH13_e113	dbcan_sub	searchable	GH13_e113	
+CAZY	GH13_e122	dbCAN-sub cluster GH13_e122	dbcan_sub	searchable	GH13_e122	
+CAZY	GH13_e124	dbCAN-sub cluster GH13_e124	dbcan_sub	searchable	GH13_e124	
+CAZY	GH13_e13	dbCAN-sub cluster GH13_e13	dbcan_sub	searchable	GH13_e13	
+CAZY	GH13_e130	dbCAN-sub cluster GH13_e130	dbcan_sub	searchable	GH13_e130	
+CAZY	GH13_e139	dbCAN-sub cluster GH13_e139	dbcan_sub	searchable	GH13_e139	
+CAZY	GH13_e143	dbCAN-sub cluster GH13_e143	dbcan_sub	searchable	GH13_e143	
+CAZY	GH13_e146	dbCAN-sub cluster GH13_e146	dbcan_sub	searchable	GH13_e146	
+CAZY	GH13_e160	dbCAN-sub cluster GH13_e160	dbcan_sub	searchable	GH13_e160	
+CAZY	GH13_e165	dbCAN-sub cluster GH13_e165	dbcan_sub	searchable	GH13_e165	
+CAZY	GH13_e172	dbCAN-sub cluster GH13_e172	dbcan_sub	searchable	GH13_e172	
+CAZY	GH13_e173	dbCAN-sub cluster GH13_e173	dbcan_sub	searchable	GH13_e173	
+CAZY	GH13_e18	dbCAN-sub cluster GH13_e18	dbcan_sub	searchable	GH13_e18	
+CAZY	GH13_e180	dbCAN-sub cluster GH13_e180	dbcan_sub	searchable	GH13_e180	
+CAZY	GH13_e183	dbCAN-sub cluster GH13_e183	dbcan_sub	searchable	GH13_e183	
+CAZY	GH13_e19	dbCAN-sub cluster GH13_e19	dbcan_sub	searchable	GH13_e19	
+CAZY	GH13_e205	dbCAN-sub cluster GH13_e205	dbcan_sub	searchable	GH13_e205	
+CAZY	GH13_e206	dbCAN-sub cluster GH13_e206	dbcan_sub	searchable	GH13_e206	
+CAZY	GH13_e221	dbCAN-sub cluster GH13_e221	dbcan_sub	searchable	GH13_e221	
+CAZY	GH13_e23	dbCAN-sub cluster GH13_e23	dbcan_sub	searchable	GH13_e23	
+CAZY	GH13_e234	dbCAN-sub cluster GH13_e234	dbcan_sub	searchable	GH13_e234	
+CAZY	GH13_e240	dbCAN-sub cluster GH13_e240	dbcan_sub	searchable	GH13_e240	
+CAZY	GH13_e245	dbCAN-sub cluster GH13_e245	dbcan_sub	searchable	GH13_e245	
+CAZY	GH13_e248	dbCAN-sub cluster GH13_e248	dbcan_sub	searchable	GH13_e248	
+CAZY	GH13_e25	dbCAN-sub cluster GH13_e25	dbcan_sub	searchable	GH13_e25	
+CAZY	GH13_e250	dbCAN-sub cluster GH13_e250	dbcan_sub	searchable	GH13_e250	
+CAZY	GH13_e276	dbCAN-sub cluster GH13_e276	dbcan_sub	searchable	GH13_e276	
+CAZY	GH13_e278	dbCAN-sub cluster GH13_e278	dbcan_sub	searchable	GH13_e278	
+CAZY	GH13_e300	dbCAN-sub cluster GH13_e300	dbcan_sub	searchable	GH13_e300	
+CAZY	GH13_e302	dbCAN-sub cluster GH13_e302	dbcan_sub	searchable	GH13_e302	
+CAZY	GH13_e303	dbCAN-sub cluster GH13_e303	dbcan_sub	searchable	GH13_e303	
+CAZY	GH13_e307	dbCAN-sub cluster GH13_e307	dbcan_sub	searchable	GH13_e307	
+CAZY	GH13_e315	dbCAN-sub cluster GH13_e315	dbcan_sub	searchable	GH13_e315	
+CAZY	GH13_e329	dbCAN-sub cluster GH13_e329	dbcan_sub	searchable	GH13_e329	
+CAZY	GH13_e34	dbCAN-sub cluster GH13_e34	dbcan_sub	searchable	GH13_e34	
+CAZY	GH13_e345	dbCAN-sub cluster GH13_e345	dbcan_sub	searchable	GH13_e345	
+CAZY	GH13_e346	dbCAN-sub cluster GH13_e346	dbcan_sub	searchable	GH13_e346	
+CAZY	GH13_e347	dbCAN-sub cluster GH13_e347	dbcan_sub	searchable	GH13_e347	
+CAZY	GH13_e348	dbCAN-sub cluster GH13_e348	dbcan_sub	searchable	GH13_e348	
+CAZY	GH13_e349	dbCAN-sub cluster GH13_e349	dbcan_sub	searchable	GH13_e349	
+CAZY	GH13_e354	dbCAN-sub cluster GH13_e354	dbcan_sub	searchable	GH13_e354	
+CAZY	GH13_e380	dbCAN-sub cluster GH13_e380	dbcan_sub	searchable	GH13_e380	
+CAZY	GH13_e381	dbCAN-sub cluster GH13_e381	dbcan_sub	searchable	GH13_e381	
+CAZY	GH13_e386	dbCAN-sub cluster GH13_e386	dbcan_sub	searchable	GH13_e386	
+CAZY	GH13_e387	dbCAN-sub cluster GH13_e387	dbcan_sub	searchable	GH13_e387	
+CAZY	GH13_e389	dbCAN-sub cluster GH13_e389	dbcan_sub	searchable	GH13_e389	
+CAZY	GH13_e392	dbCAN-sub cluster GH13_e392	dbcan_sub	searchable	GH13_e392	
+CAZY	GH13_e406	dbCAN-sub cluster GH13_e406	dbcan_sub	searchable	GH13_e406	
+CAZY	GH13_e409	dbCAN-sub cluster GH13_e409	dbcan_sub	searchable	GH13_e409	
+CAZY	GH13_e413	dbCAN-sub cluster GH13_e413	dbcan_sub	searchable	GH13_e413	
+CAZY	GH13_e419	dbCAN-sub cluster GH13_e419	dbcan_sub	searchable	GH13_e419	
+CAZY	GH13_e42	dbCAN-sub cluster GH13_e42	dbcan_sub	searchable	GH13_e42	
+CAZY	GH13_e443	dbCAN-sub cluster GH13_e443	dbcan_sub	searchable	GH13_e443	
+CAZY	GH13_e446	dbCAN-sub cluster GH13_e446	dbcan_sub	searchable	GH13_e446	
+CAZY	GH13_e462	dbCAN-sub cluster GH13_e462	dbcan_sub	searchable	GH13_e462	
+CAZY	GH13_e465	dbCAN-sub cluster GH13_e465	dbcan_sub	searchable	GH13_e465	
+CAZY	GH13_e47	dbCAN-sub cluster GH13_e47	dbcan_sub	searchable	GH13_e47	
+CAZY	GH13_e484	dbCAN-sub cluster GH13_e484	dbcan_sub	searchable	GH13_e484	
+CAZY	GH13_e486	dbCAN-sub cluster GH13_e486	dbcan_sub	searchable	GH13_e486	
+CAZY	GH13_e491	dbCAN-sub cluster GH13_e491	dbcan_sub	searchable	GH13_e491	
+CAZY	GH13_e493	dbCAN-sub cluster GH13_e493	dbcan_sub	searchable	GH13_e493	
+CAZY	GH13_e497	dbCAN-sub cluster GH13_e497	dbcan_sub	searchable	GH13_e497	
+CAZY	GH13_e5	dbCAN-sub cluster GH13_e5	dbcan_sub	searchable	GH13_e5	
+CAZY	GH13_e500	dbCAN-sub cluster GH13_e500	dbcan_sub	searchable	GH13_e500	
+CAZY	GH13_e61	dbCAN-sub cluster GH13_e61	dbcan_sub	searchable	GH13_e61	
+CAZY	GH13_e94	dbCAN-sub cluster GH13_e94	dbcan_sub	searchable	GH13_e94	
+CAZY	GH141	CAZy family GH141	dbcan	searchable	GH141	
+CAZY	GH14_e6	dbCAN-sub cluster GH14_e6	dbcan_sub	searchable	GH14_e6	
+CAZY	GH151_e0	dbCAN-sub cluster GH151_e0	dbcan_sub	searchable	GH151_e0	
+CAZY	GH16_e14	dbCAN-sub cluster GH16_e14	dbcan_sub	searchable	GH16_e14	
+CAZY	GH18	CAZy family GH18	dbcan	searchable	GH18	
+CAZY	GH18_e1	dbCAN-sub cluster GH18_e1	dbcan_sub	searchable	GH18_e1	
+CAZY	GH18_e104	dbCAN-sub cluster GH18_e104	dbcan_sub	searchable	GH18_e104	
+CAZY	GH18_e111	dbCAN-sub cluster GH18_e111	dbcan_sub	searchable	GH18_e111	
+CAZY	GH18_e121	dbCAN-sub cluster GH18_e121	dbcan_sub	searchable	GH18_e121	
+CAZY	GH18_e14	dbCAN-sub cluster GH18_e14	dbcan_sub	searchable	GH18_e14	
+CAZY	GH18_e147	dbCAN-sub cluster GH18_e147	dbcan_sub	searchable	GH18_e147	
+CAZY	GH18_e148	dbCAN-sub cluster GH18_e148	dbcan_sub	searchable	GH18_e148	
+CAZY	GH18_e151	dbCAN-sub cluster GH18_e151	dbcan_sub	searchable	GH18_e151	
+CAZY	GH18_e154	dbCAN-sub cluster GH18_e154	dbcan_sub	searchable	GH18_e154	
+CAZY	GH18_e164	dbCAN-sub cluster GH18_e164	dbcan_sub	searchable	GH18_e164	
+CAZY	GH18_e175	dbCAN-sub cluster GH18_e175	dbcan_sub	searchable	GH18_e175	
+CAZY	GH18_e177	dbCAN-sub cluster GH18_e177	dbcan_sub	searchable	GH18_e177	
+CAZY	GH18_e184	dbCAN-sub cluster GH18_e184	dbcan_sub	searchable	GH18_e184	
+CAZY	GH18_e187	dbCAN-sub cluster GH18_e187	dbcan_sub	searchable	GH18_e187	
+CAZY	GH18_e19	dbCAN-sub cluster GH18_e19	dbcan_sub	searchable	GH18_e19	
+CAZY	GH18_e193	dbCAN-sub cluster GH18_e193	dbcan_sub	searchable	GH18_e193	
+CAZY	GH18_e196	dbCAN-sub cluster GH18_e196	dbcan_sub	searchable	GH18_e196	
+CAZY	GH18_e2	dbCAN-sub cluster GH18_e2	dbcan_sub	searchable	GH18_e2	
+CAZY	GH18_e20	dbCAN-sub cluster GH18_e20	dbcan_sub	searchable	GH18_e20	
+CAZY	GH18_e211	dbCAN-sub cluster GH18_e211	dbcan_sub	searchable	GH18_e211	
+CAZY	GH18_e224	dbCAN-sub cluster GH18_e224	dbcan_sub	searchable	GH18_e224	
+CAZY	GH18_e231	dbCAN-sub cluster GH18_e231	dbcan_sub	searchable	GH18_e231	
+CAZY	GH18_e236	dbCAN-sub cluster GH18_e236	dbcan_sub	searchable	GH18_e236	
+CAZY	GH18_e253	dbCAN-sub cluster GH18_e253	dbcan_sub	searchable	GH18_e253	
+CAZY	GH18_e258	dbCAN-sub cluster GH18_e258	dbcan_sub	searchable	GH18_e258	
+CAZY	GH18_e26	dbCAN-sub cluster GH18_e26	dbcan_sub	searchable	GH18_e26	
+CAZY	GH18_e260	dbCAN-sub cluster GH18_e260	dbcan_sub	searchable	GH18_e260	
+CAZY	GH18_e263	dbCAN-sub cluster GH18_e263	dbcan_sub	searchable	GH18_e263	
+CAZY	GH18_e272	dbCAN-sub cluster GH18_e272	dbcan_sub	searchable	GH18_e272	
+CAZY	GH18_e285	dbCAN-sub cluster GH18_e285	dbcan_sub	searchable	GH18_e285	
+CAZY	GH18_e287	dbCAN-sub cluster GH18_e287	dbcan_sub	searchable	GH18_e287	
+CAZY	GH18_e3	dbCAN-sub cluster GH18_e3	dbcan_sub	searchable	GH18_e3	
+CAZY	GH18_e325	dbCAN-sub cluster GH18_e325	dbcan_sub	searchable	GH18_e325	
+CAZY	GH18_e327	dbCAN-sub cluster GH18_e327	dbcan_sub	searchable	GH18_e327	
+CAZY	GH18_e334	dbCAN-sub cluster GH18_e334	dbcan_sub	searchable	GH18_e334	
+CAZY	GH18_e338	dbCAN-sub cluster GH18_e338	dbcan_sub	searchable	GH18_e338	
+CAZY	GH18_e342	dbCAN-sub cluster GH18_e342	dbcan_sub	searchable	GH18_e342	
+CAZY	GH18_e347	dbCAN-sub cluster GH18_e347	dbcan_sub	searchable	GH18_e347	
+CAZY	GH18_e348	dbCAN-sub cluster GH18_e348	dbcan_sub	searchable	GH18_e348	
+CAZY	GH18_e354	dbCAN-sub cluster GH18_e354	dbcan_sub	searchable	GH18_e354	
+CAZY	GH18_e373	dbCAN-sub cluster GH18_e373	dbcan_sub	searchable	GH18_e373	
+CAZY	GH18_e392	dbCAN-sub cluster GH18_e392	dbcan_sub	searchable	GH18_e392	
+CAZY	GH18_e4	dbCAN-sub cluster GH18_e4	dbcan_sub	searchable	GH18_e4	
+CAZY	GH18_e401	dbCAN-sub cluster GH18_e401	dbcan_sub	searchable	GH18_e401	
+CAZY	GH18_e428	dbCAN-sub cluster GH18_e428	dbcan_sub	searchable	GH18_e428	
+CAZY	GH18_e431	dbCAN-sub cluster GH18_e431	dbcan_sub	searchable	GH18_e431	
+CAZY	GH18_e521	dbCAN-sub cluster GH18_e521	dbcan_sub	searchable	GH18_e521	
+CAZY	GH18_e66	dbCAN-sub cluster GH18_e66	dbcan_sub	searchable	GH18_e66	
+CAZY	GH18_e672	dbCAN-sub cluster GH18_e672	dbcan_sub	searchable	GH18_e672	
+CAZY	GH18_e69	dbCAN-sub cluster GH18_e69	dbcan_sub	searchable	GH18_e69	
+CAZY	GH18_e72	dbCAN-sub cluster GH18_e72	dbcan_sub	searchable	GH18_e72	
+CAZY	GH18_e77	dbCAN-sub cluster GH18_e77	dbcan_sub	searchable	GH18_e77	
+CAZY	GH18_e80	dbCAN-sub cluster GH18_e80	dbcan_sub	searchable	GH18_e80	
+CAZY	GH18_e81	dbCAN-sub cluster GH18_e81	dbcan_sub	searchable	GH18_e81	
+CAZY	GH18_e83	dbCAN-sub cluster GH18_e83	dbcan_sub	searchable	GH18_e83	
+CAZY	GH18_e830	dbCAN-sub cluster GH18_e830	dbcan_sub	searchable	GH18_e830	
+CAZY	GH18_e834	dbCAN-sub cluster GH18_e834	dbcan_sub	searchable	GH18_e834	
+CAZY	GH18_e91	dbCAN-sub cluster GH18_e91	dbcan_sub	searchable	GH18_e91	
+CAZY	GH18_e95	dbCAN-sub cluster GH18_e95	dbcan_sub	searchable	GH18_e95	
+CAZY	GH19	CAZy family GH19	dbcan	searchable	GH19	
+CAZY	GH19_e1	dbCAN-sub cluster GH19_e1	dbcan_sub	searchable	GH19_e1	
+CAZY	GH19_e113	dbCAN-sub cluster GH19_e113	dbcan_sub	searchable	GH19_e113	
+CAZY	GH19_e143	dbCAN-sub cluster GH19_e143	dbcan_sub	searchable	GH19_e143	
+CAZY	GH19_e169	dbCAN-sub cluster GH19_e169	dbcan_sub	searchable	GH19_e169	
+CAZY	GH19_e18	dbCAN-sub cluster GH19_e18	dbcan_sub	searchable	GH19_e18	
+CAZY	GH19_e27	dbCAN-sub cluster GH19_e27	dbcan_sub	searchable	GH19_e27	
+CAZY	GH19_e5	dbCAN-sub cluster GH19_e5	dbcan_sub	searchable	GH19_e5	
+CAZY	GH19_e81	dbCAN-sub cluster GH19_e81	dbcan_sub	searchable	GH19_e81	
+CAZY	GH2	CAZy family GH2	dbcan	searchable	GH2	
+CAZY	GH20	CAZy family GH20	dbcan	searchable	GH20	
+CAZY	GH20_e0	dbCAN-sub cluster GH20_e0	dbcan_sub	searchable	GH20_e0	
+CAZY	GH20_e1	dbCAN-sub cluster GH20_e1	dbcan_sub	searchable	GH20_e1	
+CAZY	GH20_e10	dbCAN-sub cluster GH20_e10	dbcan_sub	searchable	GH20_e10	
+CAZY	GH20_e105	dbCAN-sub cluster GH20_e105	dbcan_sub	searchable	GH20_e105	
+CAZY	GH20_e107	dbCAN-sub cluster GH20_e107	dbcan_sub	searchable	GH20_e107	
+CAZY	GH20_e114	dbCAN-sub cluster GH20_e114	dbcan_sub	searchable	GH20_e114	
+CAZY	GH20_e12	dbCAN-sub cluster GH20_e12	dbcan_sub	searchable	GH20_e12	
+CAZY	GH20_e13	dbCAN-sub cluster GH20_e13	dbcan_sub	searchable	GH20_e13	
+CAZY	GH20_e132	dbCAN-sub cluster GH20_e132	dbcan_sub	searchable	GH20_e132	
+CAZY	GH20_e137	dbCAN-sub cluster GH20_e137	dbcan_sub	searchable	GH20_e137	
+CAZY	GH20_e143	dbCAN-sub cluster GH20_e143	dbcan_sub	searchable	GH20_e143	
+CAZY	GH20_e146	dbCAN-sub cluster GH20_e146	dbcan_sub	searchable	GH20_e146	
+CAZY	GH20_e167	dbCAN-sub cluster GH20_e167	dbcan_sub	searchable	GH20_e167	
+CAZY	GH20_e18	dbCAN-sub cluster GH20_e18	dbcan_sub	searchable	GH20_e18	
+CAZY	GH20_e182	dbCAN-sub cluster GH20_e182	dbcan_sub	searchable	GH20_e182	
+CAZY	GH20_e214	dbCAN-sub cluster GH20_e214	dbcan_sub	searchable	GH20_e214	
+CAZY	GH20_e22	dbCAN-sub cluster GH20_e22	dbcan_sub	searchable	GH20_e22	
+CAZY	GH20_e35	dbCAN-sub cluster GH20_e35	dbcan_sub	searchable	GH20_e35	
+CAZY	GH20_e45	dbCAN-sub cluster GH20_e45	dbcan_sub	searchable	GH20_e45	
+CAZY	GH20_e49	dbCAN-sub cluster GH20_e49	dbcan_sub	searchable	GH20_e49	
+CAZY	GH20_e51	dbCAN-sub cluster GH20_e51	dbcan_sub	searchable	GH20_e51	
+CAZY	GH20_e57	dbCAN-sub cluster GH20_e57	dbcan_sub	searchable	GH20_e57	
+CAZY	GH20_e61	dbCAN-sub cluster GH20_e61	dbcan_sub	searchable	GH20_e61	
+CAZY	GH20_e70	dbCAN-sub cluster GH20_e70	dbcan_sub	searchable	GH20_e70	
+CAZY	GH20_e71	dbCAN-sub cluster GH20_e71	dbcan_sub	searchable	GH20_e71	
+CAZY	GH20_e74	dbCAN-sub cluster GH20_e74	dbcan_sub	searchable	GH20_e74	
+CAZY	GH20_e77	dbCAN-sub cluster GH20_e77	dbcan_sub	searchable	GH20_e77	
+CAZY	GH20_e80	dbCAN-sub cluster GH20_e80	dbcan_sub	searchable	GH20_e80	
+CAZY	GH20_e93	dbCAN-sub cluster GH20_e93	dbcan_sub	searchable	GH20_e93	
+CAZY	GH20_e95	dbCAN-sub cluster GH20_e95	dbcan_sub	searchable	GH20_e95	
+CAZY	GH20_e97	dbCAN-sub cluster GH20_e97	dbcan_sub	searchable	GH20_e97	
+CAZY	GH26_e54	dbCAN-sub cluster GH26_e54	dbcan_sub	searchable	GH26_e54	
+CAZY	GH28	CAZy family GH28	dbcan	searchable	GH28	
+CAZY	GH28_e0	dbCAN-sub cluster GH28_e0	dbcan_sub	searchable	GH28_e0	
+CAZY	GH28_e1	dbCAN-sub cluster GH28_e1	dbcan_sub	searchable	GH28_e1	
+CAZY	GH28_e107	dbCAN-sub cluster GH28_e107	dbcan_sub	searchable	GH28_e107	
+CAZY	GH28_e120	dbCAN-sub cluster GH28_e120	dbcan_sub	searchable	GH28_e120	
+CAZY	GH28_e125	dbCAN-sub cluster GH28_e125	dbcan_sub	searchable	GH28_e125	
+CAZY	GH28_e130	dbCAN-sub cluster GH28_e130	dbcan_sub	searchable	GH28_e130	
+CAZY	GH28_e200	dbCAN-sub cluster GH28_e200	dbcan_sub	searchable	GH28_e200	
+CAZY	GH28_e250	dbCAN-sub cluster GH28_e250	dbcan_sub	searchable	GH28_e250	
+CAZY	GH28_e29	dbCAN-sub cluster GH28_e29	dbcan_sub	searchable	GH28_e29	
+CAZY	GH28_e295	dbCAN-sub cluster GH28_e295	dbcan_sub	searchable	GH28_e295	
+CAZY	GH28_e45	dbCAN-sub cluster GH28_e45	dbcan_sub	searchable	GH28_e45	
+CAZY	GH28_e56	dbCAN-sub cluster GH28_e56	dbcan_sub	searchable	GH28_e56	
+CAZY	GH28_e58	dbCAN-sub cluster GH28_e58	dbcan_sub	searchable	GH28_e58	
+CAZY	GH28_e61	dbCAN-sub cluster GH28_e61	dbcan_sub	searchable	GH28_e61	
+CAZY	GH28_e67	dbCAN-sub cluster GH28_e67	dbcan_sub	searchable	GH28_e67	
+CAZY	GH28_e70	dbCAN-sub cluster GH28_e70	dbcan_sub	searchable	GH28_e70	
+CAZY	GH28_e75	dbCAN-sub cluster GH28_e75	dbcan_sub	searchable	GH28_e75	
+CAZY	GH28_e86	dbCAN-sub cluster GH28_e86	dbcan_sub	searchable	GH28_e86	
+CAZY	GH28_e98	dbCAN-sub cluster GH28_e98	dbcan_sub	searchable	GH28_e98	
+CAZY	GH29	CAZy family GH29	dbcan	searchable	GH29	
+CAZY	GH29_e1	dbCAN-sub cluster GH29_e1	dbcan_sub	searchable	GH29_e1	
+CAZY	GH29_e124	dbCAN-sub cluster GH29_e124	dbcan_sub	searchable	GH29_e124	
+CAZY	GH29_e126	dbCAN-sub cluster GH29_e126	dbcan_sub	searchable	GH29_e126	
+CAZY	GH29_e13	dbCAN-sub cluster GH29_e13	dbcan_sub	searchable	GH29_e13	
+CAZY	GH29_e149	dbCAN-sub cluster GH29_e149	dbcan_sub	searchable	GH29_e149	
+CAZY	GH29_e17	dbCAN-sub cluster GH29_e17	dbcan_sub	searchable	GH29_e17	
+CAZY	GH29_e29	dbCAN-sub cluster GH29_e29	dbcan_sub	searchable	GH29_e29	
+CAZY	GH29_e30	dbCAN-sub cluster GH29_e30	dbcan_sub	searchable	GH29_e30	
+CAZY	GH29_e53	dbCAN-sub cluster GH29_e53	dbcan_sub	searchable	GH29_e53	
+CAZY	GH29_e70	dbCAN-sub cluster GH29_e70	dbcan_sub	searchable	GH29_e70	
+CAZY	GH29_e79	dbCAN-sub cluster GH29_e79	dbcan_sub	searchable	GH29_e79	
+CAZY	GH29_e8	dbCAN-sub cluster GH29_e8	dbcan_sub	searchable	GH29_e8	
+CAZY	GH29_e81	dbCAN-sub cluster GH29_e81	dbcan_sub	searchable	GH29_e81	
+CAZY	GH29_e85	dbCAN-sub cluster GH29_e85	dbcan_sub	searchable	GH29_e85	
+CAZY	GH3	CAZy family GH3	dbcan	searchable	GH3	
+CAZY	GH30	CAZy family GH30	dbcan	searchable	GH30	
+CAZY	GH30_e138	dbCAN-sub cluster GH30_e138	dbcan_sub	searchable	GH30_e138	
+CAZY	GH30_e145	dbCAN-sub cluster GH30_e145	dbcan_sub	searchable	GH30_e145	
+CAZY	GH30_e48	dbCAN-sub cluster GH30_e48	dbcan_sub	searchable	GH30_e48	
+CAZY	GH30_e78	dbCAN-sub cluster GH30_e78	dbcan_sub	searchable	GH30_e78	
+CAZY	GH31	CAZy family GH31	dbcan	searchable	GH31	
+CAZY	GH31_e102	dbCAN-sub cluster GH31_e102	dbcan_sub	searchable	GH31_e102	
+CAZY	GH31_e177	dbCAN-sub cluster GH31_e177	dbcan_sub	searchable	GH31_e177	
+CAZY	GH31_e22	dbCAN-sub cluster GH31_e22	dbcan_sub	searchable	GH31_e22	
+CAZY	GH31_e39	dbCAN-sub cluster GH31_e39	dbcan_sub	searchable	GH31_e39	
+CAZY	GH31_e41	dbCAN-sub cluster GH31_e41	dbcan_sub	searchable	GH31_e41	
+CAZY	GH31_e42	dbCAN-sub cluster GH31_e42	dbcan_sub	searchable	GH31_e42	
+CAZY	GH31_e56	dbCAN-sub cluster GH31_e56	dbcan_sub	searchable	GH31_e56	
+CAZY	GH31_e7	dbCAN-sub cluster GH31_e7	dbcan_sub	searchable	GH31_e7	
+CAZY	GH31_e73	dbCAN-sub cluster GH31_e73	dbcan_sub	searchable	GH31_e73	
+CAZY	GH31_e78	dbCAN-sub cluster GH31_e78	dbcan_sub	searchable	GH31_e78	
+CAZY	GH31_e82	dbCAN-sub cluster GH31_e82	dbcan_sub	searchable	GH31_e82	
+CAZY	GH33	CAZy family GH33	dbcan	searchable	GH33	
+CAZY	GH33_e105	dbCAN-sub cluster GH33_e105	dbcan_sub	searchable	GH33_e105	
+CAZY	GH33_e121	dbCAN-sub cluster GH33_e121	dbcan_sub	searchable	GH33_e121	
+CAZY	GH33_e129	dbCAN-sub cluster GH33_e129	dbcan_sub	searchable	GH33_e129	
+CAZY	GH33_e130	dbCAN-sub cluster GH33_e130	dbcan_sub	searchable	GH33_e130	
+CAZY	GH33_e131	dbCAN-sub cluster GH33_e131	dbcan_sub	searchable	GH33_e131	
+CAZY	GH33_e132	dbCAN-sub cluster GH33_e132	dbcan_sub	searchable	GH33_e132	
+CAZY	GH33_e135	dbCAN-sub cluster GH33_e135	dbcan_sub	searchable	GH33_e135	
+CAZY	GH33_e163	dbCAN-sub cluster GH33_e163	dbcan_sub	searchable	GH33_e163	
+CAZY	GH33_e197	dbCAN-sub cluster GH33_e197	dbcan_sub	searchable	GH33_e197	
+CAZY	GH33_e22	dbCAN-sub cluster GH33_e22	dbcan_sub	searchable	GH33_e22	
+CAZY	GH33_e41	dbCAN-sub cluster GH33_e41	dbcan_sub	searchable	GH33_e41	
+CAZY	GH33_e5	dbCAN-sub cluster GH33_e5	dbcan_sub	searchable	GH33_e5	
+CAZY	GH33_e66	dbCAN-sub cluster GH33_e66	dbcan_sub	searchable	GH33_e66	
+CAZY	GH33_e75	dbCAN-sub cluster GH33_e75	dbcan_sub	searchable	GH33_e75	
+CAZY	GH33_e77	dbCAN-sub cluster GH33_e77	dbcan_sub	searchable	GH33_e77	
+CAZY	GH33_e9	dbCAN-sub cluster GH33_e9	dbcan_sub	searchable	GH33_e9	
+CAZY	GH33_e91	dbCAN-sub cluster GH33_e91	dbcan_sub	searchable	GH33_e91	
+CAZY	GH39	CAZy family GH39	dbcan	searchable	GH39	
+CAZY	GH39_e131	dbCAN-sub cluster GH39_e131	dbcan_sub	searchable	GH39_e131	
+CAZY	GH39_e264	dbCAN-sub cluster GH39_e264	dbcan_sub	searchable	GH39_e264	
+CAZY	GH39_e57	dbCAN-sub cluster GH39_e57	dbcan_sub	searchable	GH39_e57	
+CAZY	GH39_e74	dbCAN-sub cluster GH39_e74	dbcan_sub	searchable	GH39_e74	
+CAZY	GH3_e0	dbCAN-sub cluster GH3_e0	dbcan_sub	searchable	GH3_e0	
+CAZY	GH3_e165	dbCAN-sub cluster GH3_e165	dbcan_sub	searchable	GH3_e165	
+CAZY	GH3_e21	dbCAN-sub cluster GH3_e21	dbcan_sub	searchable	GH3_e21	
+CAZY	GH3_e32	dbCAN-sub cluster GH3_e32	dbcan_sub	searchable	GH3_e32	
+CAZY	GH3_e50	dbCAN-sub cluster GH3_e50	dbcan_sub	searchable	GH3_e50	
+CAZY	GH3_e73	dbCAN-sub cluster GH3_e73	dbcan_sub	searchable	GH3_e73	
+CAZY	GH3_e88	dbCAN-sub cluster GH3_e88	dbcan_sub	searchable	GH3_e88	
+CAZY	GH4	CAZy family GH4	dbcan	searchable	GH4	
+CAZY	GH43	CAZy family GH43	dbcan	searchable	GH43	
+CAZY	GH43_e0	dbCAN-sub cluster GH43_e0	dbcan_sub	searchable	GH43_e0	
+CAZY	GH43_e118	dbCAN-sub cluster GH43_e118	dbcan_sub	searchable	GH43_e118	
+CAZY	GH43_e124	dbCAN-sub cluster GH43_e124	dbcan_sub	searchable	GH43_e124	
+CAZY	GH43_e159	dbCAN-sub cluster GH43_e159	dbcan_sub	searchable	GH43_e159	
+CAZY	GH43_e173	dbCAN-sub cluster GH43_e173	dbcan_sub	searchable	GH43_e173	
+CAZY	GH43_e188	dbCAN-sub cluster GH43_e188	dbcan_sub	searchable	GH43_e188	
+CAZY	GH43_e194	dbCAN-sub cluster GH43_e194	dbcan_sub	searchable	GH43_e194	
+CAZY	GH43_e2	dbCAN-sub cluster GH43_e2	dbcan_sub	searchable	GH43_e2	
+CAZY	GH43_e239	dbCAN-sub cluster GH43_e239	dbcan_sub	searchable	GH43_e239	
+CAZY	GH43_e259	dbCAN-sub cluster GH43_e259	dbcan_sub	searchable	GH43_e259	
+CAZY	GH43_e261	dbCAN-sub cluster GH43_e261	dbcan_sub	searchable	GH43_e261	
+CAZY	GH43_e264	dbCAN-sub cluster GH43_e264	dbcan_sub	searchable	GH43_e264	
+CAZY	GH43_e285	dbCAN-sub cluster GH43_e285	dbcan_sub	searchable	GH43_e285	
+CAZY	GH43_e311	dbCAN-sub cluster GH43_e311	dbcan_sub	searchable	GH43_e311	
+CAZY	GH43_e327	dbCAN-sub cluster GH43_e327	dbcan_sub	searchable	GH43_e327	
+CAZY	GH43_e330	dbCAN-sub cluster GH43_e330	dbcan_sub	searchable	GH43_e330	
+CAZY	GH43_e398	dbCAN-sub cluster GH43_e398	dbcan_sub	searchable	GH43_e398	
+CAZY	GH43_e429	dbCAN-sub cluster GH43_e429	dbcan_sub	searchable	GH43_e429	
+CAZY	GH43_e459	dbCAN-sub cluster GH43_e459	dbcan_sub	searchable	GH43_e459	
+CAZY	GH43_e52	dbCAN-sub cluster GH43_e52	dbcan_sub	searchable	GH43_e52	
+CAZY	GH43_e53	dbCAN-sub cluster GH43_e53	dbcan_sub	searchable	GH43_e53	
+CAZY	GH43_e532	dbCAN-sub cluster GH43_e532	dbcan_sub	searchable	GH43_e532	
+CAZY	GH43_e59	dbCAN-sub cluster GH43_e59	dbcan_sub	searchable	GH43_e59	
+CAZY	GH43_e67	dbCAN-sub cluster GH43_e67	dbcan_sub	searchable	GH43_e67	
+CAZY	GH43_e79	dbCAN-sub cluster GH43_e79	dbcan_sub	searchable	GH43_e79	
+CAZY	GH43_e84	dbCAN-sub cluster GH43_e84	dbcan_sub	searchable	GH43_e84	
+CAZY	GH44	CAZy family GH44	dbcan	searchable	GH44	
+CAZY	GH4_e14	dbCAN-sub cluster GH4_e14	dbcan_sub	searchable	GH4_e14	
+CAZY	GH4_e30	dbCAN-sub cluster GH4_e30	dbcan_sub	searchable	GH4_e30	
+CAZY	GH4_e34	dbCAN-sub cluster GH4_e34	dbcan_sub	searchable	GH4_e34	
+CAZY	GH4_e6	dbCAN-sub cluster GH4_e6	dbcan_sub	searchable	GH4_e6	
+CAZY	GH5	CAZy family GH5	dbcan	searchable	GH5	
+CAZY	GH51	CAZy family GH51	dbcan	searchable	GH51	
+CAZY	GH51_e0	dbCAN-sub cluster GH51_e0	dbcan_sub	searchable	GH51_e0	
+CAZY	GH51_e1	dbCAN-sub cluster GH51_e1	dbcan_sub	searchable	GH51_e1	
+CAZY	GH51_e19	dbCAN-sub cluster GH51_e19	dbcan_sub	searchable	GH51_e19	
+CAZY	GH51_e26	dbCAN-sub cluster GH51_e26	dbcan_sub	searchable	GH51_e26	
+CAZY	GH51_e31	dbCAN-sub cluster GH51_e31	dbcan_sub	searchable	GH51_e31	
+CAZY	GH51_e34	dbCAN-sub cluster GH51_e34	dbcan_sub	searchable	GH51_e34	
+CAZY	GH51_e35	dbCAN-sub cluster GH51_e35	dbcan_sub	searchable	GH51_e35	
+CAZY	GH51_e36	dbCAN-sub cluster GH51_e36	dbcan_sub	searchable	GH51_e36	
+CAZY	GH51_e4	dbCAN-sub cluster GH51_e4	dbcan_sub	searchable	GH51_e4	
+CAZY	GH51_e47	dbCAN-sub cluster GH51_e47	dbcan_sub	searchable	GH51_e47	
+CAZY	GH51_e51	dbCAN-sub cluster GH51_e51	dbcan_sub	searchable	GH51_e51	
+CAZY	GH51_e65	dbCAN-sub cluster GH51_e65	dbcan_sub	searchable	GH51_e65	
+CAZY	GH51_e9	dbCAN-sub cluster GH51_e9	dbcan_sub	searchable	GH51_e9	
+CAZY	GH52	CAZy family GH52	dbcan	searchable	GH52	
+CAZY	GH52_e0	dbCAN-sub cluster GH52_e0	dbcan_sub	searchable	GH52_e0	
+CAZY	GH54	CAZy family GH54	dbcan	searchable	GH54	
+CAZY	GH54_e0	dbCAN-sub cluster GH54_e0	dbcan_sub	searchable	GH54_e0	
+CAZY	GH57	CAZy family GH57	dbcan	searchable	GH57	
+CAZY	GH57_e11	dbCAN-sub cluster GH57_e11	dbcan_sub	searchable	GH57_e11	
+CAZY	GH57_e15	dbCAN-sub cluster GH57_e15	dbcan_sub	searchable	GH57_e15	
+CAZY	GH57_e30	dbCAN-sub cluster GH57_e30	dbcan_sub	searchable	GH57_e30	
+CAZY	GH57_e63	dbCAN-sub cluster GH57_e63	dbcan_sub	searchable	GH57_e63	
+CAZY	GH5_e130	dbCAN-sub cluster GH5_e130	dbcan_sub	searchable	GH5_e130	
+CAZY	GH5_e141	dbCAN-sub cluster GH5_e141	dbcan_sub	searchable	GH5_e141	
+CAZY	GH5_e243	dbCAN-sub cluster GH5_e243	dbcan_sub	searchable	GH5_e243	
+CAZY	GH5_e288	dbCAN-sub cluster GH5_e288	dbcan_sub	searchable	GH5_e288	
+CAZY	GH5_e29	dbCAN-sub cluster GH5_e29	dbcan_sub	searchable	GH5_e29	
+CAZY	GH5_e319	dbCAN-sub cluster GH5_e319	dbcan_sub	searchable	GH5_e319	
+CAZY	GH5_e55	dbCAN-sub cluster GH5_e55	dbcan_sub	searchable	GH5_e55	
+CAZY	GH5_e77	dbCAN-sub cluster GH5_e77	dbcan_sub	searchable	GH5_e77	
+CAZY	GH62	CAZy family GH62	dbcan	searchable	GH62	
+CAZY	GH62_e0	dbCAN-sub cluster GH62_e0	dbcan_sub	searchable	GH62_e0	
+CAZY	GH62_e1	dbCAN-sub cluster GH62_e1	dbcan_sub	searchable	GH62_e1	
+CAZY	GH62_e9	dbCAN-sub cluster GH62_e9	dbcan_sub	searchable	GH62_e9	
+CAZY	GH63	CAZy family GH63	dbcan	searchable	GH63	
+CAZY	GH63_e1	dbCAN-sub cluster GH63_e1	dbcan_sub	searchable	GH63_e1	
+CAZY	GH76	CAZy family GH76	dbcan	searchable	GH76	
+CAZY	GH8	CAZy family GH8	dbcan	searchable	GH8	
+CAZY	GH8_e19	dbCAN-sub cluster GH8_e19	dbcan_sub	searchable	GH8_e19	
+CAZY	GH8_e37	dbCAN-sub cluster GH8_e37	dbcan_sub	searchable	GH8_e37	
+CAZY	GH8_e9	dbCAN-sub cluster GH8_e9	dbcan_sub	searchable	GH8_e9	
+CAZY	GH9	CAZy family GH9	dbcan	searchable	GH9	
+CAZY	GH95	CAZy family GH95	dbcan	searchable	GH95	
+CAZY	GH95_e0	dbCAN-sub cluster GH95_e0	dbcan_sub	searchable	GH95_e0	
+CAZY	GH95_e2	dbCAN-sub cluster GH95_e2	dbcan_sub	searchable	GH95_e2	
+CAZY	GH95_e21	dbCAN-sub cluster GH95_e21	dbcan_sub	searchable	GH95_e21	
+CAZY	GH95_e26	dbCAN-sub cluster GH95_e26	dbcan_sub	searchable	GH95_e26	
+CAZY	GH95_e3	dbCAN-sub cluster GH95_e3	dbcan_sub	searchable	GH95_e3	
+CAZY	GH97	CAZy family GH97	dbcan	searchable	GH97	
+CAZY	GH97_e22	dbCAN-sub cluster GH97_e22	dbcan_sub	searchable	GH97_e22	
+CAZY	GH98	CAZy family GH98	dbcan	searchable	GH98	
+CAZY	GH98_e0	dbCAN-sub cluster GH98_e0	dbcan_sub	searchable	GH98_e0	
+CAZY	GH9_e16	dbCAN-sub cluster GH9_e16	dbcan_sub	searchable	GH9_e16	
+CAZY	PL1	CAZy family PL1	dbcan	searchable	PL1	
+CAZY	PL10	CAZy family PL10	dbcan	searchable	PL10	
+CAZY	PL10_e2	dbCAN-sub cluster PL10_e2	dbcan_sub	searchable	PL10_e2	
+CAZY	PL10_e5	dbCAN-sub cluster PL10_e5	dbcan_sub	searchable	PL10_e5	
+CAZY	PL1_e103	dbCAN-sub cluster PL1_e103	dbcan_sub	searchable	PL1_e103	
+CAZY	PL1_e108	dbCAN-sub cluster PL1_e108	dbcan_sub	searchable	PL1_e108	
+CAZY	PL1_e124	dbCAN-sub cluster PL1_e124	dbcan_sub	searchable	PL1_e124	
+CAZY	PL1_e16	dbCAN-sub cluster PL1_e16	dbcan_sub	searchable	PL1_e16	
+CAZY	PL1_e163	dbCAN-sub cluster PL1_e163	dbcan_sub	searchable	PL1_e163	
+CAZY	PL1_e165	dbCAN-sub cluster PL1_e165	dbcan_sub	searchable	PL1_e165	
+CAZY	PL1_e18	dbCAN-sub cluster PL1_e18	dbcan_sub	searchable	PL1_e18	
+CAZY	PL1_e2	dbCAN-sub cluster PL1_e2	dbcan_sub	searchable	PL1_e2	
+CAZY	PL1_e20	dbCAN-sub cluster PL1_e20	dbcan_sub	searchable	PL1_e20	
+CAZY	PL1_e25	dbCAN-sub cluster PL1_e25	dbcan_sub	searchable	PL1_e25	
+CAZY	PL1_e3	dbCAN-sub cluster PL1_e3	dbcan_sub	searchable	PL1_e3	
+CAZY	PL1_e33	dbCAN-sub cluster PL1_e33	dbcan_sub	searchable	PL1_e33	
+CAZY	PL1_e36	dbCAN-sub cluster PL1_e36	dbcan_sub	searchable	PL1_e36	
+CAZY	PL1_e4	dbCAN-sub cluster PL1_e4	dbcan_sub	searchable	PL1_e4	
+CAZY	PL1_e51	dbCAN-sub cluster PL1_e51	dbcan_sub	searchable	PL1_e51	
+CAZY	PL1_e53	dbCAN-sub cluster PL1_e53	dbcan_sub	searchable	PL1_e53	
+CAZY	PL1_e60	dbCAN-sub cluster PL1_e60	dbcan_sub	searchable	PL1_e60	
+CAZY	PL1_e67	dbCAN-sub cluster PL1_e67	dbcan_sub	searchable	PL1_e67	
+CAZY	PL1_e68	dbCAN-sub cluster PL1_e68	dbcan_sub	searchable	PL1_e68	
+CAZY	PL1_e71	dbCAN-sub cluster PL1_e71	dbcan_sub	searchable	PL1_e71	
+CAZY	PL1_e73	dbCAN-sub cluster PL1_e73	dbcan_sub	searchable	PL1_e73	
+CAZY	PL1_e75	dbCAN-sub cluster PL1_e75	dbcan_sub	searchable	PL1_e75	
+CAZY	PL1_e79	dbCAN-sub cluster PL1_e79	dbcan_sub	searchable	PL1_e79	
+CAZY	PL1_e8	dbCAN-sub cluster PL1_e8	dbcan_sub	searchable	PL1_e8	
+CAZY	PL1_e88	dbCAN-sub cluster PL1_e88	dbcan_sub	searchable	PL1_e88	
+CAZY	PL2	CAZy family PL2	dbcan	searchable	PL2	
+CAZY	PL2_e0	dbCAN-sub cluster PL2_e0	dbcan_sub	searchable	PL2_e0	
+CAZY	PL2_e1	dbCAN-sub cluster PL2_e1	dbcan_sub	searchable	PL2_e1	
+CAZY	PL3	CAZy family PL3	dbcan	searchable	PL3	
+CAZY	PL3_e0	dbCAN-sub cluster PL3_e0	dbcan_sub	searchable	PL3_e0	
+CAZY	PL3_e10	dbCAN-sub cluster PL3_e10	dbcan_sub	searchable	PL3_e10	
+CAZY	PL3_e12	dbCAN-sub cluster PL3_e12	dbcan_sub	searchable	PL3_e12	
+CAZY	PL3_e16	dbCAN-sub cluster PL3_e16	dbcan_sub	searchable	PL3_e16	
+CAZY	PL3_e18	dbCAN-sub cluster PL3_e18	dbcan_sub	searchable	PL3_e18	
+CAZY	PL3_e8	dbCAN-sub cluster PL3_e8	dbcan_sub	searchable	PL3_e8	
+CAZY	PL3_e9	dbCAN-sub cluster PL3_e9	dbcan_sub	searchable	PL3_e9	
+CAZY	PL9	CAZy family PL9	dbcan	searchable	PL9	
+CAZY	PL9_e1	dbCAN-sub cluster PL9_e1	dbcan_sub	searchable	PL9_e1	
+CAZY	PL9_e23	dbCAN-sub cluster PL9_e23	dbcan_sub	searchable	PL9_e23	
+CAZY	PL9_e31	dbCAN-sub cluster PL9_e31	dbcan_sub	searchable	PL9_e31	
+CAZY	PL9_e8	dbCAN-sub cluster PL9_e8	dbcan_sub	searchable	PL9_e8	
+EC	1.8.4.10	adenylyl-sulfate reductase (thioredoxin)		unsupported_namespace		no sequence profile source serves the EC namespace
+EC	1.8.4.8	phosphoadenylyl-sulfate reductase (thioredoxin)		unsupported_namespace		no sequence profile source serves the EC namespace
+KO	K00003	homoserine dehydrogenase	kofam	searchable	K00003	
+KO	K00013	histidinol dehydrogenase	kofam	searchable	K00013	
+KO	K00014	shikimate dehydrogenase	kofam	searchable	K00014	
+KO	K00016	L-lactate dehydrogenase	kofam	searchable	K00016	
+KO	K00024	malate dehydrogenase	kofam	searchable	K00024	
+KO	K00025	malate dehydrogenase, cytoplasmic	kofam	searchable	K00025	
+KO	K00026	malate dehydrogenase, mitochondrial	kofam	searchable	K00026	
+KO	K00030	isocitrate dehydrogenase (NAD+)	kofam	searchable	K00030	
+KO	K00031	isocitrate dehydrogenase (NADP+)	kofam	searchable	K00031	
+KO	K00040	uxuB; fructuronate reductase	kofam	searchable	K00040	
+KO	K00041	uxaB; tagaturonate reductase	kofam	searchable	K00041	
+KO	K00048	lactaldehyde reductase	kofam	searchable	K00048	
+KO	K00052	3-isopropylmalate dehydrogenase	kofam	searchable	K00052	
+KO	K00053	ketol-acid reductoisomerase	kofam	searchable	K00053	
+KO	K00058	D-3-phosphoglycerate dehydrogenase	kofam	searchable	K00058	
+KO	K00065	2-dehydro-3-deoxy-D-gluconate 5-dehydrogenase orthologue	kofam	searchable	K00065	
+KO	K00074	3-hydroxybutyryl-CoA dehydrogenase	kofam	searchable	K00074	
+KO	K00077	2-dehydropantoate 2-reductase	kofam	searchable	K00077	
+KO	K00082	5-amino-6-(5-phosphoribosylamino)uracil reductase	kofam	searchable	K00082	
+KO	K00088	IMP dehydrogenase	kofam	searchable	K00088	
+KO	K00097	4-hydroxythreonine-4-phosphate dehydrogenase	kofam	searchable	K00097	
+KO	K00108	betA; choline dehydrogenase	kofam	searchable	K00108	
+KO	K00116	malate dehydrogenase (quinone)	kofam	searchable	K00116	
+KO	K00130	betB/gbsA; betaine-aldehyde dehydrogenase	kofam	searchable	K00130	
+KO	K00133	aspartate-semialdehyde dehydrogenase	kofam	searchable	K00133	
+KO	K00135	succinate-semialdehyde dehydrogenase, gabD	kofam	searchable	K00135	
+KO	K00139	succinate-semialdehyde dehydrogenase (NAD+)	kofam	searchable	K00139	
+KO	K00145	N-acetyl-gamma-glutamyl-phosphate reductase	kofam	searchable	K00145	
+KO	K00147	glutamate-5-semialdehyde dehydrogenase	kofam	searchable	K00147	
+KO	K00161	pyruvate dehydrogenase E1 component subunit alpha	kofam	searchable	K00161	
+KO	K00162	pyruvate dehydrogenase E1 component subunit beta	kofam	searchable	K00162	
+KO	K00163	pyruvate dehydrogenase E1 component	kofam	searchable	K00163	
+KO	K00164	2-oxoglutarate dehydrogenase E1 component	kofam	searchable	K00164	
+KO	K00169	pyruvate:ferredoxin oxidoreductase alpha subunit	kofam	searchable	K00169	
+KO	K00170	pyruvate:ferredoxin oxidoreductase beta subunit	kofam	searchable	K00170	
+KO	K00171	pyruvate:ferredoxin oxidoreductase delta subunit	kofam	searchable	K00171	
+KO	K00172	pyruvate:ferredoxin oxidoreductase gamma subunit	kofam	searchable	K00172	
+KO	K00174	2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha	kofam	searchable	K00174	
+KO	K00175	2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta	kofam	searchable	K00175	
+KO	K00211	prephenate dehydrogenase (NADP+)	kofam	searchable	K00211	
+KO	K00215	4-hydroxy-tetrahydrodipicolinate reductase	kofam	searchable	K00215	
+KO	K00216	entA; 2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase	kofam	searchable	K00216	
+KO	K00221	E4.99.1.2; alkylmercury lyase [EC:4.99.1.2]	kofam	searchable	K00221	
+KO	K00226	dihydroorotate dehydrogenase (fumarate)	kofam	searchable	K00226	
+KO	K00228	hemF; coproporphyrinogen III oxidase	kofam	searchable	K00228	
+KO	K00230	hemG; menaquinone-dependent protoporphyrinogen oxidase	kofam	searchable	K00230	
+KO	K00231	hemY; protoporphyrinogen/coproporphyrinogen III oxidase	kofam	searchable	K00231	
+KO	K00234	succinate dehydrogenase (ubiquinone) flavoprotein subunit	kofam	searchable	K00234	
+KO	K00235	succinate dehydrogenase (ubiquinone) iron-sulfur subunit	kofam	searchable	K00235	
+KO	K00239	succinate dehydrogenase or fumarate reductase flavoprotein subunit	kofam	searchable	K00239	
+KO	K00240	succinate dehydrogenase or fumarate reductase iron-sulfur subunit	kofam	searchable	K00240	
+KO	K00244	fumarate reductase flavoprotein subunit	kofam	searchable	K00244	
+KO	K00245	fumarate reductase iron-sulfur subunit	kofam	searchable	K00245	
+KO	K00248	butyryl-CoA dehydrogenase	kofam	searchable	K00248	
+KO	K00254	dihydroorotate dehydrogenase (quinone)	kofam	searchable	K00254	
+KO	K00259	alanine dehydrogenase	kofam	searchable	K00259	
+KO	K00260	glutamate dehydrogenase	kofam	searchable	K00260	
+KO	K00261	glutamate dehydrogenase (NAD(P)+)	kofam	searchable	K00261	
+KO	K00262	glutamate dehydrogenase (NADP+)	kofam	searchable	K00262	
+KO	K00265	glutamate synthase (NADPH) large chain	kofam	searchable	K00265	
+KO	K00266	glutamate synthase (NADPH) small chain	kofam	searchable	K00266	
+KO	K00275	pyridoxamine 5'-phosphate oxidase	kofam	searchable	K00275	
+KO	K00278	L-aspartate oxidase	kofam	searchable	K00278	
+KO	K00284	glutamate synthase (ferredoxin)	kofam	searchable	K00284	
+KO	K00286	pyrroline-5-carboxylate reductase	kofam	searchable	K00286	
+KO	K00287	dihydrofolate reductase	kofam	searchable	K00287	
+KO	K00301	sarcosine oxidase	kofam	searchable	K00301	
+KO	K00302	sarcosine oxidase, subunit alpha	kofam	searchable	K00302	
+KO	K00303	sarcosine oxidase, subunit beta	kofam	searchable	K00303	
+KO	K00304	sarcosine oxidase, subunit delta	kofam	searchable	K00304	
+KO	K00305	sarcosine oxidase, subunit gamma	kofam	searchable	K00305	
+KO	K00309	dimethylglycine oxidase	kofam	searchable	K00309	
+KO	K00315	dimethylglycine dehydrogenase	kofam	searchable	K00315	
+KO	K00362	nitrite reductase (NADH) large subunit	kofam	searchable	K00362	
+KO	K00363	nitrite reductase (NADH) small subunit	kofam	searchable	K00363	
+KO	K00365	urate oxidase	kofam	searchable	K00365	
+KO	K00366	ferredoxin-nitrite reductase	kofam	searchable	K00366	
+KO	K00367	ferredoxin-nitrate reductase	kofam	searchable	K00367	
+KO	K00372	assimilatory nitrate reductase catalytic subunit	kofam	searchable	K00372	
+KO	K00380	cysJ; sulfite reductase (NADPH) flavoprotein alpha-component	kofam	searchable	K00380	
+KO	K00381	cysI; sulfite reductase (NADPH) hemoprotein beta-component	kofam	searchable	K00381	
+KO	K00382	dihydrolipoyl dehydrogenase	kofam	searchable	K00382	
+KO	K00392	sir; sulfite reductase (ferredoxin)	kofam	searchable	K00392	
+KO	K00435	hemQ; hydrogen peroxide-dependent heme synthase	kofam	searchable	K00435	
+KO	K00446	catechol 2,3-dioxygenase	kofam	searchable	K00446	
+KO	K00466	tryptophan 2-monooxygenase IaaM	kofam	searchable	K00466	
+KO	K00479	glycine betaine monooxygenase A	kofam	searchable	K00479	
+KO	K00499	choline monooxygenase	kofam	searchable	K00499	
+KO	K00520	merA; mercuric reductase [EC:1.16.1.1]	kofam	searchable	K00520	
+KO	K00548	cobalamin-dependent methionine synthase	kofam	searchable	K00548	
+KO	K00549	cobalamin-independent methionine synthase	kofam	searchable	K00549	
+KO	K00575	chemotaxis protein methyltransferase CheR [EC:2.1.1.80]	kofam	searchable	K00575	
+KO	K00589	MET1; uroporphyrin-III C-methyltransferase	kofam	searchable	K00589	
+KO	K00595	precorrin-6B C5,15-methyltransferase / cobalt-precorrin-6B C5,C15-methyltransferase	kofam	searchable	K00595	
+KO	K00600	glycine hydroxymethyltransferase	kofam	searchable	K00600	
+KO	K00601	phosphoribosylglycinamide formyltransferase	kofam	searchable	K00601	
+KO	K00602	bifunctional AICAR transformylase and IMP cyclohydrolase	kofam	searchable	K00602	
+KO	K00606	3-methyl-2-oxobutanoate hydroxymethyltransferase	kofam	searchable	K00606	
+KO	K00608	aspartate carbamoyltransferase	kofam	searchable	K00608	
+KO	K00609	aspartate carbamoyltransferase catalytic subunit	kofam	searchable	K00609	
+KO	K00611	ornithine carbamoyltransferase	kofam	searchable	K00611	
+KO	K00618	amino-acid N-acetyltransferase	kofam	searchable	K00618	
+KO	K00619	amino-acid N-acetyltransferase	kofam	searchable	K00619	
+KO	K00620	glutamate N-acetyltransferase / amino-acid N-acetyltransferase	kofam	searchable	K00620	
+KO	K00625	phosphate acetyltransferase	kofam	searchable	K00625	
+KO	K00626	acetyl-CoA C-acetyltransferase	kofam	searchable	K00626	
+KO	K00627	pyruvate dehydrogenase E2 component	kofam	searchable	K00627	
+KO	K00638	chloramphenicol O-acetyltransferase type B	kofam	searchable	K00638	
+KO	K00640	serine O-acetyltransferase	kofam	searchable	K00640	
+KO	K00641	homoserine O-acetyltransferase / O-succinyltransferase	kofam	searchable	K00641	
+KO	K00651	homoserine O-succinyltransferase / O-acetyltransferase	kofam	searchable	K00651	
+KO	K00652	8-amino-7-oxononanoate synthase	kofam	searchable	K00652	
+KO	K00656	formate C-acetyltransferase	kofam	searchable	K00656	
+KO	K00658	2-oxoglutarate dehydrogenase E2 component	kofam	searchable	K00658	
+KO	K00674	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase	kofam	searchable	K00674	
+KO	K00762	orotate phosphoribosyltransferase	kofam	searchable	K00762	
+KO	K00763	nicotinate phosphoribosyltransferase	kofam	searchable	K00763	
+KO	K00764	amidophosphoribosyltransferase	kofam	searchable	K00764	
+KO	K00765	ATP phosphoribosyltransferase	kofam	searchable	K00765	
+KO	K00766	anthranilate phosphoribosyltransferase	kofam	searchable	K00766	
+KO	K00767	nicotinate-nucleotide pyrophosphorylase (carboxylating)	kofam	searchable	K00767	
+KO	K00768	nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase	kofam	searchable	K00768	
+KO	K00788	thiamine-phosphate pyrophosphorylase	kofam	searchable	K00788	
+KO	K00793	riboflavin synthase	kofam	searchable	K00793	
+KO	K00794	6,7-dimethyl-8-ribityllumazine synthase	kofam	searchable	K00794	
+KO	K00796	dihydropteroate synthase	kofam	searchable	K00796	
+KO	K00798	cob(I)alamin adenosyltransferase	kofam	searchable	K00798	
+KO	K00800	3-phosphoshikimate 1-carboxyvinyltransferase	kofam	searchable	K00800	
+KO	K00812	aspartate aminotransferase	kofam	searchable	K00812	
+KO	K00813	aspartate aminotransferase	kofam	searchable	K00813	
+KO	K00814	alanine transaminase	kofam	searchable	K00814	
+KO	K00817	histidinol-phosphate aminotransferase	kofam	searchable	K00817	
+KO	K00818	acetylornithine aminotransferase	kofam	searchable	K00818	
+KO	K00821	acetylornithine/N-succinyldiaminopimelate aminotransferase	kofam	searchable	K00821	
+KO	K00826	branched-chain amino acid aminotransferase	kofam	searchable	K00826	
+KO	K00831	phosphoserine aminotransferase	kofam	searchable	K00831	
+KO	K00832	aromatic-amino-acid transaminase	kofam	searchable	K00832	
+KO	K00833	adenosylmethionine---8-amino-7-oxononanoate aminotransferase	kofam	searchable	K00833	
+KO	K00835	valine--pyruvate aminotransferase	kofam	searchable	K00835	
+KO	K00836	ectB; diaminobutyrate-2-oxoglutarate transaminase	kofam	searchable	K00836	
+KO	K00841	aminotransferase	kofam	searchable	K00841	
+KO	K00848	rhaB; rhamnulokinase	kofam	searchable	K00848	
+KO	K00849	galK; galactokinase	kofam	searchable	K00849	
+KO	K00853	araB; L-ribulokinase	kofam	searchable	K00853	
+KO	K00854	xylB; xylulokinase	kofam	searchable	K00854	
+KO	K00860	cysC; adenylylsulfate kinase	kofam	searchable	K00860	
+KO	K00872	homoserine kinase	kofam	searchable	K00872	
+KO	K00874	kdgK; 2-dehydro-3-deoxygluconokinase	kofam	searchable	K00874	
+KO	K00878	hydroxyethylthiazole kinase	kofam	searchable	K00878	
+KO	K00879	fucK; L-fuculokinase	kofam	searchable	K00879	
+KO	K00884	NAGK; N-acetylglucosamine kinase	kofam	searchable	K00884	
+KO	K00885	nanK; N-acylmannosamine kinase	kofam	searchable	K00885	
+KO	K00891	shikimate kinase	kofam	searchable	K00891	
+KO	K00925	acetate kinase	kofam	searchable	K00925	
+KO	K00926	carbamate kinase	kofam	searchable	K00926	
+KO	K00928	aspartate kinase	kofam	searchable	K00928	
+KO	K00930	acetylglutamate kinase	kofam	searchable	K00930	
+KO	K00931	glutamate 5-kinase	kofam	searchable	K00931	
+KO	K00932	propionate kinase TdcD	kofam	searchable	K00932	
+KO	K00941	hydroxymethylpyrimidine/phosphomethylpyrimidine kinase	kofam	searchable	K00941	
+KO	K00950	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase	kofam	searchable	K00950	
+KO	K00955	cysNC; bifunctional sulfate adenylyltransferase subunit 1/adenylylsulfate kinase	kofam	searchable	K00955	
+KO	K00956	cysN; sulfate adenylyltransferase subunit 1	kofam	searchable	K00956	
+KO	K00957	cysD; sulfate adenylyltransferase subunit 2	kofam	searchable	K00957	
+KO	K00958	sat, met3; sulfate adenylyltransferase	kofam	searchable	K00958	
+KO	K00965	galT; UDPglucose--hexose-1-phosphate uridylyltransferase	kofam	searchable	K00965	
+KO	K00969	nicotinate-nucleotide adenylyltransferase	kofam	searchable	K00969	
+KO	K00980	TagD glycerol-3-phosphate cytidylyltransferase	kofam	searchable	K00980	
+KO	K01003	soluble oxaloacetate decarboxylase	kofam	searchable	K01003	
+KO	K01005	TagT/TagU/TagV polyisoprenyl-teichoic acid--peptidoglycan transferase	kofam	searchable	K01005	
+KO	K01012	biotin synthase	kofam	searchable	K01012	
+KO	K01026	propionate CoA-transferase	kofam	searchable	K01026	
+KO	K01031	3-oxoadipate CoA-transferase, alpha subunit	kofam	searchable	K01031	
+KO	K01032	3-oxoadipate CoA-transferase, beta subunit	kofam	searchable	K01032	
+KO	K01051	pectinesterase orthologue	kofam	searchable	K01051	
+KO	K01055	3-oxoadipate enol-lactonase	kofam	searchable	K01055	
+KO	K01069	gloB; hydroxyacylglutathione hydrolase	kofam	searchable	K01069	
+KO	K01079	phosphoserine phosphatase	kofam	searchable	K01079	
+KO	K01089	imidazoleglycerol-phosphate dehydratase / histidinol-phosphatase	kofam	searchable	K01089	
+KO	K01153	type I restriction enzyme, R subunit [EC:3.1.21.3]	kofam	searchable	K01153	
+KO	K01154	type I restriction enzyme, S subunit [EC:3.1.21.3]	kofam	searchable	K01154	
+KO	K01176	alpha-amylase orthologue	kofam	searchable	K01176	
+KO	K01181	endo-1,4-beta-xylanase orthologue	kofam	searchable	K01181	
+KO	K01183	chitinase orthologue	kofam	searchable	K01183	
+KO	K01184	polygalacturonase orthologue	kofam	searchable	K01184	
+KO	K01186	sialidase orthologue	kofam	searchable	K01186	
+KO	K01187	alpha-glucosidase orthologue	kofam	searchable	K01187	
+KO	K01198	xylan 1,4-beta-xylosidase orthologue	kofam	searchable	K01198	
+KO	K01200	pullulanase orthologue	kofam	searchable	K01200	
+KO	K01204	alpha-N-acetylgalactosaminidase orthologue	kofam	searchable	K01204	
+KO	K01206	alpha-L-fucosidase orthologue	kofam	searchable	K01206	
+KO	K01207	beta-N-acetylhexosaminidase orthologue	kofam	searchable	K01207	
+KO	K01209	alpha-L-arabinofuranosidase orthologue	kofam	searchable	K01209	
+KO	K01213	exo-polygalacturonase orthologue	kofam	searchable	K01213	
+KO	K01252	entB; bifunctional isochorismate lyase and aryl carrier protein	kofam	searchable	K01252	
+KO	K01387	microbial collagenase orthologue	kofam	searchable	K01387	
+KO	K01426	amidase	kofam	searchable	K01426	
+KO	K01428	urease subunit alpha	kofam	searchable	K01428	
+KO	K01429	urease subunit beta	kofam	searchable	K01429	
+KO	K01430	urease subunit gamma	kofam	searchable	K01430	
+KO	K01438	acetylornithine deacetylase	kofam	searchable	K01438	
+KO	K01439	succinyl-diaminopimelate desuccinylase	kofam	searchable	K01439	
+KO	K01443	nagA; N-acetylglucosamine-6-phosphate deacetylase	kofam	searchable	K01443	
+KO	K01465	dihydroorotase	kofam	searchable	K01465	
+KO	K01466	allantoinase	kofam	searchable	K01466	
+KO	K01467	ampC; beta-lactamase class C	kofam	searchable	K01467	
+KO	K01468	imidazolonepropionase	kofam	searchable	K01468	
+KO	K01470	creatinine amidohydrolase	kofam	searchable	K01470	
+KO	K01477	allantoicase	kofam	searchable	K01477	
+KO	K01478	arginine deiminase	kofam	searchable	K01478	
+KO	K01479	formiminoglutamase	kofam	searchable	K01479	
+KO	K01483	ureidoglycolate lyase	kofam	searchable	K01483	
+KO	K01492	purine biosynthesis transformylase	kofam	searchable	K01492	
+KO	K01495	GTP cyclohydrolase IA	kofam	searchable	K01495	
+KO	K01496	phosphoribosyl-AMP cyclohydrolase	kofam	searchable	K01496	
+KO	K01497	GTP cyclohydrolase II	kofam	searchable	K01497	
+KO	K01498	diaminohydroxyphosphoribosylaminopyrimidine deaminase	kofam	searchable	K01498	
+KO	K01523	phosphoribosyl-ATP pyrophosphohydrolase	kofam	searchable	K01523	
+KO	K01571	oxaloacetate decarboxylase alpha subunit	kofam	searchable	K01571	
+KO	K01575	acetolactate decarboxylase	kofam	searchable	K01575	
+KO	K01579	aspartate 1-decarboxylase	kofam	searchable	K01579	
+KO	K01580	glutamate decarboxylase	kofam	searchable	K01580	
+KO	K01586	diaminopimelate decarboxylase	kofam	searchable	K01586	
+KO	K01587	phosphoribosylaminoimidazole carboxylase	kofam	searchable	K01587	
+KO	K01588	N5-CAIR mutase	kofam	searchable	K01588	
+KO	K01589	N5-CAIR synthetase	kofam	searchable	K01589	
+KO	K01591	orotidine 5'-phosphate decarboxylase	kofam	searchable	K01591	
+KO	K01599	hemE; uroporphyrinogen decarboxylase	kofam	searchable	K01599	
+KO	K01609	indole-3-glycerol phosphate synthase	kofam	searchable	K01609	
+KO	K01616	multifunctional 2-oxoglutarate metabolism enzyme	kofam	searchable	K01616	
+KO	K01617	2-oxo-3-hexenedioate decarboxylase	kofam	searchable	K01617	
+KO	K01625	eda; 2-dehydro-3-deoxyphosphogluconate aldolase	kofam	searchable	K01625	
+KO	K01626	3-deoxy-7-phosphoheptulonate synthase	kofam	searchable	K01626	
+KO	K01628	fucA; L-fuculose-phosphate aldolase	kofam	searchable	K01628	
+KO	K01629	rhaD; rhamnulose-1-phosphate aldolase	kofam	searchable	K01629	
+KO	K01633	7,8-dihydroneopterin aldolase/epimerase/oxygenase	kofam	searchable	K01633	
+KO	K01637	icl; isocitrate lyase	kofam	searchable	K01637	
+KO	K01638	aceB; malate synthase	kofam	searchable	K01638	
+KO	K01639	nanA; N-acetylneuraminate lyase	kofam	searchable	K01639	
+KO	K01643	citrate lyase alpha subunit	kofam	searchable	K01643	
+KO	K01644	citrate lyase beta subunit	kofam	searchable	K01644	
+KO	K01646	citrate lyase acyl-carrier subunit	kofam	searchable	K01646	
+KO	K01647	citrate synthase	kofam	searchable	K01647	
+KO	K01649	2-isopropylmalate synthase	kofam	searchable	K01649	
+KO	K01652	acetolactate synthase large subunit	kofam	searchable	K01652	
+KO	K01656	anthranilate synthase / indole-3-glycerol phosphate synthase	kofam	searchable	K01656	
+KO	K01657	anthranilate synthase component I	kofam	searchable	K01657	
+KO	K01658	anthranilate synthase component II	kofam	searchable	K01658	
+KO	K01659	2-methylcitrate synthase and citrate synthase	kofam	searchable	K01659	
+KO	K01661	naphthoate synthase	kofam	searchable	K01661	
+KO	K01663	imidazole glycerol-phosphate synthase	kofam	searchable	K01663	
+KO	K01665	para-aminobenzoate synthetase component I	kofam	searchable	K01665	
+KO	K01666	4-hydroxy 2-oxovalerate aldolase	kofam	searchable	K01666	
+KO	K01667	tryptophanase	kofam	searchable	K01667	
+KO	K01676	fumarate hydratase, class I	kofam	searchable	K01676	
+KO	K01677	fumarate hydratase subunit alpha	kofam	searchable	K01677	
+KO	K01678	fumarate hydratase subunit beta	kofam	searchable	K01678	
+KO	K01679	fumarate hydratase, class II	kofam	searchable	K01679	
+KO	K01681	aconitate hydratase	kofam	searchable	K01681	
+KO	K01682	aconitate hydratase 2	kofam	searchable	K01682	
+KO	K01685	uxaA; altronate hydrolase	kofam	searchable	K01685	
+KO	K01686	uxuA; mannonate dehydratase	kofam	searchable	K01686	
+KO	K01687	dihydroxy-acid dehydratase	kofam	searchable	K01687	
+KO	K01692	enoyl-CoA hydratase	kofam	searchable	K01692	
+KO	K01693	imidazoleglycerol-phosphate dehydratase	kofam	searchable	K01693	
+KO	K01694	tryptophan synthase	kofam	searchable	K01694	
+KO	K01695	tryptophan synthase alpha chain	kofam	searchable	K01695	
+KO	K01696	tryptophan synthase beta chain	kofam	searchable	K01696	
+KO	K01697	cystathionine beta-synthase	kofam	searchable	K01697	
+KO	K01699	propanediol dehydratase large subunit	kofam	searchable	K01699	
+KO	K01702	3-isopropylmalate dehydratase	kofam	searchable	K01702	
+KO	K01703	3-isopropylmalate/(R)-2-methylmalate dehydratase large subunit	kofam	searchable	K01703	
+KO	K01704	3-isopropylmalate/(R)-2-methylmalate dehydratase small subunit	kofam	searchable	K01704	
+KO	K01712	urocanate hydratase	kofam	searchable	K01712	
+KO	K01713	cyclohexadienyl dehydratase	kofam	searchable	K01713	
+KO	K01714	4-hydroxy-tetrahydrodipicolinate synthase	kofam	searchable	K01714	
+KO	K01715	short-chain-enoyl-CoA hydratase	kofam	searchable	K01715	
+KO	K01728	pectate lyase orthologue	kofam	searchable	K01728	
+KO	K01730	oligogalacturonide lyase orthologue	kofam	searchable	K01730	
+KO	K01731	pectate disaccharide-lyase PelW orthologue	kofam	searchable	K01731	
+KO	K01732	pectin lyase orthologue	kofam	searchable	K01732	
+KO	K01733	threonine synthase	kofam	searchable	K01733	
+KO	K01735	3-dehydroquinate synthase	kofam	searchable	K01735	
+KO	K01736	chorismate synthase	kofam	searchable	K01736	
+KO	K01738	cysteine synthase	kofam	searchable	K01738	
+KO	K01739	cystathionine gamma-synthase	kofam	searchable	K01739	
+KO	K01740	O-acetylhomoserine (thiol)-lyase	kofam	searchable	K01740	
+KO	K01745	histidine ammonia-lyase	kofam	searchable	K01745	
+KO	K01754	threonine dehydratase	kofam	searchable	K01754	
+KO	K01755	argininosuccinate lyase	kofam	searchable	K01755	
+KO	K01756	adenylosuccinate lyase	kofam	searchable	K01756	
+KO	K01758	cystathionine gamma-lyase	kofam	searchable	K01758	
+KO	K01759	gloA; lactoylglutathione lyase	kofam	searchable	K01759	
+KO	K01760	cystathionine beta-lyase	kofam	searchable	K01760	
+KO	K01761	methionine-gamma-lyase	kofam	searchable	K01761	
+KO	K01772	hemH; protoporphyrin/coproporphyrin ferrochelatase	kofam	searchable	K01772	
+KO	K01777	proline racemase	kofam	searchable	K01777	
+KO	K01778	diaminopimelate epimerase	kofam	searchable	K01778	
+KO	K01784	galE; UDP-glucose 4-epimerase	kofam	searchable	K01784	
+KO	K01785	galM; aldose 1-epimerase	kofam	searchable	K01785	
+KO	K01788	nanE; N-acylglucosamine-6-phosphate 2-epimerase	kofam	searchable	K01788	
+KO	K01791	UDP-N-acetylglucosamine 2-epimerase (non-hydrolysing)	kofam	searchable	K01791	
+KO	K01804	araA; L-arabinose isomerase	kofam	searchable	K01804	
+KO	K01805	xylA; xylose isomerase	kofam	searchable	K01805	
+KO	K01812	uxaC; glucuronate isomerase	kofam	searchable	K01812	
+KO	K01813	rhaA; L-rhamnose isomerase	kofam	searchable	K01813	
+KO	K01814	phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase	kofam	searchable	K01814	
+KO	K01815	4-deoxy-L-threo-5-hexosulose-uronate ketol-isomerase orthologue	kofam	searchable	K01815	
+KO	K01817	phosphoribosylanthranilate isomerase	kofam	searchable	K01817	
+KO	K01818	fucI; L-fucose/D-arabinose isomerase	kofam	searchable	K01818	
+KO	K01820	rhaA; L-rhamnose isomerase / sugar isomerase	kofam	searchable	K01820	
+KO	K01821	4-oxalocrotonate tautomerase	kofam	searchable	K01821	
+KO	K01851	salicylate biosynthesis isochorismate synthase PchA	kofam	searchable	K01851	
+KO	K01856	muconate cycloisomerase	kofam	searchable	K01856	
+KO	K01899	succinyl-CoA ligase alpha subunit	kofam	searchable	K01899	
+KO	K01900	succinyl-CoA ligase beta subunit	kofam	searchable	K01900	
+KO	K01902	succinyl-CoA synthetase alpha subunit	kofam	searchable	K01902	
+KO	K01903	succinyl-CoA synthetase beta subunit	kofam	searchable	K01903	
+KO	K01910	citrate lyase ligase	kofam	searchable	K01910	
+KO	K01911	o-succinylbenzoate---CoA ligase	kofam	searchable	K01911	
+KO	K01912	phenylacetate-CoA ligase	kofam	searchable	K01912	
+KO	K01914	aspartate--ammonia ligase	kofam	searchable	K01914	
+KO	K01915	glutamine synthetase	kofam	searchable	K01915	
+KO	K01916	NAD+ synthase	kofam	searchable	K01916	
+KO	K01918	pantoate--beta-alanine ligase	kofam	searchable	K01918	
+KO	K01923	SAICAR synthetase	kofam	searchable	K01923	
+KO	K01933	phosphoribosylformylglycinamidine cyclo-ligase	kofam	searchable	K01933	
+KO	K01935	dethiobiotin synthetase	kofam	searchable	K01935	
+KO	K01937	CTP synthase	kofam	searchable	K01937	
+KO	K01939	adenylosuccinate synthase	kofam	searchable	K01939	
+KO	K01940	argininosuccinate synthase	kofam	searchable	K01940	
+KO	K01945	phosphoribosylamine--glycine ligase	kofam	searchable	K01945	
+KO	K01950	NAD+ synthase (glutamine-hydrolysing)	kofam	searchable	K01950	
+KO	K01951	GMP synthase (glutamine-hydrolyzing)	kofam	searchable	K01951	
+KO	K01952	phosphoribosylformylglycinamidine synthase	kofam	searchable	K01952	
+KO	K01953	asparagine synthase (glutamine-hydrolysing)	kofam	searchable	K01953	
+KO	K01954	carbamoyl-phosphate synthase	kofam	searchable	K01954	
+KO	K01955	carbamoyl-phosphate synthase large subunit	kofam	searchable	K01955	
+KO	K01956	carbamoyl-phosphate synthase small subunit	kofam	searchable	K01956	
+KO	K02036	phosphate transport system ATP-binding protein [EC:7.3.2.1]	kofam	searchable	K02036	
+KO	K02037	phosphate transport system permease protein	kofam	searchable	K02037	
+KO	K02038	phosphate transport system permease protein	kofam	searchable	K02038	
+KO	K02039	phosphate transport system protein	kofam	searchable	K02039	
+KO	K02040	phosphate transport system substrate-binding protein	kofam	searchable	K02040	
+KO	K02083	allantoate deiminase	kofam	searchable	K02083	
+KO	K02188	cobalt-precorrin-5B (C1)-methyltransferase	kofam	searchable	K02188	
+KO	K02189	cobalt-precorrin 5A hydrolase	kofam	searchable	K02189	
+KO	K02190	sirohydrochlorin cobaltochelatase	kofam	searchable	K02190	
+KO	K02191	cobalt-precorrin-6B (C15)-methyltransferase	kofam	searchable	K02191	
+KO	K02203	phosphoserine / homoserine phosphotransferase	kofam	searchable	K02203	
+KO	K02204	homoserine kinase type II	kofam	searchable	K02204	
+KO	K02224	cobyrinic acid a,c-diamide synthase	kofam	searchable	K02224	
+KO	K02225	cobalamin biosynthesis protein CobC	kofam	searchable	K02225	
+KO	K02226	alpha-ribazole phosphatase	kofam	searchable	K02226	
+KO	K02227	adenosylcobinamide-phosphate synthase	kofam	searchable	K02227	
+KO	K02228	precorrin-6A synthase	kofam	searchable	K02228	
+KO	K02229	precorrin-3B synthase	kofam	searchable	K02229	
+KO	K02230	cobaltochelatase CobN	kofam	searchable	K02230	
+KO	K02231	adenosylcobinamide kinase / adenosylcobinamide-phosphate guanylyltransferase	kofam	searchable	K02231	
+KO	K02232	adenosylcobyric acid synthase	kofam	searchable	K02232	
+KO	K02233	adenosylcobinamide-GDP ribazoletransferase	kofam	searchable	K02233	
+KO	K02302	uroporphyrin-III C-methyltransferase / precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase	kofam	searchable	K02302	
+KO	K02303	uroporphyrin-III C-methyltransferase	kofam	searchable	K02303	
+KO	K02304	precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase	kofam	searchable	K02304	
+KO	K02361	isochorismate synthase	kofam	searchable	K02361	
+KO	K02362	entD; enterobactin synthetase component D and phosphopantetheinyl transferase	kofam	searchable	K02362	
+KO	K02363	entE; 2,3-dihydroxybenzoate aryl-carrier-protein ligase	kofam	searchable	K02363	
+KO	K02364	entF; serine-activating enterobactin synthetase component F	kofam	searchable	K02364	
+KO	K02387	flagellar basal-body rod protein FlgB	kofam	searchable	K02387	
+KO	K02388	flagellar basal-body rod protein FlgC	kofam	searchable	K02388	
+KO	K02390	flagellar hook protein FlgE	kofam	searchable	K02390	
+KO	K02391	flagellar basal-body rod protein FlgF	kofam	searchable	K02391	
+KO	K02392	flagellar basal-body rod protein FlgG	kofam	searchable	K02392	
+KO	K02393	flagellar L-ring protein FlgH	kofam	searchable	K02393	
+KO	K02394	flagellar P-ring protein FlgI	kofam	searchable	K02394	
+KO	K02396	flagellar hook-associated protein 1	kofam	searchable	K02396	
+KO	K02397	flagellar hook-associated protein 3 FlgL	kofam	searchable	K02397	
+KO	K02400	flagellar biosynthesis protein FlhA	kofam	searchable	K02400	
+KO	K02401	flagellar biosynthesis protein FlhB	kofam	searchable	K02401	
+KO	K02406	flagellin	kofam	searchable	K02406	
+KO	K02407	flagellar hook-associated protein 2	kofam	searchable	K02407	
+KO	K02408	flagellar hook-basal body complex protein FliE	kofam	searchable	K02408	
+KO	K02409	flagellar M-ring protein FliF	kofam	searchable	K02409	
+KO	K02410	flagellar motor switch protein FliG	kofam	searchable	K02410	
+KO	K02411	flagellar assembly protein FliH	kofam	searchable	K02411	
+KO	K02412	flagellum-specific ATP synthase [EC:7.4.2.8]	kofam	searchable	K02412	
+KO	K02416	flagellar motor switch protein FliM	kofam	searchable	K02416	
+KO	K02417	flagellar motor switch protein FliN	kofam	searchable	K02417	
+KO	K02419	flagellar biosynthesis protein FliP	kofam	searchable	K02419	
+KO	K02420	flagellar biosynthesis protein FliQ	kofam	searchable	K02420	
+KO	K02421	flagellar biosynthesis protein FliR	kofam	searchable	K02421	
+KO	K02452	general secretion pathway protein C	kofam	searchable	K02452	
+KO	K02453	general secretion pathway protein D	kofam	searchable	K02453	
+KO	K02454	general secretion pathway protein E	kofam	searchable	K02454	
+KO	K02455	general secretion pathway protein F	kofam	searchable	K02455	
+KO	K02456	general secretion pathway protein G	kofam	searchable	K02456	
+KO	K02457	general secretion pathway protein H	kofam	searchable	K02457	
+KO	K02458	general secretion pathway protein I	kofam	searchable	K02458	
+KO	K02459	general secretion pathway protein J	kofam	searchable	K02459	
+KO	K02460	general secretion pathway protein K	kofam	searchable	K02460	
+KO	K02461	general secretion pathway protein L	kofam	searchable	K02461	
+KO	K02462	general secretion pathway protein M	kofam	searchable	K02462	
+KO	K02464	general secretion pathway protein O	kofam	searchable	K02464	
+KO	K02495	hemN; oxygen-independent coproporphyrinogen III oxidase	kofam	searchable	K02495	
+KO	K02496	hemX; uroporphyrin-III C-methyltransferase	kofam	searchable	K02496	
+KO	K02500	imidazole glycerol-phosphate synthase subunit HisF	kofam	searchable	K02500	
+KO	K02501	imidazole glycerol-phosphate synthase subunit HisH	kofam	searchable	K02501	
+KO	K02548	1,4-dihydroxy-2-naphthoate polyprenyltransferase	kofam	searchable	K02548	
+KO	K02549	o-succinylbenzoate synthase	kofam	searchable	K02549	
+KO	K02551	2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase	kofam	searchable	K02551	
+KO	K02552	menaquinone-specific isochorismate synthase	kofam	searchable	K02552	
+KO	K02554	2-keto-4-pentenoate hydratase	kofam	searchable	K02554	
+KO	K02556	chemotaxis protein MotA	kofam	searchable	K02556	
+KO	K02557	chemotaxis protein MotB	kofam	searchable	K02557	
+KO	K02564	nagB; glucosamine-6-phosphate deaminase	kofam	searchable	K02564	
+KO	K02585	nifB; nitrogen fixation protein NifB	kofam	searchable	K02585	
+KO	K02586	nifD; nitrogenase molybdenum-iron protein alpha chain	kofam	searchable	K02586	
+KO	K02587	nifE; nitrogenase molybdenum-cofactor synthesis protein NifE	kofam	searchable	K02587	
+KO	K02588	nifH; nitrogenase iron protein	kofam	searchable	K02588	
+KO	K02591	nifK; nitrogenase molybdenum-iron protein beta chain	kofam	searchable	K02591	
+KO	K02592	nifN, vnfN; nitrogenase cofactor synthesis protein NifN/VnfN	kofam	searchable	K02592	
+KO	K02609	ring-1,2-phenylacetyl-CoA epoxidase subunit PaaA	kofam	searchable	K02609	
+KO	K02610	ring-1,2-phenylacetyl-CoA epoxidase subunit PaaB	kofam	searchable	K02610	
+KO	K02611	ring-1,2-phenylacetyl-CoA epoxidase subunit PaaC	kofam	searchable	K02611	
+KO	K02612	ring-1,2-phenylacetyl-CoA epoxidase subunit PaaD	kofam	searchable	K02612	
+KO	K02613	ring-1,2-phenylacetyl-CoA epoxidase subunit PaaE	kofam	searchable	K02613	
+KO	K02615	3-oxoadipyl-CoA/3-oxo-5,6-didehydrosuberyl-CoA thiolase	kofam	searchable	K02615	
+KO	K02618	oxepin-CoA hydrolase / 3-oxo-5,6-dehydrosuberyl-CoA semialdehyde dehydrogenase	kofam	searchable	K02618	
+KO	K02619	4-amino-4-deoxychorismate lyase	kofam	searchable	K02619	
+KO	K02650	type IV pilus assembly protein PilA	kofam	searchable	K02650	
+KO	K02652	type IV pilus assembly protein PilB	kofam	searchable	K02652	
+KO	K02653	type IV pilus assembly protein PilC	kofam	searchable	K02653	
+KO	K02654	leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43 2.1.1.-]	kofam	searchable	K02654	
+KO	K02655	type IV pilus assembly protein PilE	kofam	searchable	K02655	
+KO	K02656	type IV pilus assembly protein PilF	kofam	searchable	K02656	
+KO	K02662	type IV pilus assembly protein PilM	kofam	searchable	K02662	
+KO	K02663	type IV pilus assembly protein PilN	kofam	searchable	K02663	
+KO	K02664	type IV pilus assembly protein PilO	kofam	searchable	K02664	
+KO	K02665	type IV pilus assembly protein PilP	kofam	searchable	K02665	
+KO	K02666	type IV pilus assembly protein PilQ	kofam	searchable	K02666	
+KO	K02669	twitching motility protein PilT	kofam	searchable	K02669	
+KO	K02803	nagEb; N-acetylglucosamine PTS system EIIB component	kofam	searchable	K02803	
+KO	K02804	nagE; N-acetylglucosamine PTS system EIICBA or EIICB component	kofam	searchable	K02804	
+KO	K02823	dihydroorotate dehydrogenase electron transfer subunit	kofam	searchable	K02823	
+KO	K02851	UDP-GlcNAc:polyprenyl-phosphate GlcNAc-1-phosphate transferase	kofam	searchable	K02851	
+KO	K02858	3,4-dihydroxy 2-butanone 4-phosphate synthase	kofam	searchable	K02858	
+KO	K03077	araD; L-ribulose-5-phosphate 4-epimerase	kofam	searchable	K03077	
+KO	K03119	taurine dioxygenase	kofam	searchable	K03119	
+KO	K03147	phosphomethylpyrimidine synthase	kofam	searchable	K03147	
+KO	K03149	thiazole synthase	kofam	searchable	K03149	
+KO	K03150	2-iminoacetate synthase	kofam	searchable	K03150	
+KO	K03153	glycine oxidase	kofam	searchable	K03153	
+KO	K03183	demethylmenaquinone methyltransferase / 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase	kofam	searchable	K03183	
+KO	K03219	type III secretion protein C	kofam	searchable	K03219	
+KO	K03220	type III secretion protein D	kofam	searchable	K03220	
+KO	K03221	type III secretion protein F	kofam	searchable	K03221	
+KO	K03222	type III secretion protein J	kofam	searchable	K03222	
+KO	K03224	ATP synthase in type III secretion protein N	kofam	searchable	K03224	
+KO	K03225	type III secretion protein Q	kofam	searchable	K03225	
+KO	K03226	type III secretion protein R	kofam	searchable	K03226	
+KO	K03227	type III secretion protein S	kofam	searchable	K03227	
+KO	K03228	type III secretion protein T	kofam	searchable	K03228	
+KO	K03229	type III secretion protein U	kofam	searchable	K03229	
+KO	K03230	type III secretion protein V	kofam	searchable	K03230	
+KO	K03340	diaminopimelate dehydrogenase	kofam	searchable	K03340	
+KO	K03342	para-aminobenzoate synthetase / 4-amino-4-deoxychorismate lyase	kofam	searchable	K03342	
+KO	K03381	catechol 1,2-dioxygenase	kofam	searchable	K03381	
+KO	K03386	ahpC; peroxiredoxin 2/4 family catalytic subunit	kofam	searchable	K03386	
+KO	K03387	ahpF; NADH-dependent peroxiredoxin subunit F	kofam	searchable	K03387	
+KO	K03394	precorrin-2/cobalt-factor-2 C20-methyltransferase	kofam	searchable	K03394	
+KO	K03399	cobalt-precorrin-7 (C5)-methyltransferase	kofam	searchable	K03399	
+KO	K03406	methyl-accepting chemotaxis protein	kofam	searchable	K03406	
+KO	K03407	two-component system, chemotaxis family, sensor kinase CheA [EC:2.7.13.3]	kofam	searchable	K03407	
+KO	K03408	purine-binding chemotaxis protein CheW	kofam	searchable	K03408	
+KO	K03409	chemotaxis protein CheX	kofam	searchable	K03409	
+KO	K03410	chemotaxis protein CheC	kofam	searchable	K03410	
+KO	K03412	two-component system, chemotaxis family, protein-glutamate methylesterase/glutaminase [EC:3.1.1.61 3.5.1.44]	kofam	searchable	K03412	
+KO	K03413	two-component system, chemotaxis family, chemotaxis protein CheY	kofam	searchable	K03413	
+KO	K03414	chemotaxis protein CheZ	kofam	searchable	K03414	
+KO	K03427	type I restriction enzyme M protein [EC:2.1.1.72]	kofam	searchable	K03427	
+KO	K03464	muconolactone D-isomerase	kofam	searchable	K03464	
+KO	K03472	D-erythrose 4-phosphate dehydrogenase	kofam	searchable	K03472	
+KO	K03473	erythronate-4-phosphate dehydrogenase	kofam	searchable	K03473	
+KO	K03474	pyridoxine 5-phosphate synthase	kofam	searchable	K03474	
+KO	K03517	quinolinate synthase	kofam	searchable	K03517	
+KO	K03643	LPS-assembly lipoprotein LptE	kofam	searchable	K03643	
+KO	K03737	pyruvate-ferredoxin/flavodoxin oxidoreductase	kofam	searchable	K03737	
+KO	K03776	aerotaxis receptor	kofam	searchable	K03776	
+KO	K03781	katE; catalase	kofam	searchable	K03781	
+KO	K03782	katG; catalase-peroxidase	kofam	searchable	K03782	
+KO	K03785	3-dehydroquinate dehydratase I	kofam	searchable	K03785	
+KO	K03786	3-dehydroquinate dehydratase II	kofam	searchable	K03786	
+KO	K03794	sirB; sirohydrochlorin ferrochelatase	kofam	searchable	K03794	
+KO	K03795	sirohydrochlorin cobaltochelatase	kofam	searchable	K03795	
+KO	K03851	taurine-pyruvate aminotransferase	kofam	searchable	K03851	
+KO	K03852	sulfoacetaldehyde acetyltransferase	kofam	searchable	K03852	
+KO	K03856	3-deoxy-7-phosphoheptulonate synthase, class II	kofam	searchable	K03856	
+KO	K04053	type III secretion protein I	kofam	searchable	K04053	
+KO	K04069	pyruvate formate-lyase activating enzyme	kofam	searchable	K04069	
+KO	K04072	bifunctional acetaldehyde/alcohol dehydrogenase	kofam	searchable	K04072	
+KO	K04073	acetaldehyde dehydrogenase	kofam	searchable	K04073	
+KO	K04092	chorismate mutase	kofam	searchable	K04092	
+KO	K04093	chorismate mutase	kofam	searchable	K04093	
+KO	K04486	histidinol-phosphatase (PHP family)	kofam	searchable	K04486	
+KO	K04516	chorismate mutase	kofam	searchable	K04516	
+KO	K04517	prephenate dehydrogenase	kofam	searchable	K04517	
+KO	K04518	prephenate dehydratase	kofam	searchable	K04518	
+KO	K04564	sodA/sodB; superoxide dismutase, Fe-Mn family	kofam	searchable	K04564	
+KO	K04565	sodC; superoxide dismutase, Cu-Zn family	kofam	searchable	K04565	
+KO	K04719	5,6-dimethylbenzimidazole synthase	kofam	searchable	K04719	
+KO	K04744	LPS-assembly protein LptD	kofam	searchable	K04744	
+KO	K04781	salicylate synthase MbtI, Irp9, YbtS	kofam	searchable	K04781	
+KO	K04782	isochorismate pyruvate lyase PchB	kofam	searchable	K04782	
+KO	K05352	TarJ ribitol-5-phosphate 2-dehydrogenase	kofam	searchable	K05352	
+KO	K05359	arogenate/prephenate dehydratase	kofam	searchable	K05359	
+KO	K05549	benzoate/toluate 1,2-dioxygenase subunit alpha	kofam	searchable	K05549	
+KO	K05550	benzoate/toluate 1,2-dioxygenase subunit beta	kofam	searchable	K05550	
+KO	K05599	anthranilate 1,2-dioxygenase (deaminating, decarboxylating) large subunit	kofam	searchable	K05599	
+KO	K05600	anthranilate 1,2-dioxygenase (deaminating, decarboxylating) small subunit	kofam	searchable	K05600	
+KO	K05602	histidinol-phosphatase	kofam	searchable	K05602	
+KO	K05708	3-phenylpropionate/trans-cinnamate dioxygenase subunit alpha	kofam	searchable	K05708	
+KO	K05709	3-phenylpropionate/trans-cinnamate dioxygenase subunit beta	kofam	searchable	K05709	
+KO	K05711	2,3-dihydroxy-2,3-dihydrophenylpropionate dehydrogenase	kofam	searchable	K05711	
+KO	K05712	3-(3-hydroxy-phenyl)propionate hydroxylase	kofam	searchable	K05712	
+KO	K05713	2,3-dihydroxyphenylpropionate 1,2-dioxygenase	kofam	searchable	K05713	
+KO	K05714	2-hydroxy-6-oxonona-2,4-dienedioate hydrolase	kofam	searchable	K05714	
+KO	K05783	dihydroxycyclohexadiene carboxylate dehydrogenase	kofam	searchable	K05783	
+KO	K05821	aromatic amino acid aminotransferase II	kofam	searchable	K05821	
+KO	K05822	tetrahydrodipicolinate N-acetyltransferase	kofam	searchable	K05822	
+KO	K05823	N-acetyldiaminopimelate deacetylase	kofam	searchable	K05823	
+KO	K05874	methyl-accepting chemotaxis protein I, serine sensor receptor	kofam	searchable	K05874	
+KO	K05875	methyl-accepting chemotaxis protein II, aspartate sensor receptor	kofam	searchable	K05875	
+KO	K05876	methyl-accepting chemotaxis protein III, ribose and galactose sensor receptor	kofam	searchable	K05876	
+KO	K05877	methyl-accepting chemotaxis protein IV, peptide sensor receptor	kofam	searchable	K05877	
+KO	K05887	quinate/shikimate dehydrogenase YdiB	kofam	searchable	K05887	
+KO	K05895	precorrin-6A/cobalt-precorrin-6A reductase	kofam	searchable	K05895	
+KO	K05934	precorrin-3B C17-methyltransferase / cobalt-factor III methyltransferase	kofam	searchable	K05934	
+KO	K05936	precorrin-4/cobalt-precorrin-4 C11-methyltransferase	kofam	searchable	K05936	
+KO	K05942	citrate (Re)-synthase	kofam	searchable	K05942	
+KO	K05946	TagA/TarA linkage-unit mannosaminyltransferase	kofam	searchable	K05946	
+KO	K05972	AXE1; acetylxylan esterase	kofam	searchable	K05972	
+KO	K06001	tryptophan synthase beta chain	kofam	searchable	K06001	
+KO	K06042	precorrin-8X/cobalt-precorrin-8 methylmutase	kofam	searchable	K06042	
+KO	K06208	chorismate mutase	kofam	searchable	K06208	
+KO	K06209	chorismate mutase	kofam	searchable	K06209	
+KO	K06210	nicotinamide mononucleotide adenylyltransferase	kofam	searchable	K06210	
+KO	K06215	pyridoxal 5'-phosphate synthase pdxS subunit	kofam	searchable	K06215	
+KO	K06718	ectA; L-2,4-diaminobutyric acid acetyltransferase	kofam	searchable	K06718	
+KO	K06720	ectC; L-ectoine synthase	kofam	searchable	K06720	
+KO	K06861	LPS export ATP-binding protein LptB	kofam	searchable	K06861	
+KO	K06863	FAICAR synthetase	kofam	searchable	K06863	
+KO	K06989	aspartate dehydrogenase	kofam	searchable	K06989	
+KO	K07012	CRISPR-associated endonuclease/helicase Cas3 [EC:3.1.-.- 5.6.2.4]	kofam	searchable	K07012	
+KO	K07091	LPS export system permease protein LptF	kofam	searchable	K07091	
+KO	K07127	5-hydroxyisourate hydrolase	kofam	searchable	K07127	
+KO	K07217	manganese catalase	kofam	searchable	K07217	
+KO	K07248	aldA; lactaldehyde dehydrogenase / glycolaldehyde dehydrogenase	kofam	searchable	K07248	
+KO	K07255	taurine dehydrogenase small subunit	kofam	searchable	K07255	
+KO	K07256	taurine dehydrogenase large subunit	kofam	searchable	K07256	
+KO	K07324	archaeal flagellin FlaA	kofam	searchable	K07324	
+KO	K07325	archaeal flagellin FlaB	kofam	searchable	K07325	
+KO	K07327	archaeal flagellar protein FlaD	kofam	searchable	K07327	
+KO	K07328	archaeal flagellar protein FlaE	kofam	searchable	K07328	
+KO	K07329	archaeal flagellar protein FlaF	kofam	searchable	K07329	
+KO	K07330	archaeal flagellar protein FlaG	kofam	searchable	K07330	
+KO	K07331	archaeal flagellar protein FlaH	kofam	searchable	K07331	
+KO	K07332	archaeal flagellar protein FlaI	kofam	searchable	K07332	
+KO	K07333	archaeal flagellar protein FlaJ	kofam	searchable	K07333	
+KO	K07405	alpha-amylase orthologue	kofam	searchable	K07405	
+KO	K07636	two-component system, OmpR family, phosphate regulon sensor histidine kinase PhoR [EC:2.7.13.3]	kofam	searchable	K07636	
+KO	K07657	two-component system, OmpR family, phosphate regulon response regulator PhoB	kofam	searchable	K07657	
+KO	K07658	two-component system, OmpR family, alkaline phosphatase synthesis response regulator PhoP	kofam	searchable	K07658	
+KO	K07822	archaeal flagellar protein FlaC	kofam	searchable	K07822	
+KO	K07991	archaeal preflagellin peptidase FlaK [EC:3.4.23.52]	kofam	searchable	K07991	
+KO	K08289	phosphoribosylglycinamide formyltransferase 2	kofam	searchable	K08289	
+KO	K08310	dihydroneopterin triphosphate diphosphatase	kofam	searchable	K08310	
+KO	K08323	rspA; mannonate dehydratase	kofam	searchable	K08323	
+KO	K08324	succinate-semialdehyde dehydrogenase, sad	kofam	searchable	K08324	
+KO	K08363	merT; mercuric ion transport protein	kofam	searchable	K08363	
+KO	K08364	merP; periplasmic mercuric ion binding protein	kofam	searchable	K08364	
+KO	K08365	merR; MerR family transcriptional regulator, mercuric resistance operon regulatory protein	kofam	searchable	K08365	
+KO	K08680	2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase	kofam	searchable	K08680	
+KO	K08681	pyridoxal 5'-phosphate synthase pdxT subunit	kofam	searchable	K08681	
+KO	K08688	creatinase	kofam	searchable	K08688	
+KO	K08973	hemJ; protoporphyrinogen IX oxidase	kofam	searchable	K08973	
+KO	K09007	GTP cyclohydrolase IB	kofam	searchable	K09007	
+KO	K09011	(R)-citramalate synthase	kofam	searchable	K09011	
+KO	K09692	TagG teichoic acid transport system permease	kofam	searchable	K09692	
+KO	K09693	TagH teichoic acid transport system ATP-binding protein	kofam	searchable	K09693	
+KO	K09774	LPS export system protein LptA	kofam	searchable	K09774	
+KO	K09882	cobaltochelatase CobS	kofam	searchable	K09882	
+KO	K09883	cobaltochelatase CobT	kofam	searchable	K09883	
+KO	K09951	CRISPR-associated protein Cas2	kofam	searchable	K09951	
+KO	K10150	cysteine synthase / cystathionine beta-synthase	kofam	searchable	K10150	
+KO	K10206	LL-diaminopimelate aminotransferase	kofam	searchable	K10206	
+KO	K10216	2-hydroxymuconate-semialdehyde hydrolase	kofam	searchable	K10216	
+KO	K10217	aminomuconate-semialdehyde/2-hydroxymuconate-6-semialdehyde dehydrogenase	kofam	searchable	K10217	
+KO	K10537	araF; L-arabinose transport system substrate-binding protein	kofam	searchable	K10537	
+KO	K10538	araH; L-arabinose transport system permease protein	kofam	searchable	K10538	
+KO	K10539	araG; L-arabinose transport system ATP-binding protein	kofam	searchable	K10539	
+KO	K10543	xylF; D-xylose transport system substrate-binding protein	kofam	searchable	K10543	
+KO	K10544	xylH; D-xylose transport system permease protein	kofam	searchable	K10544	
+KO	K10545	xylG; D-xylose transport system ATP-binding protein	kofam	searchable	K10545	
+KO	K10670	glycine/sarcosine/betaine reductase complex component A	kofam	searchable	K10670	
+KO	K10671	glycine reductase complex component B subunit alpha and beta	kofam	searchable	K10671	
+KO	K10672	glycine reductase complex component B subunit gamma	kofam	searchable	K10672	
+KO	K10674	ectD; ectoine hydroxylase	kofam	searchable	K10674	
+KO	K10764	O-succinylhomoserine sulfhydrylase	kofam	searchable	K10764	
+KO	K10793	D-proline reductase (dithiol) PrdA	kofam	searchable	K10793	
+KO	K10794	D-proline reductase (dithiol) PrdB	kofam	searchable	K10794	
+KO	K10831	taurine transport system ATP-binding protein	kofam	searchable	K10831	
+KO	K11175	phosphoribosylglycinamide formyltransferase	kofam	searchable	K11175	
+KO	K11176	IMP cyclohydrolase	kofam	searchable	K11176	
+KO	K11358	aspartate aminotransferase	kofam	searchable	K11358	
+KO	K11440	gbsB; choline dehydrogenase	kofam	searchable	K11440	
+KO	K11540	carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase	kofam	searchable	K11540	
+KO	K11541	carbamoyl-phosphate synthase / aspartate carbamoyltransferase	kofam	searchable	K11541	
+KO	K11719	LPS export system protein LptC	kofam	searchable	K11719	
+KO	K11720	LPS export system permease protein LptG	kofam	searchable	K11720	
+KO	K11752	diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase	kofam	searchable	K11752	
+KO	K11754	dihydrofolate synthase / folylpolyglutamate synthase	kofam	searchable	K11754	
+KO	K11755	phosphoribosyl-AMP cyclohydrolase / phosphoribosyl-ATP pyrophosphohydrolase	kofam	searchable	K11755	
+KO	K11782	chorismate dehydratase	kofam	searchable	K11782	
+KO	K11783	futalosine hydrolase	kofam	searchable	K11783	
+KO	K11784	cyclic dehypoxanthinyl futalosine synthase	kofam	searchable	K11784	
+KO	K11785	5,8-dihydroxy-2-naphthoate synthase	kofam	searchable	K11785	
+KO	K11787	multifunctional purine biosynthesis protein	kofam	searchable	K11787	
+KO	K11788	multifunctional purine biosynthesis protein	kofam	searchable	K11788	
+KO	K11808	phosphoribosylaminoimidazole carboxylase	kofam	searchable	K11808	
+KO	K11891	type VI secretion system protein ImpL	kofam	searchable	K11891	
+KO	K11892	type VI secretion system protein ImpK	kofam	searchable	K11892	
+KO	K11893	type VI secretion system protein ImpJ	kofam	searchable	K11893	
+KO	K11895	type VI secretion system protein ImpH	kofam	searchable	K11895	
+KO	K11896	type VI secretion system protein ImpG	kofam	searchable	K11896	
+KO	K11897	type VI secretion system protein ImpF	kofam	searchable	K11897	
+KO	K11900	type VI secretion system protein ImpC	kofam	searchable	K11900	
+KO	K11901	type VI secretion system protein ImpB	kofam	searchable	K11901	
+KO	K11902	type VI secretion system protein ImpA	kofam	searchable	K11902	
+KO	K11903	type VI secretion system secreted protein Hcp	kofam	searchable	K11903	
+KO	K11904	type VI secretion system secreted protein VgrG	kofam	searchable	K11904	
+KO	K11905	type VI secretion system protein	kofam	searchable	K11905	
+KO	K11906	type VI secretion system protein VasD	kofam	searchable	K11906	
+KO	K11907	type VI secretion system protein VasG	kofam	searchable	K11907	
+KO	K11910	type VI secretion system protein VasJ	kofam	searchable	K11910	
+KO	K11919	type VI secretion system lysozyme-related protein	kofam	searchable	K11919	
+KO	K12524	bifunctional aspartokinase / homoserine dehydrogenase 1	kofam	searchable	K12524	
+KO	K12525	bifunctional aspartokinase / homoserine dehydrogenase 2	kofam	searchable	K12525	
+KO	K12526	bifunctional diaminopimelate decarboxylase / aspartate kinase	kofam	searchable	K12526	
+KO	K12657	delta-1-pyrroline-5-carboxylate synthetase	kofam	searchable	K12657	
+KO	K12659	N-acetyl-gamma-glutamyl-phosphate reductase / acetylglutamate kinase	kofam	searchable	K12659	
+KO	K13034	cyanoalanine synthase / cysteine synthase	kofam	searchable	K13034	
+KO	K13381	bifunctional chitinase/lysozyme orthologue	kofam	searchable	K13381	
+KO	K13421	uridine monophosphate synthetase	kofam	searchable	K13421	
+KO	K13484	5-hydroxyisourate hydrolase / 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase	kofam	searchable	K13484	
+KO	K13497	anthranilate synthase/phosphoribosyltransferase	kofam	searchable	K13497	
+KO	K13498	indole-3-glycerol phosphate synthase / phosphoribosylanthranilate isomerase	kofam	searchable	K13498	
+KO	K13501	anthranilate synthase / indole-3-glycerol phosphate synthase / phosphoribosylanthranilate isomerase	kofam	searchable	K13501	
+KO	K13503	anthranilate synthase	kofam	searchable	K13503	
+KO	K13540	precorrin-2 C20-methyltransferase / precorrin-3B C17-methyltransferase	kofam	searchable	K13540	
+KO	K13541	cobalt-precorrin 5A hydrolase / cobalt-factor III methyltransferase / precorrin-3B C17-methyltransferase	kofam	searchable	K13541	
+KO	K13542	uroporphyrinogen III methyltransferase / synthase	kofam	searchable	K13542	
+KO	K13543	hemDX; uroporphyrinogen III methyltransferase / synthase	kofam	searchable	K13543	
+KO	K13713	fusion protein PurCD	kofam	searchable	K13713	
+KO	K13788	phosphate acetyltransferase	kofam	searchable	K13788	
+KO	K13799	pantoate ligase / CMP/dCMP kinase	kofam	searchable	K13799	
+KO	K13820	flagellar biosynthesis protein FliR/FlhB	kofam	searchable	K13820	
+KO	K13829	shikimate kinase / 3-dehydroquinate synthase	kofam	searchable	K13829	
+KO	K13832	3-dehydroquinate dehydratase / shikimate dehydrogenase	kofam	searchable	K13832	
+KO	K13853	3-deoxy-7-phosphoheptulonate synthase / chorismate mutase	kofam	searchable	K13853	
+KO	K13919	propanediol dehydratase medium subunit	kofam	searchable	K13919	
+KO	K13920	propanediol dehydratase small subunit	kofam	searchable	K13920	
+KO	K13922	propionaldehyde dehydrogenase	kofam	searchable	K13922	
+KO	K13923	phosphate propanoyltransferase	kofam	searchable	K13923	
+KO	K13939	dihydroneopterin aldolase / 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase / dihydropteroate synthase	kofam	searchable	K13939	
+KO	K13940	dihydroneopterin aldolase / 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase	kofam	searchable	K13940	
+KO	K13941	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase / dihydropteroate synthase	kofam	searchable	K13941	
+KO	K13950	para-aminobenzoate synthetase	kofam	searchable	K13950	
+KO	K13967	nanEK; N-acetylmannosamine-6-phosphate 2-epimerase / kinase	kofam	searchable	K13967	
+KO	K13998	dihydrofolate reductase / thymidylate synthase	kofam	searchable	K13998	
+KO	K14048	urease subunit gamma/beta	kofam	searchable	K14048	
+KO	K14152	phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase / histidinol dehydrogenase	kofam	searchable	K14152	
+KO	K14153	hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase	kofam	searchable	K14153	
+KO	K14155	cystathionine beta-lyase	kofam	searchable	K14155	
+KO	K14170	chorismate mutase / prephenate dehydratase	kofam	searchable	K14170	
+KO	K14187	chorismate mutase / prephenate dehydrogenase	kofam	searchable	K14187	
+KO	K14260	alanine-synthesizing transaminase	kofam	searchable	K14260	
+KO	K14261	alanine-synthesizing transaminase	kofam	searchable	K14261	
+KO	K14267	N-succinyldiaminopimelate aminotransferase	kofam	searchable	K14267	
+KO	K14652	3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase II	kofam	searchable	K14652	
+KO	K14677	aminoacylase	kofam	searchable	K14677	
+KO	K14681	argininosuccinate lyase / amino-acid N-acetyltransferase	kofam	searchable	K14681	
+KO	K14682	amino-acid N-acetyltransferase	kofam	searchable	K14682	
+KO	K14727	3-oxoadipate enol-lactonase / 4-carboxymuconolactone decarboxylase	kofam	searchable	K14727	
+KO	K14977	(S)-ureidoglycine aminohydrolase	kofam	searchable	K14977	
+KO	K15024	putative phosphotransacetylase	kofam	searchable	K15024	
+KO	K15228	methylamine dehydrogenase light chain	kofam	searchable	K15228	
+KO	K15229	methylamine dehydrogenase heavy chain	kofam	searchable	K15229	
+KO	K15342	CRISP-associated protein Cas1	kofam	searchable	K15342	
+KO	K15551	taurine transport system substrate-binding protein	kofam	searchable	K15551	
+KO	K15552	taurine transport system permease protein	kofam	searchable	K15552	
+KO	K15783	doeA; ectoine hydrolase	kofam	searchable	K15783	
+KO	K15784	doeB; N2-acetyl-L-2,4-diaminobutanoate deacetylase	kofam	searchable	K15784	
+KO	K15866	2-(1,2-epoxy-1,2-dihydrophenyl)acetyl-CoA isomerase	kofam	searchable	K15866	
+KO	K15920	xylan 1,4-beta-xylosidase orthologue	kofam	searchable	K15920	
+KO	K15921	alpha-L-arabinofuranosidase orthologue	kofam	searchable	K15921	
+KO	K15923	alpha-L-fucosidase 2 orthologue	kofam	searchable	K15923	
+KO	K16242	phenol/toluene 2-monooxygenase (NADH) P3/A3	kofam	searchable	K16242	
+KO	K16243	phenol/toluene 2-monooxygenase (NADH) P1/A1	kofam	searchable	K16243	
+KO	K16244	phenol/toluene 2-monooxygenase (NADH) P2/A2	kofam	searchable	K16244	
+KO	K16245	phenol/toluene 2-monooxygenase (NADH) P4/A4	kofam	searchable	K16245	
+KO	K16246	phenol/toluene 2-monooxygenase (NADH) P5/A5	kofam	searchable	K16246	
+KO	K16249	phenol/toluene 2-monooxygenase P0 component	kofam	searchable	K16249	
+KO	K16319	anthranilate 1,2-dioxygenase large subunit	kofam	searchable	K16319	
+KO	K16320	anthranilate 1,2-dioxygenase small subunit	kofam	searchable	K16320	
+KO	K16838	urate oxidase / 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase	kofam	searchable	K16838	
+KO	K16839	FAD-dependent urate hydroxylase	kofam	searchable	K16839	
+KO	K16842	allantoinase	kofam	searchable	K16842	
+KO	K16849	uxaA1; altronate dehydratase small subunit	kofam	searchable	K16849	
+KO	K16850	uxaA2; altronate dehydratase large subunit	kofam	searchable	K16850	
+KO	K17069	O-acetylhomoserine / O-acetylserine sulfhydrylase	kofam	searchable	K17069	
+KO	K17216	cystathionine beta-synthase (O-acetyl-L-serine)	kofam	searchable	K17216	
+KO	K17217	cystathionine gamma-lyase / homocysteine desulfhydrase	kofam	searchable	K17217	
+KO	K17463	dgaF; 2-dehydro-3-deoxy-phosphogluconate aldolase	kofam	searchable	K17463	
+KO	K17716	capD; UDP-glucose 4-epimerase	kofam	searchable	K17716	
+KO	K17735	carnitine 3-dehydrogenase	kofam	searchable	K17735	
+KO	K17755	choline oxidase	kofam	searchable	K17755	
+KO	K17761	succinate-semialdehyde dehydrogenase, mitochondrial	kofam	searchable	K17761	
+KO	K17828	dihydroorotate dehydrogenase (NAD+) catalytic subunit	kofam	searchable	K17828	
+KO	K17836	penP; beta-lactamase class A	kofam	searchable	K17836	
+KO	K17837	bla2, blm, ccrA, blaB; metallo-beta-lactamase class B	kofam	searchable	K17837	
+KO	K17838	oxa; beta-lactamase class D	kofam	searchable	K17838	
+KO	K17989	L-serine/L-threonine ammonia-lyase	kofam	searchable	K17989	
+KO	K18285	aminodeoxyfutalosine synthase	kofam	searchable	K18285	
+KO	K18286	aminodeoxyfutalosine deaminase	kofam	searchable	K18286	
+KO	K18364	2-oxopent-4-enoate/cis-2-oxohex-4-enoate hydratase	kofam	searchable	K18364	
+KO	K18365	4-hydroxy-2-oxovalerate/4-hydroxy-2-oxohexanoate aldolase	kofam	searchable	K18365	
+KO	K18366	acetaldehyde/propanal dehydrogenase	kofam	searchable	K18366	
+KO	K18374	type III secretion inner rod protein HrpB2	kofam	searchable	K18374	
+KO	K18375	type III secretion hrp pilus HrpE	kofam	searchable	K18375	
+KO	K18649	inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase / histidinol-phosphatase	kofam	searchable	K18649	
+KO	K18698	blaTEM; beta-lactamase class A TEM	kofam	searchable	K18698	
+KO	K18699	blaSHV; beta-lactamase class A SHV	kofam	searchable	K18699	
+KO	K18704	TarL CDP-ribitol ribitolphosphotransferase / teichoic acid ribitol-phosphate polymerase	kofam	searchable	K18704	
+KO	K18766	blaZ; beta-lactamase class A BlaZ	kofam	searchable	K18766	
+KO	K18767	blaCTX-M; beta-lactamase class A CTX-M	kofam	searchable	K18767	
+KO	K18768	blaKPC; beta-lactamase class A KPC	kofam	searchable	K18768	
+KO	K18780	blaNDM; metallo-beta-lactamase class B NDM	kofam	searchable	K18780	
+KO	K18781	blaVIM; metallo-beta-lactamase class B VIM	kofam	searchable	K18781	
+KO	K18782	blaIMP; metallo-beta-lactamase class B IMP	kofam	searchable	K18782	
+KO	K18790	blaOXA-1; beta-lactamase class D OXA-1	kofam	searchable	K18790	
+KO	K18791	blaOXA-2; beta-lactamase class D OXA-2	kofam	searchable	K18791	
+KO	K18792	blaOXA-10; beta-lactamase class D OXA-10	kofam	searchable	K18792	
+KO	K18793	blaOXA-23; beta-lactamase class D OXA-23	kofam	searchable	K18793	
+KO	K18794	blaOXA-51; beta-lactamase class D OXA-51	kofam	searchable	K18794	
+KO	K18795	blaCARB-1; beta-lactamase class A CARB-1, PSE family	kofam	searchable	K18795	
+KO	K18796	blaLEN; beta-lactamase class A LEN	kofam	searchable	K18796	
+KO	K18797	blaPER; beta-lactamase class A PER	kofam	searchable	K18797	
+KO	K18970	blaGES; beta-lactamase class A GES	kofam	searchable	K18970	
+KO	K18971	blaOXA-24; beta-lactamase class D OXA-24	kofam	searchable	K18971	
+KO	K18972	blaOXA-58; beta-lactamase class D OXA-58	kofam	searchable	K18972	
+KO	K18973	blaOXA-50; beta-lactamase class D OXA-50	kofam	searchable	K18973	
+KO	K18976	blaOXA-48; beta-lactamase class D OXA-48	kofam	searchable	K18976	
+KO	K19046	CRISPR system Cascade subunit CasB	kofam	searchable	K19046	
+KO	K19058	merC; mercuric ion transport protein	kofam	searchable	K19058	
+KO	K19059	merE; mercuric ion transport protein	kofam	searchable	K19059	
+KO	K19095	blaCMY-1; beta-lactamase class C CMY-1	kofam	searchable	K19095	
+KO	K19096	blaCMY-2; beta-lactamase class C CMY-2	kofam	searchable	K19096	
+KO	K19097	blaVEB; beta-lactamase class A VEB	kofam	searchable	K19097	
+KO	K19098	blaOXA-9; beta-lactamase class D OXA-9	kofam	no_threshold		KOfam publishes no score threshold for this KO, so KofamScan never assigns it
+KO	K19099	blaGIM; metallo-beta-lactamase class B GIM	kofam	no_threshold		KOfam publishes no score threshold for this KO, so KofamScan never assigns it
+KO	K19100	blaDHA; beta-lactamase class C DHA	kofam	searchable	K19100	
+KO	K19101	blaFOX; beta-lactamase class C FOX	kofam	searchable	K19101	
+KO	K19123	CRISPR system Cascade subunit CasA	kofam	searchable	K19123	
+KO	K19124	CRISPR system Cascade subunit CasC	kofam	searchable	K19124	
+KO	K19125	CRISPR system Cascade subunit CasD	kofam	searchable	K19125	
+KO	K19126	CRISPR system Cascade subunit CasE	kofam	searchable	K19126	
+KO	K19209	blaOXA-42; beta-lactamase class D OXA-42	kofam	searchable	K19209	
+KO	K19210	blaOXA-61; beta-lactamase class D OXA-61	kofam	searchable	K19210	
+KO	K19211	blaOXA-62; beta-lactamase class D OXA-62	kofam	searchable	K19211	
+KO	K19212	blaOXA-63; beta-lactamase class D OXA-63	kofam	searchable	K19212	
+KO	K19213	blaOXA-12; beta-lactamase class D OXA-12	kofam	searchable	K19213	
+KO	K19214	blaACC; beta-lactamase class C ACC	kofam	searchable	K19214	
+KO	K19215	blaACT_MIR; beta-lactamase class C ACT/MIR	kofam	searchable	K19215	
+KO	K19216	blaIND; metallo-beta-lactamase class B IND	kofam	searchable	K19216	
+KO	K19217	blaCARB-17; beta-lactamase class A CARB-17	kofam	searchable	K19217	
+KO	K19218	blaCARB-5; beta-lactamase class A CARB-5, RTG family	kofam	searchable	K19218	
+KO	K19221	cob(I)alamin adenosyltransferase	kofam	searchable	K19221	
+KO	K19222	1,4-dihydroxy-2-naphthoyl-CoA hydrolase	kofam	searchable	K19222	
+KO	K19244	alanine dehydrogenase	kofam	searchable	K19244	
+KO	K19266	lactaldehyde dehydrogenase	kofam	searchable	K19266	
+KO	K19271	chloramphenicol O-acetyltransferase type A	kofam	searchable	K19271	
+KO	K19316	blaIMI; beta-lactamase class A IMI	kofam	searchable	K19316	
+KO	K19317	blaBEL; beta-lactamase class A BEL	kofam	searchable	K19317	
+KO	K19318	blaOXA-213; beta-lactamase class D OXA-213	kofam	searchable	K19318	
+KO	K19319	blaOXA-134; beta-lactamase class D OXA-134	kofam	searchable	K19319	
+KO	K19320	blaOXA-211; beta-lactamase class D OXA-211	kofam	searchable	K19320	
+KO	K19321	blaOXA-214; beta-lactamase class D OXA-214	kofam	searchable	K19321	
+KO	K19322	blaOXA-229; beta-lactamase class D OXA-229	kofam	searchable	K19322	
+KO	K19551	pectate lyase C orthologue	kofam	searchable	K19551	
+KO	K19562	bifunctional dethiobiotin synthetase / spermidine---8-amino-7-oxononanoate transaminase	kofam	searchable	K19562	
+KO	K19563	lysine---8-amino-7-oxononanoate aminotransferase	kofam	searchable	K19563	
+KO	K19697	propionate kinase PduW	kofam	searchable	K19697	
+KO	K19712	adenosylcobinamide-phosphate guanylyltransferase	kofam	searchable	K19712	
+KO	K19965	dihydroneopterin triphosphate pyrophosphohydrolase	kofam	searchable	K19965	
+KO	K20021	L-cysteine desulfidase	kofam	searchable	K20021	
+KO	K20143	acryloyl-CoA reductase	kofam	searchable	K20143	
+KO	K20319	blaADC; beta-lactamase class C ADC	kofam	searchable	K20319	
+KO	K20320	blaPDC; beta-lactamase class C PDC	kofam	searchable	K20320	
+KO	K20457	dihydrofolate synthase	kofam	searchable	K20457	
+KO	K20626	lactoyl-CoA dehydratase alpha subunit	kofam	searchable	K20626	
+KO	K20627	lactoyl-CoA dehydratase beta subunit	kofam	searchable	K20627	
+KO	K20810	aminodeoxyfutalosine deaminase	kofam	searchable	K20810	
+KO	K20844	alpha-L-arabinofuranosidase orthologue	kofam	searchable	K20844	
+KO	K20860	FMN hydrolase / 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase	kofam	searchable	K20860	
+KO	K20861	FMN hydrolase / 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase	kofam	searchable	K20861	
+KO	K20862	FMN hydrolase / 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase	kofam	searchable	K20862	
+KO	K21030	TarI D-ribitol-5-phosphate cytidylyltransferase	kofam	searchable	K21030	
+KO	K21063	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase	kofam	searchable	K21063	
+KO	K21064	5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase	kofam	searchable	K21064	
+KO	K21219	hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase	kofam	searchable	K21219	
+KO	K21266	blaOXA-286; beta-lactamase class D OXA-286	kofam	searchable	K21266	
+KO	K21276	blaOXA-22; beta-lactamase class D OXA-22	kofam	searchable	K21276	
+KO	K21277	blaOXA-60; beta-lactamase class D OXA-60	kofam	searchable	K21277	
+KO	K21285	TagB/TarB teichoic acid glycerol-phosphate primase	kofam	searchable	K21285	
+KO	K21479	cobalt-factor III methyltransferase	kofam	searchable	K21479	
+KO	K21576	glycine/sarcosine/betaine reductase complex component C subunit alpha	kofam	searchable	K21576	
+KO	K21577	glycine/sarcosine/betaine reductase complex component C subunit beta	kofam	searchable	K21577	
+KO	K21592	TarK teichoic acid ribitol-phosphate primase	kofam	searchable	K21592	
+KO	K21801	indoleacetamide hydrolase IaaH	kofam	searchable	K21801	
+KO	K21832	glycine betaine monooxygenase B	kofam	searchable	K21832	
+KO	K21833	N,N-dimethylglycine/sarcosine dehydrogenase	kofam	searchable	K21833	
+KO	K21834	N,N-dimethylglycine/sarcosine dehydrogenase ferredoxin subunit	kofam	searchable	K21834	
+KO	K22011	sirohydrochlorin cobalto/nickelchelatase	kofam	searchable	K22011	
+KO	K22212	malolactic enzyme	kofam	searchable	K22212	
+KO	K22226	ahbC; Fe-coproporphyrin III synthase	kofam	searchable	K22226	
+KO	K22227	ahbD; AdoMet-dependent heme synthase	kofam	searchable	K22227	
+KO	K22268	xylan 1,4-beta-xylosidase orthologue	kofam	searchable	K22268	
+KO	K22305	phosphoserine phosphatase	kofam	searchable	K22305	
+KO	K22316	ribonuclease H / adenosylcobalamin/alpha-ribazole phosphatase	kofam	searchable	K22316	
+KO	K22331	blaOXA-184; beta-lactamase class D OXA-184	kofam	searchable	K22331	
+KO	K22332	blaOXA-548; beta-lactamase class D OXA-548	kofam	searchable	K22332	
+KO	K22333	blaOXA-493; beta-lactamase class D OXA-493	kofam	searchable	K22333	
+KO	K22334	blaOXA-464; beta-lactamase class D OXA-464	kofam	searchable	K22334	
+KO	K22335	blaOXA-114; beta-lactamase class D OXA-114	kofam	searchable	K22335	
+KO	K22346	blaSME; beta-lactamase class A SME	kofam	searchable	K22346	
+KO	K22351	blaOXA-209; beta-lactamase class D OXA-209	kofam	searchable	K22351	
+KO	K22352	blaOXA-29; beta-lactamase class D OXA-29	kofam	searchable	K22352	
+KO	K22373	lactate racemase	kofam	searchable	K22373	
+KO	K22391	GTP cyclohydrolase I	kofam	searchable	K22391	
+KO	K22443	carnitine monooxygenase subunit	kofam	searchable	K22443	
+KO	K22444	carnitine monooxygenase subunit	kofam	searchable	K22444	
+KO	K22477	N-acetylglutamate synthase	kofam	searchable	K22477	
+KO	K22478	bifunctional N-acetylglutamate synthase/kinase	kofam	searchable	K22478	
+KO	K22487	type III secretion system protein	kofam	searchable	K22487	
+KO	K22488	type III secretion system protein	kofam	searchable	K22488	
+KO	K22504	type III secretion system outer membrane ring protein	kofam	searchable	K22504	
+KO	K22505	type III secretion system inner membrane ring protein	kofam	searchable	K22505	
+KO	K22506	type III secretion system ATPase	kofam	searchable	K22506	
+KO	K22507	type III secretion system export apparatus protein	kofam	searchable	K22507	
+KO	K22508	type III secretion system export apparatus protein	kofam	searchable	K22508	
+KO	K22509	type III secretion system export apparatus protein	kofam	searchable	K22509	
+KO	K22510	type III secretion system export apparatus switch protein	kofam	searchable	K22510	
+KO	K22896	vnfD; vanadium-dependent nitrogenase alpha chain	kofam	searchable	K22896	
+KO	K22897	vnfK; vanadium-dependent nitrogenase beta chain	kofam	searchable	K22897	
+KO	K22898	vnfG; vanadium nitrogenase delta subunit	kofam	searchable	K22898	
+KO	K22899	vnfH; vanadium nitrogenase iron protein	kofam	searchable	K22899	
+KO	K22903	vnfE; nitrogenase vanadium-cofactor synthesis protein VnfE	kofam	searchable	K22903	
+KO	K22933	exo-polygalacturonase LplD orthologue	kofam	searchable	K22933	
+KO	K22994	pectate disaccharide-lyase PelX orthologue	kofam	searchable	K22994	
+KO	K23264	FGAM synthase component	kofam	searchable	K23264	
+KO	K23265	FGAM synthase component	kofam	searchable	K23265	
+KO	K23269	FGAM synthase component	kofam	searchable	K23269	
+KO	K23270	FGAM synthase component	kofam	searchable	K23270	
+KO	K23304	serine O-acetyltransferase	kofam	searchable	K23304	
+KO	K23550	sialidase NanH orthologue	kofam	searchable	K23550	
+KO	K23661	type III secretion system protein	kofam	searchable	K23661	
+KO	K23986	archaeal flagellar protein FlaCE	kofam	searchable	K23986	
+KO	K24017	phosphoribosyl isomerase A	kofam	searchable	K24017	
+KO	K24018	cyclohexadienyl/prephenate dehydrogenase / 3-phosphoshikimate 1-carboxyvinyltransferase	kofam	searchable	K24018	
+KO	K24042	methionine synthase / methylenetetrahydrofolate reductase	kofam	searchable	K24042	
+KO	K24153	blaOXY; beta-lactamase class A OXY	kofam	searchable	K24153	
+KO	K24159	blaLAP; beta-lactamase class A LAP	kofam	no_threshold		KOfam publishes no score threshold for this KO, so KofamScan never assigns it
+KO	K24161	blaGOP; beta-lactamase class B GOB	kofam	searchable	K24161	
+KO	K24162	blaBlaB; beta-lactamase class B BlaB	kofam	searchable	K24162	
+KO	K24707	ribulokinase	kofam	searchable	K24707	
+KO	K24866	precorrin-2 dehydrogenase	kofam	searchable	K24866	
+KO	K25045	xacG; L-arabinose/D-xylose transport system substrate-binding protein	kofam	searchable	K25045	
+KO	K25046	xacH; L-arabinose/D-xylose transport system permease protein	kofam	searchable	K25046	
+KO	K25047	xacI; L-arabinose/D-xylose transport system permease protein	kofam	searchable	K25047	
+KO	K25528	phosphoserine phosphatase	kofam	searchable	K25528	
+KO	K26138	nitrite reductase [NAD(P)H] small subunit	kofam	searchable	K26138	
+KO	K26139	nitrite reductase [NAD(P)H] large subunit	kofam	searchable	K26139	
+KO	K26607	putative L-cysteine desulfidase	kofam	searchable	K26607	
+KO	K27497	carnitine 3-dehydrogenase / betainyl-CoA thioesterase	kofam	searchable	K27497	
+KO	K27802	aconitate hydratase A	kofam	searchable	K27802	
+KO	K27837	3-dehydrocarnitine:acetyl-CoA trimethylamine transferase	kofam	searchable	K27837	
+KO	K27857	plant cystathionine gamma-synthase	kofam	searchable	K27857	
+KO	K28205	phosphoserine transaminase	kofam	searchable	K28205	
+KO	K28207	nagK; N-acetylglucosamine kinase	kofam	searchable	K28207	
+KO	K28208	murK; N-acetylmuramate/N-acetylglucosamine kinase	kofam	searchable	K28208	
+KO	K28842	histidinol-phosphatase	kofam	searchable	K28842	
+KO	K28887	kdgA; 2-dehydro-3-deoxy-phosphogluconate aldolase	kofam	searchable	K28887	
+KO	K28981	L-cysteine desulfidase	kofam	searchable	K28981	
+NCBIFAM	NF000689.1	ferrochelatase	ncbifam	searchable	NF000689.1	
+NCBIFAM	NF001209.0	metX homoserine O-acetyltransferase MetX	ncbifam	searchable	NF001209.0	
+NCBIFAM	NF001610.0	phosphoribosyl-ATP diphosphatase	ncbifam	searchable	NF001610.0	
+NCBIFAM	NF001611.0	phosphoribosyl-ATP diphosphatase	ncbifam	searchable	NF001611.0	
+NCBIFAM	NF001613.0	phosphoribosyl-ATP diphosphatase	ncbifam	searchable	NF001613.0	
+NCBIFAM	NF001682.0	glucosamine-6-phosphate deaminase, Caryophanales family	ncbifam	searchable	NF001682.0	
+NCBIFAM	NF001685.0	nagB glucosamine-6-phosphate deaminase	ncbifam	searchable	NF001685.0	
+NCBIFAM	NF002537.0	phosphoadenylyl-sulfate reductase	ncbifam	searchable	NF002537.0	
+NCBIFAM	NF002997.0	lptD LPS assembly outer membrane complex protein	ncbifam	searchable	NF002997.0	
+NCBIFAM	NF003358.0	lptD LPS-assembly protein	ncbifam	searchable	NF003358.0	
+NCBIFAM	NF003776.0	metA homoserine O-succinyltransferase MetA	ncbifam	searchable	NF003776.0	
+NCBIFAM	NF004057.0	precorrin-8X methylmutase	ncbifam	searchable	NF004057.0	
+NCBIFAM	NF004058.0	cobalt-factor II C(20)-methyltransferase	ncbifam	searchable	NF004058.0	
+NCBIFAM	NF004059.0	cobalt-factor II C(20)-methyltransferase	ncbifam	searchable	NF004059.0	
+NCBIFAM	NF004060.0	cobalt-factor II C(20)-methyltransferase	ncbifam	searchable	NF004060.0	
+NCBIFAM	NF004061.0	cobalt-factor II C(20)-methyltransferase	ncbifam	searchable	NF004061.0	
+NCBIFAM	NF004062.0	cobalt-factor II C(20)-methyltransferase	ncbifam	searchable	NF004062.0	
+NCBIFAM	NF004063.0	cobalt-factor II C(20)-methyltransferase	ncbifam	searchable	NF004063.0	
+NCBIFAM	NF004423.0	precorrin-3B C(17)-methyltransferase	ncbifam	searchable	NF004423.0	
+NCBIFAM	NF004614.0	precorrin-2 C(20)-methyltransferase	ncbifam	searchable	NF004614.0	
+NCBIFAM	NF004619.0	precorrin-8X methylmutase	ncbifam	searchable	NF004619.0	
+NCBIFAM	NF004647.0	precorrin-2 C(20)-methyltransferase	ncbifam	searchable	NF004647.0	
+NCBIFAM	NF004648.0	precorrin-3B C(17)-methyltransferase	ncbifam	searchable	NF004648.0	
+NCBIFAM	NF004703.2	archaellar assembly protein ArlJ/FlaJ	ncbifam	searchable	NF004703.2	
+NCBIFAM	NF004704.2	archaellar assembly protein ArlJ/FlaJ	ncbifam	searchable	NF004704.2	
+NCBIFAM	NF004705.1	archaellar assembly protein ArlJ/FlaJ	ncbifam	searchable	NF004705.1	
+NCBIFAM	NF004901.0	cobalt-precorrin-8 methylmutase	ncbifam	searchable	NF004901.0	
+NCBIFAM	NF005074.0	isocitrate lyase	ncbifam	searchable	NF005074.0	
+NCBIFAM	NF005444.0	DotU family type VI secretion system protein	ncbifam	searchable	NF005444.0	
+NCBIFAM	NF005492.0	phosphoribosylaminoimidazolecarboxamide formyltransferase	ncbifam	searchable	NF005492.0	
+NCBIFAM	NF005967.0	cobalt-precorrin-6A reductase	ncbifam	searchable	NF005967.0	
+NCBIFAM	NF005968.0	cobalt-precorrin-6A reductase	ncbifam	searchable	NF005968.0	
+NCBIFAM	NF005969.0	cobalt-precorrin-6A reductase	ncbifam	searchable	NF005969.0	
+NCBIFAM	NF005970.0	cobalt-precorrin-6A reductase	ncbifam	searchable	NF005970.0	
+NCBIFAM	NF005971.0	cobalt-precorrin-6A reductase	ncbifam	searchable	NF005971.0	
+NCBIFAM	NF005996.1	hisJ histidinol-phosphatase	ncbifam	searchable	NF005996.1	
+NCBIFAM	NF006136.0	precorrin-8X methylmutase	ncbifam	searchable	NF006136.0	
+NCBIFAM	NF006137.0	cobalt-precorrin-8 methylmutase	ncbifam	searchable	NF006137.0	
+NCBIFAM	NF006449.0	metX homoserine O-succinyltransferase MetX	ncbifam	searchable	NF006449.0	
+NCBIFAM	NF006916.0	succinic semialdehyde dehydrogenase	ncbifam	searchable	NF006916.0	
+NCBIFAM	NF007604.0	entD enterobactin synthase subunit EntD	ncbifam	searchable	NF007604.0	
+NCBIFAM	NF007605.2	entF enterobactin non-ribosomal peptide synthetase EntF	ncbifam	searchable	NF007605.2	
+NCBIFAM	NF007608.0	nagE PTS N-acetylglucosamine transporter subunit IIABC	ncbifam	searchable	NF007608.0	
+NCBIFAM	NF008062.1	lptE LPS assembly lipoprotein	ncbifam	searchable	NF008062.1	
+NCBIFAM	NF008142.0	lptC LPS export ABC transporter periplasmic protein	ncbifam	searchable	NF008142.0	
+NCBIFAM	NF008143.0	lptA lipopolysaccharide ABC transporter substrate-binding protein	ncbifam	searchable	NF008143.0	
+NCBIFAM	NF008144.0	lptB LPS export ABC transporter ATP-binding protein	ncbifam	searchable	NF008144.0	
+NCBIFAM	NF008220.0	L-fucose isomerase	ncbifam	searchable	NF008220.0	
+NCBIFAM	NF008371.0	nagA N-acetylglucosamine-6-phosphate deacetylase	ncbifam	searchable	NF008371.0	
+NCBIFAM	NF008759.0	serA phosphoglycerate dehydrogenase	ncbifam	searchable	NF008759.0	
+NCBIFAM	NF008841.0	protoporphyrinogen oxidase	ncbifam	searchable	NF008841.0	
+NCBIFAM	NF008843.0	protoporphyrinogen oxidase	ncbifam	searchable	NF008843.0	
+NCBIFAM	NF008845.0	hemY protoporphyrinogen oxidase	ncbifam	searchable	NF008845.0	
+NCBIFAM	NF008907.0	multifunctional oxoglutarate decarboxylase/oxoglutarate dehydrogenase thiamine pyrophosphate-binding subunit/dihydrolipoyllysine-residue succinyltransferase subunit	ncbifam	searchable	NF008907.0	
+NCBIFAM	NF009022.0	glucosamine-6-phosphate deaminase	ncbifam	searchable	NF009022.0	
+NCBIFAM	NF009081.0	protoporphyrinogen oxidase	ncbifam	searchable	NF009081.0	
+NCBIFAM	NF009259.0	bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase	ncbifam	searchable	NF009259.0	
+NCBIFAM	NF009835.0	nagK N-acetylglucosamine kinase	ncbifam	searchable	NF009835.0	
+NCBIFAM	NF010134.0	diglucosyldiacylglycerol synthase	ncbifam	searchable	NF010134.0	
+NCBIFAM	NF011615.0	Tsr serine chemoreceptor	ncbifam	searchable	NF011615.0	
+NCBIFAM	NF011645.0	aceA isocitrate lyase	ncbifam	searchable	NF011645.0	
+NCBIFAM	NF011854.0	type III secretion system needle complex protein	ncbifam	searchable	NF011854.0	
+NCBIFAM	NF012017.0	cobalt-precorrin-4 methyltransferase	ncbifam	searchable	NF012017.0	
+NCBIFAM	NF037980.1	gspK type II secretion system minor pseudopilin GspK	ncbifam	searchable	NF037980.1	
+NCBIFAM	NF038054.1	sctI type III secretion system inner rod subunit SctI	ncbifam	searchable	NF038054.1	
+NCBIFAM	NF040576.1	gspM type II secretion system protein GspM	ncbifam	searchable	NF040576.1	
+NCBIFAM	NF040695.1	preflagellin peptidase FlaK	ncbifam	searchable	NF040695.1	
+NCBIFAM	NF040707.3	ahbB siroheme decarboxylase subunit beta	ncbifam	searchable	NF040707.3	
+NCBIFAM	NF040708.3	ahbA siroheme decarboxylase subunit alpha	ncbifam	searchable	NF040708.3	
+NCBIFAM	NF041128.1	glmD glucosamine-6-phosphate deaminase	ncbifam	searchable	NF041128.1	
+NCBIFAM	NF041712.1	teichoic acid glycerol-phosphate transferase TarF	ncbifam	searchable	NF041712.1	
+NCBIFAM	NF041713.1	teichoic acid ribitol-phosphate polymerase TarL	ncbifam	searchable	NF041713.1	
+NCBIFAM	NF046058.1	nagK N-acetylglucosamine kinase	ncbifam	searchable	NF046058.1	
+NCBIFAM	NF046059.1	nagB-II glucosamine-6-phosphate deaminase NagB-II	ncbifam	searchable	NF046059.1	
+NCBIFAM	NF047396.1	lipoteichoic acid biosynthesis MFS flippase LtaA	ncbifam	searchable	NF047396.1	
+NCBIFAM	NF052359.1	histidinol-phosphatase, Neisseriaceae family	ncbifam	searchable	NF052359.1	
+NCBIFAM	NF052360.1	histidinol-phosphatase, HolPasePseu family	ncbifam	searchable	NF052360.1	
+NCBIFAM	NF052589.1	archaellum protein ArlH	ncbifam	searchable	NF052589.1	
+NCBIFAM	NF052590.1	archaellum stator protein ArlF	ncbifam	searchable	NF052590.1	
+NCBIFAM	NF052591.1	archaellum stator protein ArlG	ncbifam	searchable	NF052591.1	
+NCBIFAM	NF053530.1	type III secretion system major pilin HrpA	ncbifam	searchable	NF053530.1	
+NCBIFAM	NF053595.1	lipoteichoic acid synthase LtaS	ncbifam	searchable	NF053595.1	
+NCBIFAM	NF058587.1	archaellum flagellar ATPase motor FlaI	ncbifam	searchable	NF058587.1	
+NCBIFAM	NF058591.1	archaellum flagellar motor scaffold protein FlaX	ncbifam	searchable	NF058591.1	
+NCBIFAM	TIGR00109.1	hemH ferrochelatase	ncbifam	searchable	TIGR00109.1	
+NCBIFAM	TIGR00221.1	nagA N-acetylglucosamine-6-phosphate deacetylase	ncbifam	searchable	TIGR00221.1	
+NCBIFAM	TIGR00502.1	nagB glucosamine-6-phosphate deaminase	ncbifam	searchable	TIGR00502.1	
+NCBIFAM	TIGR00562.1	hemG protoporphyrinogen oxidase	ncbifam	searchable	TIGR00562.1	
+NCBIFAM	TIGR00715.1	cobK precorrin-6A reductase	ncbifam	searchable	TIGR00715.1	
+NCBIFAM	TIGR00718.1	sdaAA L-serine ammonia-lyase alpha chain	ncbifam	searchable	TIGR00718.1	
+NCBIFAM	TIGR00719.1	sdaAB L-serine ammonia-lyase beta chain	ncbifam	searchable	TIGR00719.1	
+NCBIFAM	TIGR00720.1	sdaA single-chain L-serine ammonia-lyase	ncbifam	searchable	TIGR00720.1	
+NCBIFAM	TIGR01001.2	metA homoserine O-succinyltransferase MetA	ncbifam	searchable	TIGR01001.2	
+NCBIFAM	TIGR01089.1	fucI L-fucose isomerase	ncbifam	searchable	TIGR01089.1	
+NCBIFAM	TIGR01102.1	sctR type III secretion system export apparatus subunit SctR	ncbifam	searchable	TIGR01102.1	
+NCBIFAM	TIGR01261.1	hisB N-terminal histidinol-phosphatase domain	ncbifam	searchable	TIGR01261.1	
+NCBIFAM	TIGR01327.1	serA phosphoglycerate dehydrogenase	ncbifam	searchable	TIGR01327.1	
+NCBIFAM	TIGR01346.1	aceA isocitrate lyase	ncbifam	searchable	TIGR01346.1	
+NCBIFAM	TIGR01399.1	sctV type III secretion system export apparatus subunit SctV	ncbifam	searchable	TIGR01399.1	
+NCBIFAM	TIGR01401.1	sctT type III secretion system export apparatus subunit SctT	ncbifam	searchable	TIGR01401.1	
+NCBIFAM	TIGR01403.1	sctS type III secretion system export apparatus subunit SctS	ncbifam	searchable	TIGR01403.1	
+NCBIFAM	TIGR01404.2	sctU type III secretion system export apparatus subunit SctU	ncbifam	searchable	TIGR01404.2	
+NCBIFAM	TIGR01465.1	cobM precorrin-4 C(11)-methyltransferase	ncbifam	searchable	TIGR01465.1	
+NCBIFAM	TIGR01466.1	cobJ precorrin-3B C(17)-methyltransferase	ncbifam	searchable	TIGR01466.1	
+NCBIFAM	TIGR01467.1	cobI precorrin-2 C(20)-methyltransferase	ncbifam	searchable	TIGR01467.1	
+NCBIFAM	TIGR01608.1	citD citrate lyase acyl carrier protein	ncbifam	searchable	TIGR01608.1	
+NCBIFAM	TIGR01707.1	gspI type II secretion system minor pseudopilin GspI	ncbifam	searchable	TIGR01707.1	
+NCBIFAM	TIGR01708.2	gspH type II secretion system minor pseudopilin GspH	ncbifam	searchable	TIGR01708.2	
+NCBIFAM	TIGR01709.2	gspL type II secretion system protein GspL	ncbifam	searchable	TIGR01709.2	
+NCBIFAM	TIGR01710.1	gspG type II secretion system major pseudopilin GspG	ncbifam	searchable	TIGR01710.1	
+NCBIFAM	TIGR01711.1	gspJ type II secretion system minor pseudopilin GspJ	ncbifam	searchable	TIGR01711.1	
+NCBIFAM	TIGR01713.1	gspC type II secretion system protein GspC	ncbifam	searchable	TIGR01713.1	
+NCBIFAM	TIGR01998.1	nagE N-acetylglucosamine-specific PTS transporter subunit IIBC	ncbifam	searchable	TIGR01998.1	
+NCBIFAM	TIGR02057.1	cysH phosphoadenosine phosphosulfate reductase	ncbifam	searchable	TIGR02057.1	
+NCBIFAM	TIGR02067.1	hisN histidinol-phosphatase	ncbifam	searchable	TIGR02067.1	
+NCBIFAM	TIGR02105.1	sctF type III secretion system needle filament subunit SctF	ncbifam	searchable	TIGR02105.1	
+NCBIFAM	TIGR02120.1	gspF type II secretion system inner membrane protein GspF	ncbifam	searchable	TIGR02120.1	
+NCBIFAM	TIGR02500.1	sctD type III secretion system inner membrane ring subunit SctD	ncbifam	searchable	TIGR02500.1	
+NCBIFAM	TIGR02516.1	sctC type III secretion system outer membrane ring subunit SctC	ncbifam	searchable	TIGR02516.1	
+NCBIFAM	TIGR02517.1	gspD type II secretion system secretin GspD	ncbifam	searchable	TIGR02517.1	
+NCBIFAM	TIGR02533.1	gspE type II secretion system ATPase GspE	ncbifam	searchable	TIGR02533.1	
+NCBIFAM	TIGR02544.1	sctJ type III secretion system inner membrane ring lipoprotein SctJ	ncbifam	searchable	TIGR02544.1	
+NCBIFAM	TIGR02546.1	sctN type III secretion system ATPase SctN	ncbifam	searchable	TIGR02546.1	
+NCBIFAM	TIGR02551.1	sctQ type III secretion system cytoplasmic ring protein SctQ	ncbifam	searchable	TIGR02551.1	
+NCBIFAM	TIGR02554.1	PrgH/EprH family type III secretion apparatus protein	ncbifam	searchable	TIGR02554.1	
+NCBIFAM	TIGR03002.1	lptA lipopolysaccharide transport periplasmic protein	ncbifam	searchable	TIGR03002.1	
+NCBIFAM	TIGR03188.1	hisE phosphoribosyl-ATP diphosphatase domain	ncbifam	searchable	TIGR03188.1	
+NCBIFAM	TIGR03216.1	2-hydroxymuconic semialdehyde dehydrogenase	ncbifam	searchable	TIGR03216.1	
+NCBIFAM	TIGR03345.1	tssH type VI secretion system ATPase TssH	ncbifam	searchable	TIGR03345.1	
+NCBIFAM	TIGR03347.1	tssG type VI secretion system baseplate subunit TssG	ncbifam	searchable	TIGR03347.1	
+NCBIFAM	TIGR03348.1	tssM type VI secretion system membrane subunit TssM	ncbifam	searchable	TIGR03348.1	
+NCBIFAM	TIGR03352.1	tssJ type VI secretion system lipoprotein TssJ	ncbifam	searchable	TIGR03352.1	
+NCBIFAM	TIGR03353.2	tssK type VI secretion system baseplate subunit TssK	ncbifam	searchable	TIGR03353.2	
+NCBIFAM	TIGR03355.1	tssC type VI secretion system contractile sheath large subunit	ncbifam	searchable	TIGR03355.1	
+NCBIFAM	TIGR03357.1	tssE type VI secretion system baseplate subunit TssE	ncbifam	searchable	TIGR03357.1	
+NCBIFAM	TIGR03358.1	tssB type VI secretion system contractile sheath small subunit	ncbifam	searchable	TIGR03358.1	
+NCBIFAM	TIGR03359.1	tssF type VI secretion system baseplate subunit TssF	ncbifam	searchable	TIGR03359.1	
+NCBIFAM	TIGR03362.1	tssA type VI secretion system protein TssA	ncbifam	searchable	TIGR03362.1	
+NCBIFAM	TIGR03363.1	tssA type VI secretion system protein TssA	ncbifam	searchable	TIGR03363.1	
+NCBIFAM	TIGR04406.1	lptB LPS export ABC transporter ATP-binding protein	ncbifam	searchable	TIGR04406.1	
+NCBIFAM	TIGR04407.1	lptF LPS export ABC transporter permease	ncbifam	searchable	TIGR04407.1	
+NCBIFAM	TIGR04408.1	lptG LPS export ABC transporter permease	ncbifam	searchable	TIGR04408.1	
+NCBIFAM	TIGR04409.1	lptC LPS export ABC transporter periplasmic protein	ncbifam	searchable	TIGR04409.1	
+NCBIFAM	TIGR04545.1	ahbD heme b synthase	ncbifam	searchable	TIGR04545.1	
+NCBIFAM	TIGR04546.1	ahbC 12,18-didecarboxysiroheme deacetylase	ncbifam	searchable	TIGR04546.1	
+PFAM	PF01752	Collagenase, peptidase family M9	pfam	searchable	PF01752.24	
+TIGRFAM	TIGR00507	shikimate dehydrogenase	ncbifam	searchable	TIGR00507.1	
+TIGRFAM	TIGR02053	mercury(II) reductase	ncbifam	searchable	TIGR02053.1	
+TIGRFAM	TIGR02155	phenylacetate--CoA ligase PaaK	ncbifam	searchable	TIGR02155.1	
+TIGRFAM	TIGR03211	catechol 2,3-dioxygenase	ncbifam	searchable	TIGR03211.1	
+TIGRFAM	TIGR03948	butyryl-CoA:acetate CoA-transferase	ncbifam	searchable	TIGR03948.1	

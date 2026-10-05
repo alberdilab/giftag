@@ -1,0 +1,13 @@
+tool	scope	source	genomes	searchable_markers	giftag_pairs	reference_pairs	shared_pairs	giftag_only_pairs	reference_only_pairs	jaccard	jaccard_ci_low	jaccard_ci_high	bootstrap_valid_resamples	reference_recall	reference_precision
+KofamScan	full	kofam	8	900	2781	2781	2781	0	0	1.0	1.0	1.0	10000	1.0	1.0
+KofamScan	subset	kofam	8	900	2781	2781	2781	0	0	1.0	1.0	1.0	10000	1.0	1.0
+run_dbcan	full	dbcan_family	8	53	483	483	483	0	0	1.0	1.0	1.0	10000	1.0	1.0
+run_dbcan	full	dbcan_sub	8	467	71	72	71	0	1	0.9861111111111112	0.9591836734693877	1.0	10000	0.9861111111111112	1.0
+run_dbcan	subset	dbcan_family	8	53	483	483	483	0	0	1.0	1.0	1.0	10000	1.0	1.0
+run_dbcan	subset	dbcan_sub	8	467	71	72	71	0	1	0.9861111111111112	0.9591836734693877	1.0	10000	0.9861111111111112	1.0
+HMMER3	subset	pfam	8	1	1	1	1	0	0	1.0	1.0	1.0	6510	1.0	1.0
+HMMER3	subset	ncbifam	8	150	239	239	239	0	0	1.0	1.0	1.0	10000	1.0	1.0
+InterProScan5	full	pfam	8	1	1	1	1	0	0	1.0	1.0	1.0	6510	1.0	1.0
+InterProScan5	full	ncbifam	8	150	239	232	229	10	3	0.9462809917355371	0.881578947368421	0.9787985865724381	10000	0.9870689655172413	0.9581589958158996
+InterProScan6	full	pfam	8	1	1	1	1	0	0	1.0	1.0	1.0	6510	1.0	1.0
+InterProScan6	full	ncbifam	8	150	239	233	233	6	0	0.9748953974895398	0.9256198347107438	0.9968051118210862	10000	1.0	0.9748953974895398

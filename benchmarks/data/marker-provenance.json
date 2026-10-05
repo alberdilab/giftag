@@ -1,0 +1,12 @@
+{
+  "source_repository": "https://github.com/alberdilab/gifter",
+  "source_commit": "ce63c15200b64a6614985aedd118da4d92013ea1",
+  "gifter_database_version": "2026.37.1",
+  "source_path": "inst/extdata/database-source/markers.tsv",
+  "source_sqlite_path": "inst/extdata/gifter.sqlite",
+  "marker_count": 1576,
+  "marker_tsv_sha256": "552fc134bb989ed37e0223ce05a17e0632a217416a197fbd6e36ce1d536667b9",
+  "source_sqlite_sha256": "752ff2b0cdce56e33bb12d57ce875fb4ddb459a7fd86e88c356ac1714186a87e",
+  "source_archive_url": "https://github.com/alberdilab/gifter/archive/ce63c15200b64a6614985aedd118da4d92013ea1.tar.gz",
+  "source_archive_sha256": "8891549c49cfa25535bc4b8853e490d7d4e6ea2cc9ba28f5f6e3007ef01fe345"
+}

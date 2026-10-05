@@ -1,0 +1,20 @@
+{
+  "genomes": [
+    "ecoli_mg1655",
+    "btheta_vpi5482",
+    "bsubtilis_168",
+    "paeruginosa_pao1",
+    "scoelicolor_m145",
+    "cacetobutylicum_824",
+    "synechocystis_6803",
+    "mjannaschii_2661"
+  ],
+  "comparisons": 12,
+  "measurements": 72,
+  "interproscan_versions": [
+    "5",
+    "6"
+  ],
+  "bootstrap_seed": 20261004,
+  "bootstrap_resamples": 10000
+}

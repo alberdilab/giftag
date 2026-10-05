@@ -1,0 +1,19 @@
+annotated-doc @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_annotated-doc_1785335690/work
+archspec @ file:///home/conda/feedstock_root/build_artifacts/archspec_1790873640670/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1733218098505/work
+drakkar @ git+https://github.com/alberdilab/drakkar.git@d374ab5b2cedb3c1409ff5750689c1df82f1a53d
+# Editable install with no version control (giftag==0.2.0)
+-e /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/source
+markdown-it-py @ file:///home/conda/feedstock_root/build_artifacts/markdown-it-py_1778169583724/work
+mdurl @ file:///home/conda/feedstock_root/build_artifacts/mdurl_1733255585584/work
+narwhals==1.27.1
+packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1785888127/work
+plotly==6.0.0
+psutil @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_psutil_1789682042/work
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pygments_1786995678/work
+pyhmmer @ file:///opt/conda/conda-bld/pyhmmer_1787164369246/work
+pyrodigal @ file:///opt/conda/conda-bld/pyrodigal_1773600407041/work
+rich @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_rich_1775880677/work/dist
+shellingham @ file:///home/conda/feedstock_root/build_artifacts/shellingham_1762858192781/work
+typer @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typer_1787921102/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typing_extensions_1783002732/work

@@ -1,0 +1,8 @@
+2f9cb66688b5530ed843b5e09534a8320c38cb173f56a16020633ef91e87f3f6  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/giftag.json
+426130f701c441f2df7813539b7924f16de5e370410f78b12d479a83c64e52ff  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/markers.tsv
+9b40bfa438974e12326b811f1b3e0fb3489112201a4819555690573dba419d9b  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/profiles.tsv
+25b6acedb3f8bee0844b7dc347d530dff26720a7e615dae952a79fe942ee858e  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/kofam.hmm
+e5aab21cba3b9af1c1d9209a534d0206e71dc2a99598d87b7d41065f456eab5a  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/ncbifam.hmm
+df2e779e5bc8c0ff4fad2e25b50a15e4b6c80a7fb6d62428fe6e89f888277d0e  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/pfam.hmm
+396c791fb13defab152864d8046687ef03b492937ec6f9bbab008bc77cbaa7a5  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/dbcan.hmm
+0b7d96a66d377bf5efc73d94f7a20c5f0bcc10c75169a2711da9df511625dc2e  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/dbcan_sub.hmm

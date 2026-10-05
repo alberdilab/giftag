@@ -1,0 +1,5 @@
+tool	interpro_release	collection	member_release	profiles	bytes	sha256	file
+InterProScan5	106.0	Pfam	37.4	24736	1878849425	f5dd6d0174ae942d02d065e4a962fc691e29c9906c634c68c4c11abbc28f0e95	/opt/shared_software/shared_envmodules/conda/interproscan-5.75-106.0/interproscan-5.75-106.0/data/pfam/37.4/pfam_a.hmm
+InterProScan5	106.0	NCBIFAM	17.0	17431	2631110755	e5169dc0af2baacd6e74b72d7f124cfbc1d8f98aa1708fcd5655055b5fd16da7	/opt/shared_software/shared_envmodules/conda/interproscan-5.75-106.0/interproscan-5.75-106.0/data/ncbifam/17.0/ncbifam.hmm
+InterProScan6	108.0	Pfam	38.1	27481	2067046650	a78a42d6faf265b6bfca59e8f062d06fae6083ce2c6e335d7b381f20b82b7903	/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/interproscan/pfam/38.1/pfam_a.hmm
+InterProScan6	108.0	NCBIFAM	18.0	18054	2724095024	d57c17d2c1153dbebd27265571032b85939837113901c644ec62ba7b8c94e1fa	/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/interproscan/ncbifam/18.0/ncbifam.hmm

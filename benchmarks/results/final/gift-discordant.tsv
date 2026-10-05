@@ -1,0 +1,3 @@
+scenario	genome_id	gift_id	gift_type	complete	giftag_complete
+InterProScan5-full-ncbifam	cacetobutylicum_824	siroheme_to_heme_b	metabolic	FALSE	TRUE
+stack-full-interpro5	cacetobutylicum_824	siroheme_to_heme_b	metabolic	FALSE	TRUE

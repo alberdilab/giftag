@@ -1,0 +1,445 @@
+{
+  "gene": "btheta_vpi5482_p004502",
+  "cluster": "GH95_e26",
+  "sequence_length": 822,
+  "family_models": 56,
+  "z_sub": 53411,
+  "single": [
+    {
+      "profile": "GH95_e26",
+      "score": 1023.156494140625,
+      "evalue": 0.0,
+      "coverage": 0.9862637362637363,
+      "target_from": 28,
+      "target_to": 759
+    }
+  ],
+  "family_raw": [
+    {
+      "profile": "GH95_e0",
+      "score": 792.7608642578125,
+      "evalue": 9.065420077183017e-238,
+      "coverage": 0.994475138121547,
+      "target_from": 30,
+      "target_to": 759
+    },
+    {
+      "profile": "GH95_e1",
+      "score": 1048.760986328125,
+      "evalue": 0.0,
+      "coverage": 0.9823369565217391,
+      "target_from": 28,
+      "target_to": 760
+    },
+    {
+      "profile": "GH95_e2",
+      "score": 493.21356201171875,
+      "evalue": 3.71458423012261e-147,
+      "coverage": 0.9946737683089214,
+      "target_from": 32,
+      "target_to": 749
+    },
+    {
+      "profile": "GH95_e3",
+      "score": 197.43080139160156,
+      "evalue": 1.2313201570391607e-57,
+      "coverage": 0.9971305595408895,
+      "target_from": 31,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e4",
+      "score": 109.97229766845703,
+      "evalue": 3.3439112103158123e-31,
+      "coverage": 0.9972936400541272,
+      "target_from": 32,
+      "target_to": 757
+    },
+    {
+      "profile": "GH95_e5",
+      "score": 363.9719543457031,
+      "evalue": 3.3855448176384253e-108,
+      "coverage": 0.9810554803788903,
+      "target_from": 37,
+      "target_to": 754
+    },
+    {
+      "profile": "GH95_e6",
+      "score": 106.22925567626953,
+      "evalue": 4.3343554064697426e-30,
+      "coverage": 0.7952622673434856,
+      "target_from": 250,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e7",
+      "score": 253.23977661132812,
+      "evalue": 1.3369699899480668e-74,
+      "coverage": 0.9846368715083799,
+      "target_from": 35,
+      "target_to": 754
+    },
+    {
+      "profile": "GH95_e8",
+      "score": 283.7857666015625,
+      "evalue": 6.366874840959268e-84,
+      "coverage": 0.9703389830508474,
+      "target_from": 32,
+      "target_to": 739
+    },
+    {
+      "profile": "GH95_e9",
+      "score": 121.69725799560547,
+      "evalue": 1.052537949645387e-34,
+      "coverage": 0.7897435897435897,
+      "target_from": 252,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e10",
+      "score": 278.6829528808594,
+      "evalue": 2.739071179575537e-82,
+      "coverage": 0.9825268817204301,
+      "target_from": 37,
+      "target_to": 749
+    },
+    {
+      "profile": "GH95_e11",
+      "score": 204.77281188964844,
+      "evalue": 6.404052059433233e-60,
+      "coverage": 0.9620081411126187,
+      "target_from": 39,
+      "target_to": 739
+    },
+    {
+      "profile": "GH95_e12",
+      "score": 305.6432189941406,
+      "evalue": 1.8039795577055564e-90,
+      "coverage": 0.9914285714285714,
+      "target_from": 34,
+      "target_to": 754
+    },
+    {
+      "profile": "GH95_e13",
+      "score": 299.3723449707031,
+      "evalue": 1.5126730200033344e-88,
+      "coverage": 0.9769647696476965,
+      "target_from": 36,
+      "target_to": 744
+    },
+    {
+      "profile": "GH95_e14",
+      "score": 250.98779296875,
+      "evalue": 5.349342878696219e-74,
+      "coverage": 0.986648865153538,
+      "target_from": 32,
+      "target_to": 757
+    },
+    {
+      "profile": "GH95_e15",
+      "score": 654.9574584960938,
+      "evalue": 4.1580652834003076e-196,
+      "coverage": 0.9919354838709677,
+      "target_from": 29,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e16",
+      "score": 306.24993896484375,
+      "evalue": 1.3666035011990187e-90,
+      "coverage": 0.9831223628691983,
+      "target_from": 37,
+      "target_to": 747
+    },
+    {
+      "profile": "GH95_e17",
+      "score": 390.6024475097656,
+      "evalue": 3.8446526830643055e-116,
+      "coverage": 0.8939393939393939,
+      "target_from": 123,
+      "target_to": 757
+    },
+    {
+      "profile": "GH95_e18",
+      "score": 131.22210693359375,
+      "evalue": 1.1235202824584514e-37,
+      "coverage": 0.7852161785216178,
+      "target_from": 38,
+      "target_to": 603
+    },
+    {
+      "profile": "GH95_e19",
+      "score": 832.821533203125,
+      "evalue": 7.607025675187527e-250,
+      "coverage": 0.9932885906040269,
+      "target_from": 30,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e20",
+      "score": 64.20008087158203,
+      "evalue": 2.3326278728563423e-17,
+      "coverage": 0.6945392491467577,
+      "target_from": 345,
+      "target_to": 757
+    },
+    {
+      "profile": "GH95_e21",
+      "score": 704.5621337890625,
+      "evalue": 4.533857592749453e-211,
+      "coverage": 0.9907407407407407,
+      "target_from": 31,
+      "target_to": 752
+    },
+    {
+      "profile": "GH95_e24",
+      "score": 335.6885986328125,
+      "evalue": 1.7967221360041365e-99,
+      "coverage": 0.9611260053619303,
+      "target_from": 40,
+      "target_to": 741
+    },
+    {
+      "profile": "GH95_e25",
+      "score": 654.5870361328125,
+      "evalue": 5.254780686914481e-196,
+      "coverage": 0.9933065595716198,
+      "target_from": 31,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e26",
+      "score": 1023.156494140625,
+      "evalue": 0.0,
+      "coverage": 0.9862637362637363,
+      "target_from": 28,
+      "target_to": 759
+    },
+    {
+      "profile": "GH95_e27",
+      "score": 610.19189453125,
+      "evalue": 1.2842149528399889e-182,
+      "coverage": 0.9878706199460916,
+      "target_from": 30,
+      "target_to": 757
+    },
+    {
+      "profile": "GH95_e28",
+      "score": 194.08311462402344,
+      "evalue": 1.1427574297098857e-56,
+      "coverage": 0.995702005730659,
+      "target_from": 32,
+      "target_to": 757
+    },
+    {
+      "profile": "GH95_e29",
+      "score": 83.83893585205078,
+      "evalue": 2.3494292686765597e-23,
+      "coverage": 0.968013468013468,
+      "target_from": 144,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e30",
+      "score": 515.5203857421875,
+      "evalue": 6.145610664098966e-154,
+      "coverage": 0.9958620689655172,
+      "target_from": 31,
+      "target_to": 759
+    },
+    {
+      "profile": "GH95_e31",
+      "score": 293.4056091308594,
+      "evalue": 8.630081262491757e-87,
+      "coverage": 0.9973009446693657,
+      "target_from": 33,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e32",
+      "score": 575.8443603515625,
+      "evalue": 3.5466204273877705e-172,
+      "coverage": 0.9908616187989556,
+      "target_from": 29,
+      "target_to": 755
+    },
+    {
+      "profile": "GH95_e33",
+      "score": 76.45462799072266,
+      "evalue": 3.3320793005038173e-21,
+      "coverage": 0.493368700265252,
+      "target_from": 341,
+      "target_to": 715
+    },
+    {
+      "profile": "GH95_e34",
+      "score": 647.699951171875,
+      "evalue": 7.158276172914336e-194,
+      "coverage": 0.9932614555256065,
+      "target_from": 33,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e35",
+      "score": 472.24920654296875,
+      "evalue": 7.411407045294695e-141,
+      "coverage": 0.9917808219178083,
+      "target_from": 31,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e36",
+      "score": 267.7226867675781,
+      "evalue": 4.9141151125978895e-79,
+      "coverage": 0.9727520435967303,
+      "target_from": 35,
+      "target_to": 741
+    },
+    {
+      "profile": "GH95_e37",
+      "score": 64.68988037109375,
+      "evalue": 1.615440016084895e-17,
+      "coverage": 0.6876061120543294,
+      "target_from": 345,
+      "target_to": 756
+    },
+    {
+      "profile": "GH95_e38",
+      "score": 684.0067138671875,
+      "evalue": 9.18263352397102e-205,
+      "coverage": 0.9931129476584022,
+      "target_from": 32,
+      "target_to": 755
+    },
+    {
+      "profile": "GH95_e39",
+      "score": 285.77191162109375,
+      "evalue": 1.8590112354280154e-84,
+      "coverage": 0.9754098360655737,
+      "target_from": 37,
+      "target_to": 743
+    },
+    {
+      "profile": "GH95_e41",
+      "score": 145.1851806640625,
+      "evalue": 6.42937396570053e-42,
+      "coverage": 0.9908675799086758,
+      "target_from": 344,
+      "target_to": 757
+    },
+    {
+      "profile": "GH95_e42",
+      "score": 105.12405395507812,
+      "evalue": 1.1044355939983897e-29,
+      "coverage": 0.6791808873720137,
+      "target_from": 344,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e43",
+      "score": 233.89471435546875,
+      "evalue": 1.1127211387641871e-68,
+      "coverage": 0.8066759388038943,
+      "target_from": 38,
+      "target_to": 623
+    },
+    {
+      "profile": "GH95_e44",
+      "score": 563.9672241210938,
+      "evalue": 1.4936538894484915e-168,
+      "coverage": 0.9906666666666667,
+      "target_from": 31,
+      "target_to": 755
+    },
+    {
+      "profile": "GH95_e45",
+      "score": 421.00054931640625,
+      "evalue": 3.4554538878024407e-125,
+      "coverage": 0.9884467265725289,
+      "target_from": 32,
+      "target_to": 753
+    },
+    {
+      "profile": "GH95_e46",
+      "score": 448.4914245605469,
+      "evalue": 1.147994623300322e-133,
+      "coverage": 0.9906040268456375,
+      "target_from": 32,
+      "target_to": 747
+    },
+    {
+      "profile": "GH95_e47",
+      "score": 428.63421630859375,
+      "evalue": 1.217357081169671e-127,
+      "coverage": 0.9908256880733946,
+      "target_from": 32,
+      "target_to": 751
+    },
+    {
+      "profile": "GH95_e48",
+      "score": 394.2664489746094,
+      "evalue": 3.391086151490022e-117,
+      "coverage": 0.9734395750332006,
+      "target_from": 33,
+      "target_to": 741
+    },
+    {
+      "profile": "GH95_e49",
+      "score": 132.67860412597656,
+      "evalue": 4.828087747131791e-38,
+      "coverage": 0.9587628865979382,
+      "target_from": 149,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e50",
+      "score": 359.4834899902344,
+      "evalue": 8.846779517369377e-107,
+      "coverage": 0.9917582417582418,
+      "target_from": 37,
+      "target_to": 757
+    },
+    {
+      "profile": "GH95_e51",
+      "score": 562.874267578125,
+      "evalue": 2.9902429012273405e-168,
+      "coverage": 0.9897510980966325,
+      "target_from": 43,
+      "target_to": 757
+    },
+    {
+      "profile": "GH95_e52",
+      "score": 680.3580932617188,
+      "evalue": 9.620609870041492e-204,
+      "coverage": 0.9827127659574468,
+      "target_from": 30,
+      "target_to": 751
+    },
+    {
+      "profile": "GH95_e53",
+      "score": 579.7017211914062,
+      "evalue": 2.667949061947965e-173,
+      "coverage": 0.9930651872399445,
+      "target_from": 46,
+      "target_to": 758
+    },
+    {
+      "profile": "GH95_e55",
+      "score": 351.2305603027344,
+      "evalue": 2.6915861816189863e-104,
+      "coverage": 0.9030898876404494,
+      "target_from": 124,
+      "target_to": 759
+    }
+  ],
+  "family_kept": [
+    {
+      "profile": "GH95_e26",
+      "score": 1023.156494140625,
+      "evalue": 0.0,
+      "coverage": 0.9862637362637363,
+      "target_from": 28,
+      "target_to": 759
+    }
+  ]
+}

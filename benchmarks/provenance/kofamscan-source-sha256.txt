@@ -1,0 +1,1 @@
+2ea8d85d7551eee53c4a6b41ab07ed52c7759bba45b5b1d32db8d0f03073286c  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/software/kofam_scan-v1.3.0.tar.gz

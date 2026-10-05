@@ -1,0 +1,11 @@
+collection	scope	profiles_searched	gifter_target_profiles	stored_bytes	artifact_format	file
+KOfam	full_archive	27864	900	1563796220	compressed tarball	/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/kofam/profiles.tar.gz
+KOfam	giftag_subset	900	900	204055647	concatenated HMM	/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/kofam.hmm
+dbCAN_family	full	875	53	129842960	HMM library	/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/dbcan/dbCAN.hmm
+dbCAN_family	giftag	875	53	129842960	HMM library	/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/dbcan.hmm
+dbCAN_family	run_dbcan_subset	875	53	129842960	HMM library	/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/dbcan-subset/dbCAN.hmm
+dbCAN_sub	full	53411	467	5132429983	HMM library	/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/dbcan/dbCAN_sub.hmm
+dbCAN_sub	giftag_subset	9025	467	1133752913	HMM library	/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/dbcan_sub.hmm
+dbCAN_sub	run_dbcan_subset	9025	467	1133752913	HMM library	/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/dbcan-subset/dbCAN_sub.hmm
+NCBIFAM	giftag_subset	150	150	23767405	HMM library	/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/ncbifam.hmm
+Pfam	giftag_subset	1	1	135567	HMM library	/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/giftag-db/pfam.hmm

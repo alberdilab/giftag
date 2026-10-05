@@ -1,0 +1,5 @@
+fd22f28e3dc6deaf1d579b9c80022d04acd69543e4639f08b2d34f5708bd920b  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/kofam/ko_list.gz
+71dca21fd918e93e4c5098fe45db3a1b98f7b6e1ae9e79858867845f1225e06c  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/kofam/profiles.tar.gz
+396c791fb13defab152864d8046687ef03b492937ec6f9bbab008bc77cbaa7a5  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/dbcan/dbCAN.hmm
+8e58b944108272142b57c0c260f996220b4f11c8ef290896a46d67dba6ab5136  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/dbcan/dbCAN_sub.hmm
+6d31a84cac27dec72a3d0f209b81291336bccb8572abc5acb995d71f54df03dc  /projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/dbcan/fam-substrate-mapping.tsv

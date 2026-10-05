@@ -1,0 +1,9 @@
+genome_id	assembly	organism	selection_reason
+ecoli_mg1655	GCF_000005845.2	Escherichia coli K-12 MG1655	Proteobacteria; well studied validation reference
+btheta_vpi5482	GCF_000011065.1	Bacteroides thetaiotaomicron VPI-5482	Bacteroidota; carbohydrate rich validation reference
+bsubtilis_168	GCF_000009045.1	Bacillus subtilis 168	Bacillota; aerobic Gram positive
+paeruginosa_pao1	GCF_000006765.1	Pseudomonas aeruginosa PAO1	Pseudomonadota; large versatile genome
+scoelicolor_m145	GCF_000203835.1	Streptomyces coelicolor A3(2) M145	Actinomycetota; large high GC genome
+cacetobutylicum_824	GCF_000008765.1	Clostridium acetobutylicum ATCC 824	Bacillota; anaerobic fermenter
+synechocystis_6803	GCF_000009725.1	Synechocystis sp. PCC 6803	Cyanobacteriota; photosynthetic bacterium
+mjannaschii_2661	GCF_000091665.1	Methanocaldococcus jannaschii DSM 2661	Archaea; compact methanogen genome

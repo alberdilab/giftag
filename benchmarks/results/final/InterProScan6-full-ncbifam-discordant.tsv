@@ -1,0 +1,7 @@
+genome_id	gene_id	namespace	accession	status
+bsubtilis_168	bsubtilis_168_p000711	NCBIFAM	NF053595.1	giftag_only
+bsubtilis_168	bsubtilis_168_p000754	NCBIFAM	NF053595.1	giftag_only
+mjannaschii_2661	mjannaschii_2661_p001364	NCBIFAM	NF052591.1	giftag_only
+mjannaschii_2661	mjannaschii_2661_p001365	NCBIFAM	NF052589.1	giftag_only
+mjannaschii_2661	mjannaschii_2661_p001366	NCBIFAM	NF058587.1	giftag_only
+paeruginosa_pao1	paeruginosa_pao1_p000332	NCBIFAM	NF052360.1	giftag_only

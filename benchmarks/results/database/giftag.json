@@ -1,0 +1,52 @@
+{
+  "format": 1,
+  "giftag_version": "0.2.0",
+  "built_utc": "2026-10-04T14:17:55Z",
+  "gifter": {
+    "source": "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/source/benchmarks/data/gifter-markers.tsv",
+    "markers": 1576
+  },
+  "sources": {
+    "kofam": {
+      "release": "local",
+      "ko_list": "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/kofam/ko_list.gz",
+      "ko_list_sha256": "fd22f28e3dc6deaf1d579b9c80022d04acd69543e4639f08b2d34f5708bd920b",
+      "last_modified": null,
+      "profiles": "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/kofam/profiles.tar.gz",
+      "profiles_sha256": "71dca21fd918e93e4c5098fe45db3a1b98f7b6e1ae9e79858867845f1225e06c",
+      "profiles_kept": 900,
+      "terms": "KOfam, KEGG/GenomeNet. KEGG is not a public database: academic use is free, non-academic use needs a licence from Pathway Solutions. Downloaded on this machine and not redistributed by giftag."
+    },
+    "ncbifam": {
+      "release": "20.0",
+      "table": "https://ftp.ncbi.nlm.nih.gov/hmm/20.0/hmm_PGAP.tsv",
+      "table_sha256": "972f910ac7c54c6373e286c0d96dee71f643f9abd576a019bcb05ec7f5834b7b",
+      "profiles_kept": 150,
+      "terms": "NCBIfam. NCBI-built models are US Government works; TIGRFAM-origin models are CC BY-SA 4.0. Cite Li et al. 2021, NAR 49:D1020."
+    },
+    "pfam": {
+      "release": "Pfam 38.2 (2026-03-26)",
+      "profiles_kept": 1,
+      "terms": "Pfam via InterPro, CC0. Cite the Pfam and InterPro release papers."
+    },
+    "dbcan": {
+      "release": "local",
+      "evalue": 1e-15,
+      "coverage": 0.35,
+      "overlap": 0.5,
+      "family_library": "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/dbcan/dbCAN.hmm",
+      "family_sha256": "396c791fb13defab152864d8046687ef03b492937ec6f9bbab008bc77cbaa7a5",
+      "z_family": 875,
+      "sub_library": "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/dbcan/dbCAN_sub.hmm",
+      "sub_sha256": "8e58b944108272142b57c0c260f996220b4f11c8ef290896a46d67dba6ab5136",
+      "z_sub": 53411,
+      "sub_profiles_kept": 9025,
+      "terms": "dbCAN (HMMs built from CAZy families). The dbCAN Open Data release states no restrictions on use. Cite dbCAN3 and CAZy."
+    }
+  },
+  "marker_status": {
+    "no_threshold": 3,
+    "searchable": 1571,
+    "unsupported_namespace": 2
+  }
+}

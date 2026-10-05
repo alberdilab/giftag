@@ -1,0 +1,53 @@
+{
+  "tool": "KofamScan",
+  "scope": "full",
+  "version": "1.3.0",
+  "threads": 8,
+  "command": [
+    "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/software/kofam_scan/exec_annotation",
+    "-p",
+    "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/kofam/profiles",
+    "-k",
+    "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/kofam/ko_list",
+    "--cpu=8",
+    "--tmp-dir",
+    "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/results/runs/kofam/full/ecoli_mg1655/tmp",
+    "-f",
+    "mapper",
+    "-o",
+    "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/results/runs/kofam/full/ecoli_mg1655/mapper.tsv",
+    "/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/panel/ecoli_mg1655.faa"
+  ],
+  "cwd": "/home/jpl786",
+  "started_utc": "2026-10-04T14:25:28.001620+00:00",
+  "finished_utc": "2026-10-04T14:48:29.306197+00:00",
+  "exit_code": 0,
+  "wall_seconds": 1381.3045243173838,
+  "user_cpu_seconds": 1986.969897,
+  "system_cpu_seconds": 385.628572,
+  "peak_child_rss_bytes": 257544192,
+  "hostname": "mjolnircomp14fl.unicph.domain",
+  "platform": "Linux-4.18.0-553.137.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python": "3.11.16",
+  "slurm_job_id": "45855459",
+  "slurm_cpus_per_task": "8",
+  "inputs": [
+    {
+      "path": "/maps/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/panel/ecoli_mg1655.faa",
+      "bytes": 1428936,
+      "sha256": "a642ddbc6258a1fbc4c444bdfb73767cff095b843652886b4cf4672d60298377"
+    }
+  ],
+  "databases": [
+    {
+      "path": "/maps/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/kofam/ko_list.gz",
+      "bytes": 913214,
+      "sha256": "fd22f28e3dc6deaf1d579b9c80022d04acd69543e4639f08b2d34f5708bd920b"
+    },
+    {
+      "path": "/maps/projects/alberdilab/scratch/jpl786/projects/giftag-benchmark-2026/data/upstream/kofam/gifter-subset.hal",
+      "bytes": 100800,
+      "sha256": "da512b44cae1380090398776c9d162590d2a44ae89a62c2df142cfebbc5dc35e"
+    }
+  ]
+}

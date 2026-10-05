@@ -40,6 +40,11 @@ pytest
 
 Documentation source is in [`docs/`](docs/). From the repository root, run `quarto render docs` to build the site locally. The GitHub Pages workflow renders it on pull requests and deploys it from `main`.
 
+The [publication benchmark](benchmarks/RESULTS.md) compares giftag with
+KofamScan, run_dbcan, direct HMMER and two InterProScan releases on a pinned
+eight-genome panel. Its [reproduction guide](benchmarks/README.md) includes
+the Mjolnir workflow, source hashes, environments and analysis scripts.
+
 ## Licensing
 
 giftag's code and original documentation are MIT-0. giftag redistributes no profile libraries. `giftag build` downloads them from their publishers, whose terms apply; see [source terms](https://alberdilab.github.io/giftag/coverage.html#source-terms).
