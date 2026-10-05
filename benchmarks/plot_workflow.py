@@ -41,7 +41,7 @@ def save(fig, ax, path):
     ax.spines[["top", "right"]].set_visible(False)
     ax.tick_params(axis="y", length=0)
     fig.tight_layout()
-    fig.savefig(path, bbox_inches="tight")
+    fig.savefig(path, bbox_inches="tight", transparent=True)
     plt.close(fig)
 
 
