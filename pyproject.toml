@@ -18,6 +18,7 @@ dependencies = [
     "typer>=0.12,<1",
 ]
 classifiers = [
+    "Development Status :: 5 - Production/Stable",
     "Programming Language :: Python :: 3",
     "Topic :: Scientific/Engineering :: Bio-Informatics",
     "Operating System :: OS Independent",
@@ -29,6 +30,7 @@ test = ["pytest>=7"]
 [project.urls]
 Homepage = "https://github.com/alberdilab/giftag"
 Documentation = "https://alberdilab.github.io/giftag/"
+Changelog = "https://github.com/alberdilab/giftag/blob/main/CHANGELOG.md"
 gifter = "https://github.com/alberdilab/gifter"
 
 [project.scripts]
@@ -39,6 +41,16 @@ path = "src/giftag/__init__.py"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/giftag"]
+
+# The source distribution carries the package and its offline tests. The
+# benchmarks and the documentation site stay in the repository.
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src/giftag",
+    "/tests/conftest.py",
+    "/tests/test_giftag.py",
+    "/CHANGELOG.md",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

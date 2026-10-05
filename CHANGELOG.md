@@ -10,7 +10,15 @@ only when a directory written by `giftag build` can no longer be read by
 
 ---
 
-## Unreleased — 2026-10-04T13:31Z
+## 1.0.0 — 2026-10-05T04:15Z
+
+### First release on PyPI
+
+**What changed.** giftag is published on PyPI, so `pip install giftag` works. A GitHub Actions workflow builds the distributions, runs the tests against the built wheel, and uploads to PyPI through trusted publishing when a GitHub release is published. The source distribution now holds only the package, its offline tests, the README, the licence and this changelog; the benchmarks and the documentation site stay in the repository. The "under development" badge and note are replaced by a PyPI version badge.
+
+**Why.** The quickstart has told users to run `pip install giftag` since the documentation site went up, but the package had never been uploaded. The source distribution was also shipping about 470 KB of benchmark results and documentation sources that an installation never uses.
+
+**Effect.** Packaging and release process only. Annotation, search rules, output files and the database format (still 1) are unchanged from 0.2.0. The version is 1.0.0 because the command line and output files are now treated as stable.
 
 ### A dedicated documentation site connects giftag to gifter
 

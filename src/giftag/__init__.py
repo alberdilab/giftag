@@ -1,6 +1,6 @@
 """giftag: annotate genomes with exactly the markers gifter evaluates."""
 
-__version__ = "0.2.0"
+__version__ = "1.0.0"
 
 # The layout of a database directory written by `giftag build`. `annotate`
 # refuses a directory whose format it does not know.

@@ -2,7 +2,7 @@
 
 [![docs](https://github.com/alberdilab/giftag/actions/workflows/docs.yml/badge.svg)](https://github.com/alberdilab/giftag/actions/workflows/docs.yml)
 [![Documentation](https://img.shields.io/badge/docs-website-1f425f.svg)](https://alberdilab.github.io/giftag/)
-![Status: under development](https://img.shields.io/badge/status-under%20development-orange.svg)
+[![PyPI](https://img.shields.io/pypi/v/giftag.svg)](https://pypi.org/project/giftag/)
 [![License: MIT-0](https://img.shields.io/badge/license-MIT--0-blue.svg)](LICENSE)
 
 giftag annotates genome and protein FASTA files with the markers [gifter](https://alberdilab.github.io/gifter/) evaluates. It writes the gene-by-marker table gifter reads, together with search evidence and a record of which markers could be searched.

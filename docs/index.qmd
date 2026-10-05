@@ -21,7 +21,7 @@ margin-header: |
 
 [![docs](https://github.com/alberdilab/giftag/actions/workflows/docs.yml/badge.svg)](https://github.com/alberdilab/giftag/actions/workflows/docs.yml)
 [![Documentation](https://img.shields.io/badge/docs-website-1f425f.svg)](https://alberdilab.github.io/giftag/)
-![Status: under development](https://img.shields.io/badge/status-under%20development-orange.svg)
+[![PyPI](https://img.shields.io/pypi/v/giftag.svg)](https://pypi.org/project/giftag/)
 [![License: MIT-0](https://img.shields.io/badge/license-MIT--0-blue.svg)](https://github.com/alberdilab/giftag/blob/main/LICENSE)
 
 <p class="eyebrow">GENOME ANNOTATION · THE FIRST STEP IN A GIFT ANALYSIS</p>
@@ -35,8 +35,6 @@ margin-header: |
 </div>
 
 [Get started](get-started.qmd){.btn .btn-primary} [See the handoff to gifter](with-gifter.qmd){.btn .btn-outline-primary}
-
-> **Development status:** giftag is under active development. Its commands, output files and profile database may change as gifter's marker list and giftag's validation mature.
 
 ## One traceable path
 
