@@ -329,7 +329,7 @@ main.content .quarto-figure {
   padding: 10px;
   border: 1px solid var(--line);
   border-radius: 14px;
-  background: var(--surface);
+  background: #fff;
 }
 main.content .quarto-figure > figure { margin: 0; }
 main.content .quarto-figure > figure > p { margin: 0; }
