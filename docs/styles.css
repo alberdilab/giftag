@@ -322,6 +322,32 @@ blockquote { padding: 14px 18px; border-left: 3px solid var(--coral); border-rad
 .table > thead > tr > th, table thead th { border-bottom-color: var(--line); color: var(--forest); background: rgba(220, 238, 230, .65); font-size: 12px; font-weight: 780; letter-spacing: .02em; }
 .table > tbody > tr:hover > *, table tbody tr:hover > * { background: rgba(220, 238, 230, .32); }
 
+/* A figure is a card that opens its full-resolution file, as gifter's
+   a.case-figure. Quarto's own markup carries the card; site.js adds the link. */
+main.content .quarto-figure {
+  margin: 26px 0 8px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+}
+main.content .quarto-figure > figure { margin: 0; }
+main.content .quarto-figure > figure > p { margin: 0; }
+main.content .quarto-figure a.figure-link { display: block; cursor: zoom-in; }
+main.content .quarto-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+main.content .quarto-figure figcaption {
+  margin: 10px 6px 4px;
+  color: var(--muted);
+  font-size: 13.5px;
+  line-height: 1.5;
+  text-align: left;
+}
+
 /* Contents column: gifter's "On this page" panel. */
 #quarto-margin-sidebar { position: sticky; top: 94px; max-height: calc(100vh - 114px); overflow-y: auto; }
 #quarto-margin-sidebar #TOC,

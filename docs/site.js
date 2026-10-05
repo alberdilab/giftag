@@ -67,3 +67,22 @@ document.addEventListener("DOMContentLoaded", () => {
   nav.append(list);
   main.prepend(nav);
 });
+
+// Figures: the image opens its full-resolution file in a new tab, as the
+// figure cards of gifter's articles do.
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("main.content .quarto-figure img").forEach((image) => {
+    if (image.closest("a")) {
+      return;
+    }
+
+    const link = document.createElement("a");
+    link.className = "figure-link";
+    link.href = image.currentSrc || image.src;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.title = "Open at full resolution";
+    image.replaceWith(link);
+    link.append(image);
+  });
+});
